@@ -20,6 +20,12 @@
             "state": "translated",
             "value": "发送词典术语"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gửi thuật ngữ từ điển"
+          }
         }
       }
     },
@@ -41,6 +47,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "默认关闭，因为发送词典术语可能导致 Groq 漏掉部分听写内容。转写后的词典纠正始终生效。"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tắt theo mặc định vì thuật ngữ từ điển có thể khiến Groq bỏ sót một phần lời đọc chính tả. Sửa theo từ điển sau phiên âm vẫn áp dụng dù bật hay tắt."
           }
         }
       }
@@ -64,6 +76,12 @@
             "state": "translated",
             "value": "API 密钥"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Khóa API"
+          }
         }
       }
     },
@@ -85,6 +103,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "API 密钥安全存储在钥匙串中"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Khóa API được lưu trữ an toàn trong Keychain"
           }
         }
       }
@@ -108,6 +132,12 @@
             "state": "translated",
             "value": "无效的 API 密钥"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Khóa API không hợp lệ"
+          }
         }
       }
     },
@@ -129,6 +159,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "模型"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mô hình"
           }
         }
       }
@@ -152,6 +188,12 @@
             "state": "translated",
             "value": "移除"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gỡ bỏ"
+          }
         }
       }
     },
@@ -173,6 +215,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "保存"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lưu"
           }
         }
       }
@@ -196,6 +244,12 @@
             "state": "translated",
             "value": "有效的 API 密钥"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Khóa API hợp lệ"
+          }
         }
       }
     },
@@ -217,6 +271,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "验证中..."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đang xác thực..."
           }
         }
       }
@@ -240,6 +300,12 @@
             "state": "translated",
             "value": "自定义"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tùy chỉnh"
+          }
         }
       }
     },
@@ -261,6 +327,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "LLM 模型"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mô hình LLM"
           }
         }
       }
@@ -284,6 +356,12 @@
             "state": "translated",
             "value": "提供商默认"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mặc định của nhà cung cấp"
+          }
         }
       }
     },
@@ -305,6 +383,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "刷新"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Làm mới"
           }
         }
       }
@@ -328,6 +412,12 @@
             "state": "translated",
             "value": "温度"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nhiệt độ (Temperature)"
+          }
         }
       }
     },
@@ -349,6 +439,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "温度模式"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chế độ nhiệt độ"
           }
         }
       }
@@ -372,6 +468,12 @@
             "state": "translated",
             "value": "转录模型"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mô hình phiên âm"
+          }
         }
       }
     },
@@ -393,6 +495,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "正在使用默认模型。点击刷新以获取所有可用模型。"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đang dùng mô hình mặc định. Nhấn Làm mới để lấy mọi mô hình khả dụng."
           }
         }
       }

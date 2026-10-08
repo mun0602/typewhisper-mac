@@ -20,6 +20,12 @@
             "state": "translated",
             "value": "32 GB 品质"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chất lượng 32 GB"
+          }
         }
       }
     },
@@ -42,6 +48,12 @@
             "state": "translated",
             "value": "8 GB 选择"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chọn 8 GB"
+          }
         }
       }
     },
@@ -63,6 +75,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "仅私有或受限模型需要令牌。令牌仅用于此次导入，不会保存。"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Token chỉ cần thiết cho các mô hình riêng tư hoặc bị giới hạn (gated). Token được dùng cho lần nhập này và không được lưu."
           }
         }
       }
@@ -87,6 +105,12 @@
             "state": "translated",
             "value": "添加与此插件兼容的语音识别模型。导入完成前会检查并加载模型。"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Thêm mô hình tương thích với tiện ích mở rộng này. Mô hình được kiểm tra và nạp trước khi nhập xong."
+          }
         }
       }
     },
@@ -108,6 +132,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "“自动卸载模型”已设为“立即”。"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tự động dỡ mô hình được đặt thành Ngay lập tức."
           }
         }
       }
@@ -131,6 +161,12 @@
             "state": "translated",
             "value": "最佳默认"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mặc định tốt nhất"
+          }
         }
       }
     },
@@ -152,6 +188,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "大多数 16 GB 以上 Mac 的最佳默认选择。"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mặc định tốt nhất cho hầu hết máy Mac 16 GB trở lên."
           }
         }
       }
@@ -175,6 +217,12 @@
             "state": "translated",
             "value": "Canary 需要明确指定源语言。使用 Sophea 时，请在听写设置中选择希腊语或英语。"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Canary cần một ngôn ngữ nguồn rõ ràng. Hãy chọn tiếng Hy Lạp hoặc tiếng Anh cho Sophea trong cài đặt Đọc chính tả."
+          }
         }
       }
     },
@@ -196,6 +244,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "取消"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hủy"
           }
         }
       }
@@ -219,6 +273,12 @@
             "state": "translated",
             "value": "正在取消…"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đang hủy…"
+          }
         }
       }
     },
@@ -240,6 +300,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "正在检查模型兼容性…"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đang kiểm tra tính tương thích của mô hình…"
           }
         }
       }
@@ -263,6 +329,12 @@
             "state": "translated",
             "value": "选择文件夹…"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chọn thư mục…"
+          }
         }
       }
     },
@@ -284,6 +356,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "选择包含 config.json、分词器文件和权重的文件夹。TypeWhisper 会保存副本，不会修改原始文件。"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chọn thư mục chứa config.json, các tệp tokenizer và trọng số. TypeWhisper sẽ lưu bản sao riêng; các tệp gốc của bạn không bị thay đổi."
           }
         }
       }
@@ -307,6 +385,12 @@
             "state": "translated",
             "value": "完成"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Xong"
+          }
         }
       }
     },
@@ -328,6 +412,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "下载并加载"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tải xuống và nạp"
           }
         }
       }
@@ -351,6 +441,12 @@
             "state": "translated",
             "value": "快速 / 8 GB"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nhanh / 8 GB"
+          }
         }
       }
     },
@@ -372,6 +468,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "8 GB Mac 和日常听写的快速选择。"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lựa chọn nhanh cho máy Mac 8 GB và đọc chính tả thường ngày."
           }
         }
       }
@@ -395,6 +497,12 @@
             "state": "translated",
             "value": "当 0.6B 质量重要时的高精度小模型。"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mô hình nhỏ chính xác hơn khi chất lượng 0.6B là quan trọng."
+          }
         }
       }
     },
@@ -416,6 +524,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "32 GB 以上 Mac 的高品质选择。"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lựa chọn chất lượng cao hơn cho máy Mac 32 GB trở lên."
           }
         }
       }
@@ -439,6 +553,12 @@
             "state": "translated",
             "value": "Hugging Face 模型网址"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "URL mô hình Hugging Face"
+          }
         }
       }
     },
@@ -460,6 +580,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Hugging Face 令牌（可选）"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hugging Face token (tùy chọn)"
           }
         }
       }
@@ -483,6 +609,12 @@
             "state": "translated",
             "value": "HuggingFace 令牌"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Token Hugging Face"
+          }
         }
       }
     },
@@ -504,6 +636,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "导入"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nhập"
           }
         }
       }
@@ -527,6 +665,12 @@
             "state": "translated",
             "value": "导入模型…"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nhập mô hình…"
+          }
         }
       }
     },
@@ -548,6 +692,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "导入语音识别模型"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nhập mô hình giọng nói"
           }
         }
       }
@@ -571,6 +721,12 @@
             "state": "translated",
             "value": "已导入并加载：%@"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đã nhập và tải: %@"
+          }
         }
       }
     },
@@ -592,6 +748,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "已导入的模型"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mô hình đã nhập"
           }
         }
       }
@@ -615,6 +777,12 @@
             "state": "translated",
             "value": "正在使用 %@ 导入并加载…"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đang nhập và tải bằng %@…"
+          }
         }
       }
     },
@@ -636,6 +804,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "无效的 HuggingFace 令牌"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Token Hugging Face không hợp lệ"
           }
         }
       }
@@ -659,6 +833,12 @@
             "state": "translated",
             "value": "最大的未量化模型；用于最高保真度验证。"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mô hình không lượng tử hóa lớn nhất; dùng để kiểm chứng độ trung thực tối đa."
+          }
         }
       }
     },
@@ -680,6 +860,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "加载"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nạp"
           }
         }
       }
@@ -703,6 +889,12 @@
             "state": "translated",
             "value": "按需加载"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nạp khi cần"
+          }
         }
       }
     },
@@ -724,6 +916,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "本地文件夹"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Thư mục cục bộ"
           }
         }
       }
@@ -747,6 +945,12 @@
             "state": "translated",
             "value": "基于 Apple Silicon 上 MLX 的本地 Qwen3-ASR 语音转文字。支持 30 种语言及中文方言，无需 API 密钥。"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Qwen3-ASR cục bộ chuyển giọng nói thành chữ bằng MLX trên Apple Silicon. 30 ngôn ngữ, kèm phương ngữ tiếng Trung, không cần Khóa API."
+          }
         }
       }
     },
@@ -768,6 +972,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "默认 6 位模型内存紧张时的折中选择。"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Phương án trung gian nếu mô hình 6-bit mặc định bị chật bộ nhớ."
           }
         }
       }
@@ -791,6 +1001,12 @@
             "state": "translated",
             "value": "模型"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mô hình"
+          }
         }
       }
     },
@@ -812,6 +1028,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "未选择文件夹"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chưa chọn thư mục"
           }
         }
       }
@@ -835,6 +1057,12 @@
             "state": "translated",
             "value": "可选。提高下载速率限制。在 huggingface.co/settings/tokens 免费获取。"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tùy chọn. Tăng giới hạn tốc độ tải xuống. Miễn phí tại huggingface.co/settings/tokens"
+          }
         }
       }
     },
@@ -856,6 +1084,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "品质 / 32 GB"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chất lượng / 32 GB"
           }
         }
       }
@@ -879,6 +1113,12 @@
             "state": "translated",
             "value": "快速选择"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chọn nhanh"
+          }
         }
       }
     },
@@ -900,6 +1140,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "推荐"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đề xuất"
           }
         }
       }
@@ -923,6 +1169,12 @@
             "state": "translated",
             "value": "移除"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gỡ bỏ"
+          }
         }
       }
     },
@@ -944,6 +1196,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "保存"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lưu"
           }
         }
       }
@@ -967,6 +1225,12 @@
             "state": "translated",
             "value": "比 4 位略高精度，占用空间相似。"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chính xác hơn 4-bit một chút, dung lượng gần tương đương."
+          }
         }
       }
     },
@@ -989,6 +1253,12 @@
             "state": "translated",
             "value": "最小的 1.7B 选项；当 6 位过重时使用。"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tùy chọn 1.7B nhỏ nhất; dùng khi 6-bit quá nặng."
+          }
         }
       }
     },
@@ -1010,6 +1280,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "最小下载量；当内存比质量更重要时使用。"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bản tải xuống nhỏ nhất; dùng khi bộ nhớ quan trọng hơn chất lượng."
           }
         }
       }
@@ -1034,6 +1310,12 @@
             "state": "translated",
             "value": "来源"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nguồn"
+          }
         }
       }
     },
@@ -1057,6 +1339,12 @@
             "state": "translated",
             "value": "此插件不支持该模型架构。请打开兼容插件的设置进行导入。"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tiện ích mở rộng này không hỗ trợ kiến trúc mô hình này. Mở Cài đặt của tiện ích mở rộng tương thích để nhập."
+          }
         }
       }
     },
@@ -1078,6 +1366,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "卸载"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dỡ"
           }
         }
       }
@@ -1101,6 +1395,12 @@
             "state": "translated",
             "value": "未量化的小模型；用于比较或验证。"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mô hình nhỏ không lượng tử hóa; dùng để so sánh hoặc kiểm chứng."
+          }
         }
       }
     },
@@ -1122,6 +1422,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "有效的 HuggingFace 令牌"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Token Hugging Face hợp lệ"
           }
         }
       }
@@ -1145,6 +1451,12 @@
             "state": "translated",
             "value": "正在验证令牌..."
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đang xác thực token..."
+          }
         }
       }
     },
@@ -1166,6 +1478,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "你可以在听写设置中选择引擎，在集成中管理模型。"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bạn có thể chọn engine trong cài đặt Đọc chính tả và quản lý mô hình trong Tích hợp."
           }
         }
       }

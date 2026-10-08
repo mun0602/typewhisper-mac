@@ -20,6 +20,12 @@
             "state": "translated",
             "value": "尚未配置规则。"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chưa cấu hình quy tắc nào."
+          }
         }
       }
     },
@@ -41,6 +47,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "对所有转录生效。"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Áp dụng cho mọi phiên âm."
           }
         }
       }
@@ -64,6 +76,12 @@
             "state": "translated",
             "value": "添加脚本以通过 Shell 命令处理转录的文本。"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Thêm tập lệnh để xử lý văn bản đã phiên âm bằng lệnh shell."
+          }
         }
       }
     },
@@ -85,6 +103,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "添加示例"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Thêm ví dụ"
           }
         }
       }
@@ -108,6 +132,12 @@
             "state": "translated",
             "value": "添加脚本"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Thêm tập lệnh"
+          }
         }
       }
     },
@@ -129,6 +159,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "取消"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hủy"
           }
         }
       }
@@ -152,6 +188,12 @@
             "state": "translated",
             "value": "命令"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lệnh"
+          }
         }
       }
     },
@@ -173,6 +215,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "完成"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Xong"
           }
         }
       }
@@ -196,6 +244,12 @@
             "state": "translated",
             "value": "编辑脚本"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sửa tập lệnh"
+          }
         }
       }
     },
@@ -217,6 +271,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "执行日志"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nhật ký thực thi"
           }
         }
       }
@@ -240,6 +300,12 @@
             "state": "translated",
             "value": "通用"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cài đặt chung"
+          }
         }
       }
     },
@@ -261,6 +327,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "名称"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tên"
           }
         }
       }
@@ -284,6 +356,12 @@
             "state": "translated",
             "value": "未配置任何配置文件。"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chưa cấu hình hồ sơ nào."
+          }
         }
       }
     },
@@ -305,6 +383,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "无脚本"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Không có tập lệnh"
           }
         }
       }
@@ -328,6 +412,12 @@
             "state": "translated",
             "value": "仅对选定的配置文件生效。"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chỉ áp dụng cho hồ sơ đã chọn."
+          }
         }
       }
     },
@@ -349,6 +439,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "配置文件"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hồ sơ"
           }
         }
       }
@@ -372,6 +468,12 @@
             "state": "translated",
             "value": "保存"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lưu"
+          }
         }
       }
     },
@@ -394,6 +496,12 @@
             "state": "translated",
             "value": "脚本运行器"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Trình chạy tập lệnh"
+          }
         }
       }
     },
@@ -415,6 +523,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "文本通过 stdin 传入，结果通过 stdout 返回。"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Văn bản được truyền qua stdin. Trả kết quả qua stdout."
           }
         }
       }
@@ -439,6 +553,12 @@
             "state": "translated",
             "value": "录音器转录完成后也运行脚本"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cũng chạy cho bản phiên âm hoàn tất của Trình ghi âm"
+          }
         }
       }
     },
@@ -462,6 +582,12 @@
             "state": "translated",
             "value": "录音"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bản ghi âm"
+          }
         }
       }
     },
@@ -484,6 +610,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "保存后执行，包括重新转录。通过标准输入接收转录文本，通过环境变量接收文件路径。输出不会更改已保存的转录。不受规则筛选条件影响。"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chạy sau khi lưu, kể cả các lần phiên âm lại. Nhận bản phiên âm qua stdin và đường dẫn tệp qua biến môi trường. Đầu ra không thay đổi bản phiên âm đã lưu. Độc lập với bộ lọc quy tắc."
           }
         }
       }

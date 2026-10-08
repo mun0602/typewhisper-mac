@@ -182,7 +182,8 @@ final class TextInsertionService {
         "dev.warp.Warp-Preview",
         "dev.warp.WarpPreview",
         "com.mitchellh.ghostty",
-        "com.cmuxterm.app"
+        "com.cmuxterm.app",
+        "com.stablyai.orca"
     ]
     // Gecko editors can report successful AX writes while applying text at
     // the wrong position or more than once. Prefer one synthetic paste.
@@ -1308,7 +1309,8 @@ final class TextInsertionService {
             ? capturePasteVerificationState(acceptsPasteWithoutTextElement: isTerminalApp)
             : nil
         let verifiesBeforeReturning = autoEnter || awaitPasteVerification
-            || (detectMissedTextField && pasteVerificationState?.canDetectMissedTextField == true)
+            || (detectMissedTextField && !isTerminalApp
+                && pasteVerificationState?.canDetectMissedTextField == true)
         let initialChangeCount = pasteboard.changeCount
 
         // Set transcribed text on clipboard and simulate Cmd+V.
@@ -1363,7 +1365,14 @@ final class TextInsertionService {
         let verification: PasteVerification
         var verifiedUptime: UInt64?
         if let verificationTask {
-            verification = await verificationTask.value
+            var awaited = await verificationTask.value
+            // A terminal's input element staying unchanged is not proof of a miss: terminals
+            // like Orca expose a readable but always-empty helper field. Terminals with a real
+            // AX buffer (Terminal.app, iTerm2) still reach `.verified` above.
+            if isTerminalApp, awaited == .unverified(.focusedTextUnchanged) {
+                awaited = .unverified(.focusedTextStateUnavailable)
+            }
+            verification = awaited
             if verification == .verified {
                 verifiedUptime = DispatchTime.now().uptimeNanoseconds
             }

@@ -106,6 +106,7 @@ targets:
       - path: TypeWhisper
         excludes:
           - Resources/Info.plist
+          - Resources/InfoPlist.xcstrings
           - Resources/TypeWhisper.entitlements
           - Services/HTTPServer/APIHandlersTargetLanguageTests.swift
           # Polar license UI; Premium is sold through StoreKit (AppStore/Sources).
@@ -116,6 +117,8 @@ targets:
       - path: TypeWhisperICloudBridge/PremiumICloudBridgeShared.swift
       - path: AppStore/Sources
       - path: AppStore/Resources/AppStorePluginCatalog.json
+        buildPhase: resources
+      - path: AppStore/Resources/InfoPlist.xcstrings
         buildPhase: resources
     dependencies:
       - package: TypeWhisperPluginSDK

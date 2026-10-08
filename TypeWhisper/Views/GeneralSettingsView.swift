@@ -16,6 +16,9 @@ struct GeneralSettingsView: View {
             return lang
         }
         let preferredLanguage = Locale.preferredLanguages.first
+        if preferredLanguage?.hasPrefix("vi") == true {
+            return "vi"
+        }
         if preferredLanguage?.hasPrefix("ja") == true {
             return "ja"
         }
@@ -71,6 +74,7 @@ struct GeneralSettingsView: View {
                     Text(String(localized: "Deutsch")).tag("de")
                     Text(String(localized: "日本語")).tag("ja")
                     Text(String(localized: "简体中文")).tag("zh-Hans")
+                    Text(String(localized: "Tiếng Việt")).tag("vi")
                 }
                 .onChange(of: appLanguage) {
                     UserDefaults.standard.set(appLanguage, forKey: UserDefaultsKeys.preferredAppLanguage)

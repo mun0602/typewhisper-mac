@@ -14,6 +14,12 @@
             "state": "translated",
             "value": "你是一名助手，负责将口述内容整理成结构清晰、兼容 Obsidian 的 Markdown 笔记。请使用合适的标题、项目符号和段落组织文本。在保留原意的同时，修正语法并删除填充词。仅输出格式化后的 Markdown，不要附加解释。"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bạn là trợ lý định dạng lời đọc chính tả thành ghi chú markdown sạch, tương thích Obsidian. Chia văn bản bằng tiêu đề, dấu đầu dòng và đoạn văn phù hợp. Sửa ngữ pháp và bỏ từ đệm, nhưng giữ nguyên ý gốc. Chỉ xuất markdown đã định dạng, không giải thích."
+          }
         }
       }
     },
@@ -35,6 +41,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "向每条笔记添加元数据（日期、应用、语言、标签）。"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Thêm siêu dữ liệu (ngày, ứng dụng, ngôn ngữ, thẻ) vào từng ghi chú."
           }
         }
       }
@@ -58,6 +70,12 @@
             "state": "translated",
             "value": "将所有转录内容追加到单个每日文件中，而不是创建单独的笔记。"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nối mọi bản phiên âm vào một tệp hằng ngày thay vì tạo ghi chú riêng."
+          }
         }
       }
     },
@@ -79,6 +97,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "追加格式："
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Định dạng nối:"
           }
         }
       }
@@ -102,6 +126,12 @@
             "state": "translated",
             "value": "自动导出"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tự động xuất"
+          }
         }
       }
     },
@@ -123,6 +153,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "自动将每次转录保存到 Obsidian。"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tự động lưu mọi bản phiên âm vào Obsidian."
           }
         }
       }
@@ -146,6 +182,12 @@
             "state": "translated",
             "value": "浏览..."
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Duyệt..."
+          }
         }
       }
     },
@@ -167,6 +209,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "复制指令"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sao chép hướng dẫn"
           }
         }
       }
@@ -190,6 +238,12 @@
             "state": "translated",
             "value": "创建自定义工作流，将其粘贴到指令中，并将操作目标设置为「保存到 Obsidian」。"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tạo Quy trình tùy chỉnh, dán nội dung này vào Hướng dẫn, rồi đặt Đích hành động thành \"Lưu vào Obsidian\"."
+          }
         }
       }
     },
@@ -211,6 +265,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "项目符号列表"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Danh sách dấu đầu dòng"
           }
         }
       }
@@ -234,6 +294,12 @@
             "state": "translated",
             "value": "自定义"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tùy chỉnh"
+          }
         }
       }
     },
@@ -255,6 +321,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "每日笔记模式"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chế độ ghi chú hằng ngày"
           }
         }
       }
@@ -278,6 +350,12 @@
             "state": "translated",
             "value": "检测到的 Vault"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vault đã phát hiện"
+          }
         }
       }
     },
@@ -299,6 +377,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "文件组织"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tổ chức tệp"
           }
         }
       }
@@ -322,6 +406,12 @@
             "state": "translated",
             "value": "文件名："
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tên tệp:"
+          }
         }
       }
     },
@@ -343,6 +433,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "纯文本追加"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nối nguyên văn"
           }
         }
       }
@@ -366,6 +462,12 @@
             "state": "translated",
             "value": "在 TypeWhisper 中编辑转录时，保持已导出的单独笔记为最新状态。Obsidian 中的外部编辑可能会被覆盖。"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cập nhật ghi chú riêng đã xuất khi bản phiên âm được sửa trong TypeWhisper. Sửa đổi bên ngoài trên Obsidian có thể bị ghi đè."
+          }
         }
       }
     },
@@ -387,6 +489,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "实时同步历史编辑"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đồng bộ trực tiếp sửa lịch sử"
           }
         }
       }
@@ -410,6 +518,12 @@
             "state": "translated",
             "value": "实时同步仅适用于单独笔记。"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đồng bộ trực tiếp chỉ khả dụng với ghi chú riêng."
+          }
         }
       }
     },
@@ -431,6 +545,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "笔记模板"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mẫu ghi chú"
           }
         }
       }
@@ -454,6 +574,12 @@
             "state": "translated",
             "value": "未选择 Vault"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chưa chọn vault"
+          }
         }
       }
     },
@@ -475,6 +601,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "占位符：{{DATE}}, {{TIME}}, {{APP}}, {{LANGUAGE}}"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Văn bản giữ chỗ: {{DATE}}, {{TIME}}, {{APP}}, {{LANGUAGE}}"
           }
         }
       }
@@ -498,6 +630,12 @@
             "state": "translated",
             "value": "占位符：{{TRANSCRIPT}}, {{RAW_TRANSCRIPT}}, {{DATE}}, {{TIME}}, {{APP}}, {{LANGUAGE}}, {{URL}}, {{ENGINE}}, {{MODEL}}, {{DURATION}}, {{WORDS}}"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Văn bản giữ chỗ: {{TRANSCRIPT}}, {{RAW_TRANSCRIPT}}, {{DATE}}, {{TIME}}, {{APP}}, {{LANGUAGE}}, {{URL}}, {{ENGINE}}, {{MODEL}}, {{DURATION}}, {{WORDS}}"
+          }
         }
       }
     },
@@ -519,6 +657,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "占位符：{{TEXT}}, {{TIME}}, {{DATE}}, {{APP}}, {{LANGUAGE}}, {{URL}}"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Văn bản giữ chỗ: {{TEXT}}, {{TIME}}, {{DATE}}, {{APP}}, {{LANGUAGE}}, {{URL}}"
           }
         }
       }
@@ -542,6 +686,12 @@
             "state": "translated",
             "value": "预览：%@.md"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Xem trước: %@.md"
+          }
         }
       }
     },
@@ -563,6 +713,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "工作流指令"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hướng dẫn quy trình"
           }
         }
       }
@@ -586,6 +742,12 @@
             "state": "translated",
             "value": "选择 Vault..."
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chọn vault..."
+          }
         }
       }
     },
@@ -607,6 +769,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "选择您的 Obsidian Vault 文件夹"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chọn thư mục vault Obsidian"
           }
         }
       }
@@ -630,6 +798,12 @@
             "state": "translated",
             "value": "子文件夹："
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Thư mục con:"
+          }
         }
       }
     },
@@ -651,6 +825,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "标签："
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Thẻ:"
           }
         }
       }
@@ -674,6 +854,12 @@
             "state": "translated",
             "value": "时间戳分段"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mục mốc thời gian"
+          }
         }
       }
     },
@@ -692,6 +878,12 @@
           }
         },
         "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vault"
+          }
+        },
+        "vi": {
           "stringUnit": {
             "state": "translated",
             "value": "Vault"
@@ -718,6 +910,12 @@
             "state": "translated",
             "value": "YAML 前置元数据"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "YAML Frontmatter"
+          }
         }
       }
     },
@@ -739,6 +937,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "TypeWhisper 无法再访问此 Vault。请通过“浏览...”重新选择。"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "TypeWhisper không còn truy cập được vault này. Hãy chọn lại bằng Duyệt."
           }
         }
       }

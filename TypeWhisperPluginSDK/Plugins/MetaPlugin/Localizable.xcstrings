@@ -3,93 +3,366 @@
   "strings" : {
     "API Key" : {
       "localizations" : {
-        "de" : { "stringUnit" : { "state" : "translated", "value" : "API-Schlüssel" } },
-        "ja" : { "stringUnit" : { "state" : "translated", "value" : "APIキー" } },
-        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "API 密钥" } }
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "API-Schlüssel"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "APIキー"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "API 密钥"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Khóa API"
+          }
+        }
       }
     },
     "Connected" : {
       "localizations" : {
-        "de" : { "stringUnit" : { "state" : "translated", "value" : "Verbunden" } },
-        "ja" : { "stringUnit" : { "state" : "translated", "value" : "接続済み" } },
-        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "已连接" } }
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verbunden"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "接続済み"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已连接"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đã kết nối"
+          }
+        }
       }
     },
     "Connection Failed" : {
       "localizations" : {
-        "de" : { "stringUnit" : { "state" : "translated", "value" : "Verbindung fehlgeschlagen" } },
-        "ja" : { "stringUnit" : { "state" : "translated", "value" : "接続に失敗しました" } },
-        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "连接失败" } }
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verbindung fehlgeschlagen"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "接続に失敗しました"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "连接失败"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kết nối thất bại"
+          }
+        }
       }
     },
     "Contributor models may use prompts and completions to train future Meta models." : {
       "localizations" : {
-        "de" : { "stringUnit" : { "state" : "translated", "value" : "Contributor-Modelle dürfen Prompts und Antworten zum Training zukünftiger Meta-Modelle verwenden." } },
-        "ja" : { "stringUnit" : { "state" : "translated", "value" : "Contributorモデルでは、将来のMetaモデルの学習にプロンプトと応答が使用される場合があります。" } },
-        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "Contributor 模型可能会使用提示词和生成内容来训练未来的 Meta 模型。" } }
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Contributor-Modelle dürfen Prompts und Antworten zum Training zukünftiger Meta-Modelle verwenden."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Contributorモデルでは、将来のMetaモデルの学習にプロンプトと応答が使用される場合があります。"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Contributor 模型可能会使用提示词和生成内容来训练未来的 Meta 模型。"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mô hình Contributor có thể dùng prompt và completion để huấn luyện các mô hình Meta sau này."
+          }
+        }
       }
     },
     "Meta Model API" : {
       "localizations" : {
-        "de" : { "stringUnit" : { "state" : "translated", "value" : "Meta Model API" } },
-        "ja" : { "stringUnit" : { "state" : "translated", "value" : "Meta Model API" } },
-        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "Meta Model API" } }
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Meta Model API"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Meta Model API"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Meta Model API"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Meta Model API"
+          }
+        }
       }
     },
     "Models are loaded dynamically from Meta and cached for offline settings access." : {
       "localizations" : {
-        "de" : { "stringUnit" : { "state" : "translated", "value" : "Modelle werden dynamisch von Meta geladen und für den Offline-Zugriff in den Einstellungen zwischengespeichert." } },
-        "ja" : { "stringUnit" : { "state" : "translated", "value" : "モデルはMetaから動的に取得され、オフライン設定用にキャッシュされます。" } },
-        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "模型从 Meta 动态加载，并会缓存，以便离线访问设置。" } }
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Modelle werden dynamisch von Meta geladen und für den Offline-Zugriff in den Einstellungen zwischengespeichert."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "モデルはMetaから動的に取得され、オフライン設定用にキャッシュされます。"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "模型从 Meta 动态加载，并会缓存，以便离线访问设置。"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mô hình được tải động từ Meta và được lưu đệm để truy cập Cài đặt khi ngoại tuyến."
+          }
+        }
       }
     },
     "Prompt Model" : {
       "localizations" : {
-        "de" : { "stringUnit" : { "state" : "translated", "value" : "Prompt-Modell" } },
-        "ja" : { "stringUnit" : { "state" : "translated", "value" : "プロンプトモデル" } },
-        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "提示词模型" } }
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prompt-Modell"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "プロンプトモデル"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "提示词模型"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mô hình prompt"
+          }
+        }
       }
     },
     "Remove" : {
       "localizations" : {
-        "de" : { "stringUnit" : { "state" : "translated", "value" : "Entfernen" } },
-        "ja" : { "stringUnit" : { "state" : "translated", "value" : "削除" } },
-        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "移除" } }
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Entfernen"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "削除"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "移除"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gỡ bỏ"
+          }
+        }
       }
     },
     "Realtime transcription streams 16 kHz PCM over Meta's WebSocket API. Speaker diarization applies to both realtime and uploaded audio." : {
       "localizations" : {
-        "de" : { "stringUnit" : { "state" : "translated", "value" : "Die Echtzeittranskription streamt 16-kHz-PCM über Metas WebSocket-API. Die Sprechererkennung gilt sowohl für Echtzeit- als auch für hochgeladene Audiodateien." } },
-        "ja" : { "stringUnit" : { "state" : "translated", "value" : "リアルタイム文字起こしはMetaのWebSocket APIを通じて16 kHz PCMをストリーミングします。話者分離はリアルタイム音声とアップロード音声の両方に適用されます。" } },
-        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "实时转录通过 Meta 的 WebSocket API 流式传输 16 kHz PCM 音频。说话人分离同时适用于实时音频和上传的音频。" } }
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die Echtzeittranskription streamt 16-kHz-PCM über Metas WebSocket-API. Die Sprechererkennung gilt sowohl für Echtzeit- als auch für hochgeladene Audiodateien."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "リアルタイム文字起こしはMetaのWebSocket APIを通じて16 kHz PCMをストリーミングします。話者分離はリアルタイム音声とアップロード音声の両方に適用されます。"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "实时转录通过 Meta 的 WebSocket API 流式传输 16 kHz PCM 音频。说话人分离同时适用于实时音频和上传的音频。"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Phiên âm thời gian thực truyền luồng PCM 16 kHz qua API WebSocket của Meta. Phân tách người nói áp dụng cho cả âm thanh thời gian thực và âm thanh đã tải lên."
+          }
+        }
       }
     },
     "Save and Refresh Models" : {
       "localizations" : {
-        "de" : { "stringUnit" : { "state" : "translated", "value" : "Speichern und Modelle laden" } },
-        "ja" : { "stringUnit" : { "state" : "translated", "value" : "保存してモデルを更新" } },
-        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "保存并刷新模型" } }
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Speichern und Modelle laden"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "保存してモデルを更新"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "保存并刷新模型"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lưu và làm mới mô hình"
+          }
+        }
       }
     },
     "The API key is stored securely in the macOS Keychain." : {
       "localizations" : {
-        "de" : { "stringUnit" : { "state" : "translated", "value" : "Der API-Schlüssel wird sicher im macOS-Schlüsselbund gespeichert." } },
-        "ja" : { "stringUnit" : { "state" : "translated", "value" : "APIキーはmacOSキーチェーンに安全に保存されます。" } },
-        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "API 密钥安全存储在 macOS 钥匙串中。" } }
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Der API-Schlüssel wird sicher im macOS-Schlüsselbund gespeichert."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "APIキーはmacOSキーチェーンに安全に保存されます。"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "API 密钥安全存储在 macOS 钥匙串中。"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Khóa API được lưu an toàn trong Chuỗi khóa macOS."
+          }
+        }
       }
     },
     "Speaker diarization" : {
       "localizations" : {
-        "de" : { "stringUnit" : { "state" : "translated", "value" : "Sprechererkennung" } },
-        "ja" : { "stringUnit" : { "state" : "translated", "value" : "話者分離" } },
-        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "说话人分离" } }
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sprechererkennung"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "話者分離"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "说话人分离"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Phân tách người nói"
+          }
+        }
       }
     },
     "Transcription Model" : {
       "localizations" : {
-        "de" : { "stringUnit" : { "state" : "translated", "value" : "Transkriptionsmodell" } },
-        "ja" : { "stringUnit" : { "state" : "translated", "value" : "文字起こしモデル" } },
-        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "转录模型" } }
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Transkriptionsmodell"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "文字起こしモデル"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "转录模型"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mô hình phiên âm"
+          }
+        }
       }
     }
   },

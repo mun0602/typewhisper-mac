@@ -20,6 +20,12 @@
             "state": "translated",
             "value": "仅私有或受限模型需要令牌。令牌仅用于此次导入，不会保存。"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Token chỉ cần thiết cho các mô hình riêng tư hoặc bị giới hạn (gated). Token được dùng cho lần nhập này và không được lưu."
+          }
         }
       }
     },
@@ -43,6 +49,12 @@
             "state": "translated",
             "value": "添加与此插件兼容的语音识别模型。导入完成前会检查并加载模型。"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Thêm mô hình tương thích với tiện ích mở rộng này. Mô hình được kiểm tra và nạp trước khi nhập xong."
+          }
         }
       }
     },
@@ -64,6 +76,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "“自动卸载模型”已设为“立即”。"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tự động dỡ mô hình được đặt thành Ngay lập tức."
           }
         }
       }
@@ -87,6 +105,12 @@
             "state": "translated",
             "value": "Canary 需要明确指定源语言。使用 Sophea 时，请在听写设置中选择希腊语或英语。"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Canary cần một ngôn ngữ nguồn rõ ràng. Hãy chọn tiếng Hy Lạp hoặc tiếng Anh cho Sophea trong cài đặt Đọc chính tả."
+          }
         }
       }
     },
@@ -108,6 +132,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "取消"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hủy"
           }
         }
       }
@@ -131,6 +161,12 @@
             "state": "translated",
             "value": "正在取消…"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đang hủy…"
+          }
         }
       }
     },
@@ -152,6 +188,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "正在检查模型兼容性…"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đang kiểm tra tính tương thích của mô hình…"
           }
         }
       }
@@ -175,6 +217,12 @@
             "state": "translated",
             "value": "选择文件夹…"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chọn thư mục…"
+          }
         }
       }
     },
@@ -196,6 +244,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "选择包含 config.json、分词器文件和权重的文件夹。TypeWhisper 会保存副本，不会修改原始文件。"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chọn thư mục chứa config.json, các tệp tokenizer và trọng số. TypeWhisper sẽ lưu bản sao riêng; các tệp gốc của bạn không bị thay đổi."
           }
         }
       }
@@ -219,6 +273,12 @@
             "state": "translated",
             "value": "完成"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Xong"
+          }
         }
       }
     },
@@ -240,6 +300,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "下载并加载"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tải xuống và nạp"
           }
         }
       }
@@ -263,6 +329,12 @@
             "state": "translated",
             "value": "Hugging Face 模型网址"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "URL mô hình Hugging Face"
+          }
         }
       }
     },
@@ -284,6 +356,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Hugging Face 令牌（可选）"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hugging Face token (tùy chọn)"
           }
         }
       }
@@ -307,6 +385,12 @@
             "state": "translated",
             "value": "HuggingFace 令牌"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Token Hugging Face"
+          }
         }
       }
     },
@@ -328,6 +412,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "导入"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nhập"
           }
         }
       }
@@ -351,6 +441,12 @@
             "state": "translated",
             "value": "导入模型…"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nhập mô hình…"
+          }
         }
       }
     },
@@ -372,6 +468,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "导入语音识别模型"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nhập mô hình giọng nói"
           }
         }
       }
@@ -395,6 +497,12 @@
             "state": "translated",
             "value": "已导入并加载：%@"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đã nhập và tải: %@"
+          }
         }
       }
     },
@@ -416,6 +524,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "已导入的模型"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mô hình đã nhập"
           }
         }
       }
@@ -439,6 +553,12 @@
             "state": "translated",
             "value": "正在使用 %@ 导入并加载…"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đang nhập và tải bằng %@…"
+          }
         }
       }
     },
@@ -460,6 +580,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "无效的 HuggingFace 令牌"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Token Hugging Face không hợp lệ"
           }
         }
       }
@@ -483,6 +609,12 @@
             "state": "translated",
             "value": "加载"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nạp"
+          }
         }
       }
     },
@@ -504,6 +636,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "按需加载"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nạp khi cần"
           }
         }
       }
@@ -527,6 +665,12 @@
             "state": "translated",
             "value": "在 Apple Silicon 上运行本地 Canary 语音识别，包括支持希腊语和英语的 Sophea。请在听写设置中选择具体的源语言。"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nhận dạng giọng nói Canary cục bộ trên Apple Silicon, gồm Sophea cho tiếng Hy Lạp và tiếng Anh. Chọn ngôn ngữ nguồn cụ thể trong Cài đặt đọc chính tả."
+          }
         }
       }
     },
@@ -548,6 +692,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "本地文件夹"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Thư mục cục bộ"
           }
         }
       }
@@ -571,6 +721,12 @@
             "state": "translated",
             "value": "模型"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mô hình"
+          }
         }
       }
     },
@@ -592,6 +748,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "未选择文件夹"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chưa chọn thư mục"
           }
         }
       }
@@ -615,6 +777,12 @@
             "state": "translated",
             "value": "可选。提高下载速率限制。在 huggingface.co/settings/tokens 免费获取。"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tùy chọn. Tăng giới hạn tốc độ tải xuống. Miễn phí tại huggingface.co/settings/tokens"
+          }
         }
       }
     },
@@ -637,6 +805,12 @@
             "state": "translated",
             "value": "移除"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gỡ bỏ"
+          }
         }
       }
     },
@@ -658,6 +832,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "保存"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lưu"
           }
         }
       }
@@ -682,6 +862,12 @@
             "state": "translated",
             "value": "来源"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nguồn"
+          }
         }
       }
     },
@@ -705,6 +891,12 @@
             "state": "translated",
             "value": "此插件不支持该模型架构。请打开兼容插件的设置进行导入。"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tiện ích mở rộng này không hỗ trợ kiến trúc mô hình này. Mở Cài đặt của tiện ích mở rộng tương thích để nhập."
+          }
         }
       }
     },
@@ -726,6 +918,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "卸载"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dỡ"
           }
         }
       }
@@ -749,6 +947,12 @@
             "state": "translated",
             "value": "有效的 HuggingFace 令牌"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Token Hugging Face hợp lệ"
+          }
         }
       }
     },
@@ -771,6 +975,12 @@
             "state": "translated",
             "value": "正在验证令牌..."
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đang xác thực token..."
+          }
         }
       }
     },
@@ -792,6 +1002,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "你可以在听写设置中选择引擎，在集成中管理模型。"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bạn có thể chọn engine trong cài đặt Đọc chính tả và quản lý mô hình trong Tích hợp."
           }
         }
       }

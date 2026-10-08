@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Verify that bundled string catalogs have Simplified Chinese translations."""
+"""Verify that bundled string catalogs have Simplified Chinese and Vietnamese translations."""
 
 from __future__ import annotations
 
@@ -12,13 +12,17 @@ from typing import Any
 REPO_ROOT = Path(__file__).resolve().parent.parent
 CATALOGS = [
     REPO_ROOT / "TypeWhisper/Resources/Localizable.xcstrings",
+    REPO_ROOT / "TypeWhisper/Resources/InfoPlist.xcstrings",
+    REPO_ROOT / "AppStore/Resources/InfoPlist.xcstrings",
+    REPO_ROOT / "TypeWhisperWidgetExtension/Localizable.xcstrings",
+    REPO_ROOT / "TypeWhisperTranscribeAction/InfoPlist.xcstrings",
     *sorted(
         (REPO_ROOT / "TypeWhisperPluginSDK/Plugins").glob(
             "*/Localizable.xcstrings"
         )
     ),
 ]
-LANGUAGE = "zh-Hans"
+LANGUAGES = ("zh-Hans", "vi")
 
 
 def localized_values(node: Any) -> list[str]:
@@ -37,7 +41,7 @@ def localized_values(node: Any) -> list[str]:
 
 
 def main() -> int:
-    missing: list[tuple[Path, str]] = []
+    missing: list[tuple[str, Path, str]] = []
     string_count = 0
 
     for catalog_path in CATALOGS:
@@ -46,19 +50,20 @@ def main() -> int:
             if key == "":
                 continue
             string_count += 1
-            localization = entry.get("localizations", {}).get(LANGUAGE)
-            values = localized_values(localization)
-            if not values or any(not value for value in values):
-                missing.append((catalog_path, key))
+            localizations = entry.get("localizations", {})
+            for language in LANGUAGES:
+                values = localized_values(localizations.get(language))
+                if not values or any(not value for value in values):
+                    missing.append((language, catalog_path, key))
 
     if missing:
-        print(f"error: {len(missing)} strings are missing complete {LANGUAGE} localizations")
-        for catalog_path, key in missing:
-            print(f"  {catalog_path.relative_to(REPO_ROOT)}: {key}")
+        print(f"error: {len(missing)} strings are missing complete localizations")
+        for language, catalog_path, key in missing:
+            print(f"  [{language}] {catalog_path.relative_to(REPO_ROOT)}: {key}")
         return 1
 
     print(
-        f"verified {LANGUAGE} localizations for {string_count} strings "
+        f"verified {', '.join(LANGUAGES)} localizations for {string_count} strings "
         f"across {len(CATALOGS)} bundled catalogs"
     )
     return 0

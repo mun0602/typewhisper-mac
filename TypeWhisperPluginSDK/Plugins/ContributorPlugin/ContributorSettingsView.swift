@@ -58,7 +58,9 @@ struct ContributorSettingsView: View {
             Text(contributorText(
                 "Both complete text versions of \(locallySelectedCount) changes will be sent for review. You can delete a submission until it is included in a validated training dataset.",
                 de: "Von \(locallySelectedCount) Änderungen werden jeweils beide vollständigen Textversionen zur Prüfung gesendet. Du kannst eine Einsendung löschen, bis sie in einen validierten Trainingsdatensatz übernommen wurde.",
-                ja: "\(locallySelectedCount)件の変更について、修正前後の全文をレビュー用に送信します。検証済みの学習データセットに追加されるまでは削除できます。"
+                ja: "\(locallySelectedCount)件の変更について、修正前後の全文をレビュー用に送信します。検証済みの学習データセットに追加されるまでは削除できます。",
+                zh: "这 \(locallySelectedCount) 项更改的前后完整文本都会送去审核。在纳入已验证的训练数据集之前，你可以删除提交。",
+                vi: "Cả hai bản văn bản đầy đủ của \(locallySelectedCount) thay đổi sẽ được gửi để duyệt. Bạn có thể xóa bản gửi cho đến khi nó nằm trong tập dữ liệu huấn luyện đã kiểm định."
             ))
         }
     }
@@ -127,7 +129,9 @@ struct ContributorSettingsView: View {
                     contributorText(
                         "\(sentRecordCount) sent",
                         de: "\(sentRecordCount) gesendet",
-                        ja: "\(sentRecordCount)件送信済み"
+                        ja: "\(sentRecordCount)件送信済み",
+                        zh: "已发送 \(sentRecordCount)",
+                        vi: "đã gửi \(sentRecordCount)"
                     ),
                     systemImage: "paperplane.fill"
                 )
@@ -139,7 +143,9 @@ struct ContributorSettingsView: View {
                 Text(contributorText(
                     "\(locallySelectedCount) selected",
                     de: "\(locallySelectedCount) ausgewählt",
-                    ja: "\(locallySelectedCount)件選択"
+                    ja: "\(locallySelectedCount)件選択",
+                    zh: "已选择 \(locallySelectedCount)",
+                    vi: "\(locallySelectedCount) đã chọn"
                 ))
                 .font(.caption)
                 .foregroundStyle(.secondary)
@@ -246,7 +252,9 @@ struct ContributorSettingsView: View {
                     contributorText(
                         "Send \(locallySelectedCount)",
                         de: "\(locallySelectedCount) senden",
-                        ja: "\(locallySelectedCount)件を送信"
+                        ja: "\(locallySelectedCount)件を送信",
+                        zh: "发送 \(locallySelectedCount)",
+                        vi: "Gửi \(locallySelectedCount)"
                     ),
                     systemImage: "paperplane"
                 )

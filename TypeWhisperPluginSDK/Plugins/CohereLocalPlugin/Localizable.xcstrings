@@ -20,6 +20,12 @@
             "state": "translated",
             "value": "14 种语言需明确选择：英语、法语、德语、西班牙语、意大利语、葡萄牙语、荷兰语、波兰语、希腊语、阿拉伯语、日语、中文、越南语和韩语。"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "14 ngôn ngữ với lựa chọn cụ thể: tiếng Anh, tiếng Pháp, tiếng Đức, tiếng Tây Ban Nha, tiếng Ý, tiếng Bồ Đào Nha, tiếng Hà Lan, tiếng Ba Lan, tiếng Hy Lạp, tiếng Ả Rập, tiếng Nhật, tiếng Trung, tiếng Việt và tiếng Hàn."
+          }
         }
       }
     },
@@ -41,6 +47,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Cohere Transcribe 03-2026 的本地 GGUF 和 Metal 私有提供程序。音频数据保留在此 Mac 上。"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nhà cung cấp GGUF và Metal riêng, chạy trên thiết bị, cho Cohere Transcribe 03-2026. Âm thanh ở lại trên máy Mac này."
           }
         }
       }
@@ -64,6 +76,12 @@
             "state": "translated",
             "value": "取消"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hủy"
+          }
         }
       }
     },
@@ -85,6 +103,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "功能与限制"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Khả năng và giới hạn"
           }
         }
       }
@@ -108,6 +132,12 @@
             "state": "translated",
             "value": "Cohere 模型许可"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Giấy phép mô hình Cohere"
+          }
         }
       }
     },
@@ -123,6 +153,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Cohere Transcribe（本地）"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cohere Transcribe (Cục bộ)"
           }
         }
       }
@@ -146,6 +182,12 @@
             "state": "translated",
             "value": "CrispASR 许可与声明"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Giấy phép và thông báo CrispASR"
+          }
         }
       }
     },
@@ -167,6 +209,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "完成"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Xong"
           }
         }
       }
@@ -190,6 +238,12 @@
             "state": "translated",
             "value": "下载并加载"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tải xuống và nạp"
+          }
         }
       }
     },
@@ -211,6 +265,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "已下载"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đã tải xuống"
           }
         }
       }
@@ -234,6 +294,12 @@
             "state": "translated",
             "value": "正在下载"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đang tải xuống"
+          }
         }
       }
     },
@@ -255,6 +321,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "正在下载 Cohere 模型"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đang tải xuống mô hình Cohere"
           }
         }
       }
@@ -278,6 +350,12 @@
             "state": "translated",
             "value": "错误"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lỗi"
+          }
         }
       }
     },
@@ -299,6 +377,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Hugging Face 令牌"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Token Hugging Face"
           }
         }
       }
@@ -322,6 +406,12 @@
             "state": "translated",
             "value": "无效的 Hugging Face 令牌"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Token Hugging Face không hợp lệ"
+          }
         }
       }
     },
@@ -343,6 +433,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "加载"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nạp"
           }
         }
       }
@@ -366,6 +462,12 @@
             "state": "translated",
             "value": "本地 · 批量"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "CỤC BỘ · THEO LÔ"
+          }
         }
       }
     },
@@ -387,6 +489,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "不支持自动语言检测、流式传输、时间戳、说话人分离、翻译或词典增强。"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Không có phát hiện ngôn ngữ tự động, truyền luồng, mốc thời gian, phân tách người nói, dịch hay tăng cường từ điển."
           }
         }
       }
@@ -410,6 +518,12 @@
             "state": "translated",
             "value": "模型权重从固定的 Apache-2.0 GGUF 版本下载。CrispASR 和 VAD 模型采用 MIT 许可。"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Trọng số mô hình được tải xuống từ bản GGUF Apache-2.0 đã ghim. CrispASR và mô hình VAD được cấp phép MIT."
+          }
         }
       }
     },
@@ -431,6 +545,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "未下载"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chưa tải xuống"
           }
         }
       }
@@ -454,6 +574,12 @@
             "state": "translated",
             "value": "可选。提高下载速率限制并可能加速模型下载。令牌安全存储在钥匙串中。"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tùy chọn. Tăng giới hạn tốc độ tải xuống và có thể tăng tốc tải mô hình. Token được lưu an toàn trong Chuỗi khóa."
+          }
         }
       }
     },
@@ -475,6 +601,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "准备中"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đang chuẩn bị"
           }
         }
       }
@@ -498,6 +630,12 @@
             "state": "translated",
             "value": "正在使用 Metal 启动 CrispASR 并预热模型。完成后即可开始听写。"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đang khởi động CrispASR với Metal và làm nóng mô hình. Đọc chính tả sẵn sàng khi quá trình này kết thúc."
+          }
         }
       }
     },
@@ -519,6 +657,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "就绪"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sẵn sàng"
           }
         }
       }
@@ -542,6 +686,12 @@
             "state": "translated",
             "value": "正在本地使用 Metal 运行 Cohere..."
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đang chạy Cohere cục bộ với Metal…"
+          }
         }
       }
     },
@@ -563,6 +713,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "移除"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gỡ bỏ"
           }
         }
       }
@@ -586,6 +742,12 @@
             "state": "translated",
             "value": "移除已下载的模型？"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gỡ mô hình đã tải xuống?"
+          }
         }
       }
     },
@@ -607,6 +769,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "移除模型"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gỡ mô hình"
           }
         }
       }
@@ -630,6 +798,12 @@
             "state": "translated",
             "value": "保存"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lưu"
+          }
         }
       }
     },
@@ -651,6 +825,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "模型加载后将常驻内存。Metal 在提供程序就绪前完成预热，确保首次转录响应迅速。"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mô hình được giữ trong bộ nhớ khi đã tải. Metal được làm nóng trước khi nhà cung cấp sẵn sàng, để phiên âm lần đầu phản hồi nhanh."
           }
         }
       }
@@ -674,6 +854,12 @@
             "state": "translated",
             "value": "卸载"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dỡ"
+          }
         }
       }
     },
@@ -695,6 +881,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "有效的 Hugging Face 令牌"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Token Hugging Face hợp lệ"
           }
         }
       }
@@ -718,6 +910,12 @@
             "state": "translated",
             "value": "正在验证令牌..."
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đang xác thực token…"
+          }
         }
       }
     },
@@ -739,6 +937,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "VAD 模型许可"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Giấy phép mô hình VAD"
           }
         }
       }
@@ -762,6 +966,12 @@
             "state": "translated",
             "value": "每次转录前运行语音活动检测，以抑制静音和低噪声幻听。"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Phát hiện hoạt động giọng nói chạy trước mỗi phiên âm để triệt ảo giác khi im lặng và nhiễu nhẹ."
+          }
         }
       }
     },
@@ -774,6 +984,12 @@
           }
         },
         "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1.51 GB"
+          }
+        },
+        "vi": {
           "stringUnit": {
             "state": "translated",
             "value": "1.51 GB"
@@ -794,6 +1010,12 @@
             "state": "translated",
             "value": "1.74 GB"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1.74 GB"
+          }
         }
       }
     },
@@ -810,6 +1032,12 @@
             "state": "translated",
             "value": "1.98 GB"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1.98 GB"
+          }
         }
       }
     },
@@ -822,6 +1050,12 @@
           }
         },
         "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2.42 GB"
+          }
+        },
+        "vi": {
           "stringUnit": {
             "state": "translated",
             "value": "2.42 GB"
@@ -848,6 +1082,12 @@
             "state": "translated",
             "value": "8 GB 以上 Mac"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mac từ 8 GB"
+          }
         }
       }
     },
@@ -869,6 +1109,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "建议 16 GB 以上"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đề xuất từ 16 GB"
           }
         }
       }
@@ -892,6 +1138,12 @@
             "state": "translated",
             "value": "经过测试的大小、速度和准确度的最佳平衡"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cân bằng đã kiểm thử tốt nhất giữa dung lượng, tốc độ và độ chính xác"
+          }
         }
       }
     },
@@ -913,6 +1165,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "选择 Compact Q4_K 获得最小下载量，Fast Q5_0 作为推荐默认选项，Q6_K 获得更高数值精度，或实验性 Q8_0 获得最高数值精度。仅加载选定的模型。"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chọn Nhỏ gọn Q4_K cho bản tải xuống nhỏ nhất, Nhanh Q5_0 làm mặc định được đề xuất, Q6_K để có độ chính xác số cao hơn, hoặc Q8_0 thử nghiệm để có độ chính xác số tối đa. Chỉ mô hình đã chọn được tải."
           }
         }
       }
@@ -936,6 +1194,12 @@
             "state": "translated",
             "value": "Cohere 资源验证失败："
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Xác minh tài nguyên Cohere thất bại cho:"
+          }
         }
       }
     },
@@ -957,6 +1221,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Cohere Transcribe 不支持翻译。"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cohere Transcribe không hỗ trợ dịch thuật."
           }
         }
       }
@@ -980,6 +1250,12 @@
             "state": "translated",
             "value": "Cohere Transcribe 需要明确选择支持的语言。不支持自动语言检测。支持的语言："
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cohere Transcribe cần chọn rõ một ngôn ngữ được hỗ trợ. Không có tự động phát hiện ngôn ngữ. Ngôn ngữ được hỗ trợ:"
+          }
         }
       }
     },
@@ -995,6 +1271,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "紧凑型（Q4_K · Metal）"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nhỏ gọn (Q4_K · Metal)"
           }
         }
       }
@@ -1018,6 +1300,12 @@
             "state": "translated",
             "value": "CrispASR 未能在五分钟内就绪。"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "CrispASR không sẵn sàng trong vòng năm phút."
+          }
         }
       }
     },
@@ -1039,6 +1327,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "CrispASR 在启动时退出。"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "CrispASR đã thoát khi đang khởi động."
           }
         }
       }
@@ -1062,6 +1356,12 @@
             "state": "translated",
             "value": "快速型（Q5_0 · 推荐）"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nhanh (Q5_0 · Đề xuất)"
+          }
         }
       }
     },
@@ -1083,6 +1383,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "更高精度（Q6_K · Metal）"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Độ chính xác cao hơn (Q6_K · Metal)"
           }
         }
       }
@@ -1106,6 +1412,12 @@
             "state": "translated",
             "value": "推荐 Q5_0 与 Q8_0 之间的中间量化级别"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lượng tử hóa trung gian giữa Q5_0 được đề xuất và Q8_0"
+          }
         }
       }
     },
@@ -1127,6 +1439,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "最大量化；尚未测得整体准确度提升"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lượng tử hóa lớn nhất; chưa đo được cải thiện độ chính xác tổng thể"
           }
         }
       }
@@ -1150,6 +1468,12 @@
             "state": "translated",
             "value": "最高精度（Q8_0 · 实验性）"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Độ chính xác tối đa (Q8_0 · Thử nghiệm)"
+          }
         }
       }
     },
@@ -1171,6 +1495,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "模型"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mô hình"
           }
         }
       }
@@ -1194,6 +1524,12 @@
             "state": "translated",
             "value": "最小下载量和内存占用"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bản tải xuống và mức dùng bộ nhớ nhỏ nhất"
+          }
         }
       }
     },
@@ -1215,6 +1551,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Cohere 模型下载已完成，但缺少部分必需的模型文件。"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tải xuống mô hình Cohere đã hoàn tất nhưng thiếu tệp mô hình bắt buộc."
           }
         }
       }
@@ -1238,6 +1580,12 @@
             "state": "translated",
             "value": "Cohere Transcribe 模型尚未下载。"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chưa tải xuống mô hình Cohere Transcribe."
+          }
         }
       }
     },
@@ -1259,6 +1607,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Cohere Transcribe 模型尚未加载。请打开插件设置并先加载模型。"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chưa tải mô hình Cohere Transcribe. Hãy mở cài đặt tiện ích mở rộng và tải mô hình trước."
           }
         }
       }
@@ -1282,6 +1636,12 @@
             "state": "translated",
             "value": "无法解压 CrispASR 运行时。"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Không thể giải nén runtime CrispASR."
+          }
         }
       }
     },
@@ -1303,6 +1663,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "CrispASR 运行时下载失败。"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tải xuống runtime CrispASR thất bại."
           }
         }
       }
@@ -1326,6 +1692,12 @@
             "state": "translated",
             "value": "本地 CrispASR 服务器 URL 无效。"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "URL máy chủ CrispASR cục bộ không hợp lệ."
+          }
         }
       }
     },
@@ -1347,6 +1719,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "固定的 Cohere 模型仓库标识符无效。"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Định danh kho mô hình Cohere đã ghim không hợp lệ."
           }
         }
       }
@@ -1370,6 +1748,12 @@
             "state": "translated",
             "value": "已验证的 CrispASR 运行时归档不完整。"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bản lưu trữ runtime CrispASR đã xác minh không đầy đủ."
+          }
         }
       }
     },
@@ -1391,6 +1775,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "这将移除 %@。如果安装了其他变体，共享运行时文件将保留。"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Thao tác này gỡ %@. Tệp runtime dùng chung vẫn được giữ khi còn biến thể khác được cài."
           }
         }
       }
@@ -1414,6 +1804,12 @@
             "state": "translated",
             "value": "TypeWhisper 无法为 Cohere Transcribe 预留本地端口。"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "TypeWhisper không thể dành một cổng cục bộ cho Cohere Transcribe."
+          }
         }
       }
     },
@@ -1435,6 +1831,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "正在使用 Metal 启动并预热 Cohere"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đang khởi động và làm nóng Cohere bằng Metal"
           }
         }
       }
@@ -1458,6 +1860,12 @@
             "state": "translated",
             "value": "正在运行..."
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đang xử lý…"
+          }
         }
       }
     },
@@ -1480,6 +1888,12 @@
             "state": "translated",
             "value": "按需加载"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nạp khi cần"
+          }
         }
       }
     },
@@ -1501,6 +1915,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "“自动卸载模型”已设为“立即”。"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tự động dỡ mô hình được đặt thành Ngay lập tức."
           }
         }
       }

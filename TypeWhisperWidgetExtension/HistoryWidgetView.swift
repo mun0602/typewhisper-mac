@@ -12,7 +12,7 @@ struct HistoryWidgetView: View {
                     .font(.caption)
                     .foregroundStyle(.secondary)
                 Spacer()
-                Label(data.stats.timeSavedToday + " saved", systemImage: "clock")
+                Label(String(localized: "\(data.stats.timeSavedToday) saved"), systemImage: "clock")
                     .font(.caption)
                     .foregroundStyle(.secondary)
             }

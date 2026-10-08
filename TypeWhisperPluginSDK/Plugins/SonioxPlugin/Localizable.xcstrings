@@ -20,6 +20,12 @@
             "state": "translated",
             "value": "API 密钥"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Khóa API"
+          }
         }
       }
     },
@@ -41,6 +47,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "API 密钥安全存储在钥匙串中"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Khóa API được lưu trữ an toàn trong Keychain"
           }
         }
       }
@@ -64,6 +76,12 @@
             "state": "translated",
             "value": "自动（最新）"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tự động (Mới nhất)"
+          }
         }
       }
     },
@@ -85,6 +103,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "检查"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kiểm tra"
           }
         }
       }
@@ -108,6 +132,12 @@
             "state": "translated",
             "value": "文件转录自动使用最新的异步 STT 模型。"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Phiên âm tệp tự động dùng mô hình STT bất đồng bộ mới nhất."
+          }
         }
       }
     },
@@ -129,6 +159,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "欧盟"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Liên minh châu Âu"
           }
         }
       }
@@ -152,6 +188,12 @@
             "state": "translated",
             "value": "文件转录自动使用 STT Async v5。"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chép lời từ tệp tự động dùng STT Async v5."
+          }
         }
       }
     },
@@ -173,6 +215,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "无效的 API 密钥"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Khóa API không hợp lệ"
           }
         }
       }
@@ -196,6 +244,12 @@
             "state": "translated",
             "value": "日本"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nhật Bản"
+          }
         }
       }
     },
@@ -217,6 +271,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "模型"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mô hình"
           }
         }
       }
@@ -240,6 +300,12 @@
             "state": "translated",
             "value": "实时模型"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mô hình thời gian thực"
+          }
         }
       }
     },
@@ -261,6 +327,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "刷新"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Làm mới"
           }
         }
       }
@@ -284,6 +356,12 @@
             "state": "translated",
             "value": "正在刷新模型..."
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đang làm mới mô hình..."
+          }
         }
       }
     },
@@ -305,6 +383,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "区域"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Khu vực"
           }
         }
       }
@@ -328,6 +412,12 @@
             "state": "translated",
             "value": "区域：%@；声音：%@；Soniox"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Khu vực: %@; Giọng nói: %@; Soniox"
+          }
         }
       }
     },
@@ -349,6 +439,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "移除"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gỡ bỏ"
           }
         }
       }
@@ -372,6 +468,12 @@
             "state": "translated",
             "value": "保存"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lưu"
+          }
         }
       }
     },
@@ -393,6 +495,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "语音合成声音"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Giọng chuyển văn bản thành giọng nói"
           }
         }
       }
@@ -416,6 +524,12 @@
             "state": "translated",
             "value": "语音合成模型"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mô hình chuyển văn bản thành giọng nói"
+          }
         }
       }
     },
@@ -437,6 +551,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "美国"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hoa Kỳ"
           }
         }
       }
@@ -460,6 +580,12 @@
             "state": "translated",
             "value": "有效的 API 密钥"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Khóa API hợp lệ"
+          }
         }
       }
     },
@@ -481,6 +607,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "验证中..."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đang xác thực..."
           }
         }
       }
@@ -504,6 +636,12 @@
             "state": "translated",
             "value": "描述录音的主题、场景或相关背景。"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mô tả chủ đề bản ghi, bối cảnh hoặc ngữ cảnh liên quan."
+          }
         }
       }
     },
@@ -526,6 +664,12 @@
             "state": "translated",
             "value": "每次转录时发送给 Soniox。词典术语会自动添加。"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gửi tới Soniox với mỗi lần chép lời. Thuật ngữ từ điển được thêm tự động."
+          }
         }
       }
     },
@@ -547,6 +691,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "转录上下文"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ngữ cảnh phiên âm"
           }
         }
       }

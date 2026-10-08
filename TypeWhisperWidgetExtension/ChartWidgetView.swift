@@ -24,8 +24,8 @@ struct ChartWidgetView: View {
                 } else {
                     Chart(chartPoints) { point in
                         BarMark(
-                            x: .value("Day", point.dateLabel),
-                            y: .value("Words", point.wordCount)
+                            x: .value(String(localized: "Day"), point.dateLabel),
+                            y: .value(String(localized: "Words"), point.wordCount)
                         )
                         .foregroundStyle(.blue.gradient)
                         .cornerRadius(3)

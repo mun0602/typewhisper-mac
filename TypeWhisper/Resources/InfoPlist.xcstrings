@@ -1,0 +1,111 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "NSAppleEventsUsageDescription" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "TypeWhisper erkennt die aktuelle Browser-URL, um Sprachprofile automatisch anzuwenden."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "TypeWhisper detects the current browser URL to apply language profiles automatically."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "TypeWhisperは言語プロファイルを自動適用するため、現在のブラウザURLを検出します。"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "TypeWhisper nhận URL trình duyệt hiện tại để tự áp dụng hồ sơ ngôn ngữ."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "TypeWhisper 会检测当前浏览器 URL，以便自动应用语言配置。"
+          }
+        }
+      }
+    },
+    "NSCalendarsFullAccessUsageDescription" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "TypeWhisper verwendet die ausgewählten Kalender, um an Meetings zu erinnern und bei Aktivierung Aufnahmen nach einem passenden Beitrittssignal zu starten."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "TypeWhisper uses your selected calendars to remind you about meetings and, when enabled, start recordings after a matching live join signal."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "TypeWhisperは選択したカレンダーで会議を通知し、有効な場合は一致する参加シグナルの後に録音を開始します。"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "TypeWhisper dùng lịch bạn chọn để nhắc cuộc họp và, khi được bật, bắt đầu ghi sau tín hiệu tham gia khớp."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "TypeWhisper 使用你选择的日历提醒会议，并在启用后于匹配的加入信号出现时开始录音。"
+          }
+        }
+      }
+    },
+    "NSMicrophoneUsageDescription" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "TypeWhisper Local benötigt Mikrofonzugriff für die Sprache-zu-Text-Transkription."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "TypeWhisper Local needs microphone access for speech-to-text transcription."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "TypeWhisper Localは音声を文字に変換するためにマイクへのアクセスが必要です。"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "TypeWhisper Local cần quyền micrô để phiên âm giọng nói thành chữ."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "TypeWhisper Local 需要麦克风权限才能将语音转录为文字。"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

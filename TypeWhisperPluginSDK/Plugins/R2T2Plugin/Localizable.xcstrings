@@ -20,6 +20,12 @@
             "state": "translated",
             "value": "运行 confucius4_r2t2 模型（流式模式）的 audiocpp_server。"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "audiocpp_server với mô hình confucius4_r2t2 ở chế độ truyền luồng."
+          }
         }
       }
     },
@@ -41,6 +47,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "音频以 16 kHz PCM 流式传输，仅发送到此处配置的 audio.cpp 服务器。"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Âm thanh chỉ được truyền dạng 16 kHz PCM tới máy chủ audio.cpp đã cấu hình tại đây."
           }
         }
       }
@@ -64,6 +76,12 @@
             "state": "translated",
             "value": "已连接"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đã kết nối"
+          }
         }
       }
     },
@@ -85,6 +103,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "模型 ID"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ID mô hình"
           }
         }
       }
@@ -108,6 +132,12 @@
             "state": "translated",
             "value": "保存"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lưu"
+          }
         }
       }
     },
@@ -129,6 +159,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "服务器 URL"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "URL máy chủ"
           }
         }
       }
@@ -152,6 +188,12 @@
             "state": "translated",
             "value": "测试连接"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kiểm tra kết nối"
+          }
         }
       }
     },
@@ -173,6 +215,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "服务器配置中模型条目的 \"id\"。"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\"id\" của mục mô hình trong cấu hình máy chủ."
           }
         }
       }
@@ -196,6 +244,12 @@
             "state": "translated",
             "value": "%@（推荐）"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ (đề xuất)"
+          }
         }
       }
     },
@@ -217,6 +271,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "audiocpp_server %@ 正在 127.0.0.1:%@ 上运行。"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "audiocpp_server %@ đang chạy trên 127.0.0.1:%@."
           }
         }
       }
@@ -240,6 +300,12 @@
             "state": "translated",
             "value": "audiocpp_server %@ 会在第一次听写时启动，停止后会自动重启。"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "audiocpp_server %@ khởi động khi đọc chính tả lần đầu và tự chạy lại nếu dừng."
+          }
         }
       }
     },
@@ -261,6 +327,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "内置"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tích hợp sẵn"
           }
         }
       }
@@ -284,6 +356,12 @@
             "state": "translated",
             "value": "取消"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hủy"
+          }
         }
       }
     },
@@ -305,6 +383,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "删除"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Xóa"
           }
         }
       }
@@ -328,6 +412,12 @@
             "state": "translated",
             "value": "删除已下载的模型？"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Xóa mô hình đã tải xuống?"
+          }
         }
       }
     },
@@ -349,6 +439,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "下载"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tải xuống"
           }
         }
       }
@@ -372,6 +468,12 @@
             "state": "translated",
             "value": "全精度，体积最大"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Độ chính xác đầy đủ, lớn nhất"
+          }
         }
       }
     },
@@ -393,6 +495,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "模型"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mô hình"
           }
         }
       }
@@ -416,6 +524,12 @@
             "state": "translated",
             "value": "模型许可证"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Giấy phép mô hình"
+          }
         }
       }
     },
@@ -437,6 +551,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "接近全精度质量，由 davidxifeng 提供"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gần đủ chất lượng, bởi davidxifeng"
           }
         }
       }
@@ -460,6 +580,12 @@
             "state": "translated",
             "value": "自有服务器"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Máy chủ riêng"
+          }
         }
       }
     },
@@ -481,6 +607,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "服务器"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Máy chủ"
           }
         }
       }
@@ -504,6 +636,12 @@
             "state": "translated",
             "value": "在访达中显示"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hiện trong Finder"
+          }
         }
       }
     },
@@ -525,6 +663,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "体积最小、速度最快，由 Nairod785 提供的社区量化版本"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nhỏ nhất và nhanh nhất, bản lượng tử hóa cộng đồng bởi Nairod785"
           }
         }
       }
@@ -548,6 +692,12 @@
             "state": "translated",
             "value": "模型权重由网易有道依据 Confucius4-R2T2 模型使用许可证授权，该许可证会随每个模型一起下载（LICENSE、LICENSE_zh、NOTICE）。下载即表示你接受该许可证。服务器为 audio.cpp，采用 Apache-2.0 许可证。"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Trọng số mô hình được NetEase Youdao cấp phép theo Confucius4-R2T2 Model Use License, giấy phép được tải xuống cùng mỗi mô hình (LICENSE, LICENSE_zh, NOTICE). Khi tải xuống, bạn chấp nhận giấy phép này. Máy chủ là audio.cpp, Apache-2.0."
+          }
         }
       }
     },
@@ -569,6 +719,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "audiocpp_server %@ 尚未安装。"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "audiocpp_server %@ chưa được cài đặt."
           }
         }
       }

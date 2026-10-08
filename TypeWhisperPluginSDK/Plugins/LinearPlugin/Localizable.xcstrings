@@ -14,6 +14,12 @@
             "state": "translated",
             "value": "你是一名助手，负责将口述内容转换为结构化的 Linear Issue。请提取：1）简明的标题（最多 100 个字符）；2）Markdown 格式的详细描述；3）优先级（1=紧急、2=高、3=中、4=低），根据上下文推断，默认为 3。仅返回有效的 JSON：{\"title\": \"...\", \"description\": \"...\", \"priority\": 3}"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bạn là trợ lý chuyển lời đọc chính tả thành issue Linear có cấu trúc. Trích xuất: 1) Tiêu đề ngắn gọn (tối đa 100 ký tự), 2) Mô tả chi tiết bằng markdown, 3) Độ ưu tiên (1=Khẩn cấp, 2=Cao, 3=Trung bình, 4=Thấp) - suy từ ngữ cảnh, mặc định 3. Chỉ trả về JSON hợp lệ: {\"title\": \"...\", \"description\": \"...\", \"priority\": 3}"
+          }
         }
       }
     },
@@ -35,6 +41,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "API 密钥"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Khóa API"
           }
         }
       }
@@ -58,6 +70,12 @@
             "state": "translated",
             "value": "API 密钥安全存储在钥匙串中"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Khóa API được lưu trữ an toàn trong Keychain"
+          }
         }
       }
     },
@@ -79,6 +97,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "复制指令"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sao chép hướng dẫn"
           }
         }
       }
@@ -102,6 +126,12 @@
             "state": "translated",
             "value": "创建自定义工作流，将其粘贴到指令中，并将操作目标设置为「创建 Linear Issue」。"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tạo quy trình tùy chỉnh, dán nội dung này vào Hướng dẫn, rồi đặt Mục tiêu hành động thành \"Create Linear Issue\"."
+          }
         }
       }
     },
@@ -123,6 +153,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "在 linear.app/settings/api 创建个人 API 密钥"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tạo khóa API cá nhân tại linear.app/settings/api"
           }
         }
       }
@@ -146,6 +182,12 @@
             "state": "translated",
             "value": "默认值"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mặc định"
+          }
         }
       }
     },
@@ -167,6 +209,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "无效的 API 密钥"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Khóa API không hợp lệ"
           }
         }
       }
@@ -190,6 +238,12 @@
             "state": "translated",
             "value": "标签"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nhãn"
+          }
         }
       }
     },
@@ -211,6 +265,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "正在加载项目和标签..."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đang tải dự án và nhãn..."
           }
         }
       }
@@ -234,6 +294,12 @@
             "state": "translated",
             "value": "正在加载团队..."
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đang tải nhóm..."
+          }
         }
       }
     },
@@ -255,6 +321,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "无"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Không"
           }
         }
       }
@@ -278,6 +350,12 @@
             "state": "translated",
             "value": "项目"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dự án"
+          }
         }
       }
     },
@@ -299,6 +377,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "工作流指令"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hướng dẫn quy trình"
           }
         }
       }
@@ -322,6 +406,12 @@
             "state": "translated",
             "value": "移除"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gỡ bỏ"
+          }
         }
       }
     },
@@ -343,6 +433,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "保存"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lưu"
           }
         }
       }
@@ -366,6 +462,12 @@
             "state": "translated",
             "value": "选择团队..."
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chọn nhóm..."
+          }
         }
       }
     },
@@ -387,6 +489,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "团队"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nhóm"
           }
         }
       }
@@ -410,6 +518,12 @@
             "state": "translated",
             "value": "有效的 API 密钥"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Khóa API hợp lệ"
+          }
         }
       }
     },
@@ -431,6 +545,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "验证中..."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đang xác thực..."
           }
         }
       }

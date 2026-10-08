@@ -20,6 +20,12 @@
             "state": "translated",
             "value": "背景不透明度"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Độ mờ nền"
+          }
         }
       }
     },
@@ -41,6 +47,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "高度"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chiều cao"
           }
         }
       }
@@ -64,6 +76,12 @@
             "state": "translated",
             "value": "数值越低，越能看清转录窗口后面的应用内容。"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Giá trị càng thấp, ứng dụng phía sau bản phiên âm càng hiện rõ."
+          }
         }
       }
     },
@@ -85,6 +103,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "宽度"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chiều rộng"
           }
         }
       }
@@ -108,6 +132,12 @@
             "state": "translated",
             "value": "窗口大小"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kích thước cửa sổ"
+          }
         }
       }
     },
@@ -129,6 +159,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "录音时自动打开"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tự mở khi ghi âm"
           }
         }
       }
@@ -152,6 +188,12 @@
             "state": "translated",
             "value": "新文本"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Văn bản mới"
+          }
         }
       }
     },
@@ -173,6 +215,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "字号"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cỡ chữ"
           }
         }
       }
@@ -196,6 +244,12 @@
             "state": "translated",
             "value": "按下组合键..."
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nhấn tổ hợp phím..."
+          }
         }
       }
     },
@@ -217,6 +271,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "录制快捷键"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Phím tắt ghi âm"
           }
         }
       }
@@ -240,6 +300,12 @@
             "state": "translated",
             "value": "使用键盘快捷键显示或隐藏转录窗口。"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hiện hoặc ẩn cửa sổ phiên âm bằng phím tắt."
+          }
         }
       }
     },
@@ -262,6 +328,12 @@
             "state": "translated",
             "value": "录音开始时自动显示转录窗口。"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tự hiện cửa sổ phiên âm khi bắt đầu ghi âm."
+          }
         }
       }
     },
@@ -283,6 +355,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "切换快捷键"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Phím tắt bật/tắt"
           }
         }
       }

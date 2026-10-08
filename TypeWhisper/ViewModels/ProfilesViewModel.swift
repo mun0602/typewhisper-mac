@@ -14,8 +14,19 @@ func preferredAppLanguageCode() -> String {
     return Locale.current.language.languageCode?.identifier ?? "en"
 }
 
-func localizedAppText(_ english: String, de german: String, ja japanese: String? = nil, zh chinese: String? = nil) -> String {
+func localizedAppText(_ english: String, de german: String, ja japanese: String? = nil, zh chinese: String? = nil, vi vietnamese: String? = nil) -> String {
     let language = preferredAppLanguageCode()
+    if language.hasPrefix("vi") {
+        if let vietnamese {
+            return vietnamese
+        }
+
+        let localized = Bundle.main.localizedString(forKey: english, value: nil, table: nil)
+        if localized != english {
+            return localized
+        }
+    }
+
     if language.hasPrefix("de") {
         return german
     }
@@ -177,6 +188,7 @@ func featuredAppLanguageRank(for code: String) -> Int? {
         "fr",
         "es",
         "zh",
+        "vi",
         "hi",
         "ar",
         "pt",

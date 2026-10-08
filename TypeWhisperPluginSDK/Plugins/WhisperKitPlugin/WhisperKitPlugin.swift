@@ -602,26 +602,33 @@ final class WhisperKitPlugin: NSObject, SourceProgressTranscriptionEnginePlugin,
 
                 var lastProgress = 0.0
                 try WhisperKitNetworkAccessPolicy.ensureAccessIsAllowed()
-                downloadSpaceReservation = try await PluginDownloadDiskSpace.reserveHuggingFaceDownload(
-                    repositoryID: Self.modelRepo,
-                    path: modelDef.id,
-                    token: _hfToken,
-                    destination: downloadBase,
-                    trackedDirectory: modelStorageRoots[0],
-                    // swift-transformers downloads through URLSession's temporary directory.
-                    stagingDirectory: FileManager.default.temporaryDirectory,
-                    modelName: modelDef.displayName
-                )
-                modelFolder = try await WhisperKit.download(
-                    variant: modelDef.id,
-                    downloadBase: downloadBase,
-                    token: _hfToken
-                ) { progress in
-                    let fraction = progress.fractionCompleted
-                    let mapped = 0.05 + fraction * 0.75
-                    guard mapped - lastProgress >= 0.01 else { return }
-                    lastProgress = mapped
-                    self.downloadProgress = mapped
+                if modelDef.id == "aoiandroid_whisper-vi-phowhisper-medium" {
+                    modelFolder = try await downloadPhoWhisper(
+                        destination: modelPath,
+                        modelDef: modelDef
+                    )
+                } else {
+                    downloadSpaceReservation = try await PluginDownloadDiskSpace.reserveHuggingFaceDownload(
+                        repositoryID: Self.modelRepo,
+                        path: modelDef.id,
+                        token: _hfToken,
+                        destination: downloadBase,
+                        trackedDirectory: modelStorageRoots[0],
+                        // swift-transformers downloads through URLSession's temporary directory.
+                        stagingDirectory: FileManager.default.temporaryDirectory,
+                        modelName: modelDef.displayName
+                    )
+                    modelFolder = try await WhisperKit.download(
+                        variant: modelDef.id,
+                        downloadBase: downloadBase,
+                        token: _hfToken
+                    ) { progress in
+                        let fraction = progress.fractionCompleted
+                        let mapped = 0.05 + fraction * 0.75
+                        guard mapped - lastProgress >= 0.01 else { return }
+                        lastProgress = mapped
+                        self.downloadProgress = mapped
+                    }
                 }
             }
             guard isCurrentModelLoad(loadGeneration) else { return }
@@ -904,9 +911,75 @@ final class WhisperKitPlugin: NSObject, SourceProgressTranscriptionEnginePlugin,
         let componentName = compiledPath.deletingPathExtension().lastPathComponent
         let requiredCompiledFiles = requiredCompiledFiles(for: componentName)
 
-        return requiredCompiledFiles.allSatisfy {
-            fileManager.fileExists(atPath: compiledPath.appendingPathComponent($0).path)
+        return requiredCompiledFiles.allSatisfy { file in
+            if file == "model.mlmodel" {
+                return fileManager.fileExists(atPath: compiledPath.appendingPathComponent("model.mlmodel").path)
+                    || fileManager.fileExists(atPath: compiledPath.appendingPathComponent("model.mil").path)
+            }
+            return fileManager.fileExists(atPath: compiledPath.appendingPathComponent(file).path)
         }
+    }
+
+    private func downloadPhoWhisper(
+        destination: URL,
+        modelDef: WhisperModelDef
+    ) async throws -> URL {
+        let repo = "aoiandroid/whisper-vi-phowhisper-medium-whisperkit-coreml-macos"
+        let files = [
+            "AudioEncoder.mlmodelc/analytics/coremldata.bin",
+            "AudioEncoder.mlmodelc/coremldata.bin",
+            "AudioEncoder.mlmodelc/metadata.json",
+            "AudioEncoder.mlmodelc/model.mil",
+            "AudioEncoder.mlmodelc/weights/weight.bin",
+            "MelSpectrogram.mlmodelc/analytics/coremldata.bin",
+            "MelSpectrogram.mlmodelc/coremldata.bin",
+            "MelSpectrogram.mlmodelc/metadata.json",
+            "MelSpectrogram.mlmodelc/model.mil",
+            "MelSpectrogram.mlmodelc/weights/weight.bin",
+            "TextDecoder.mlmodelc/analytics/coremldata.bin",
+            "TextDecoder.mlmodelc/coremldata.bin",
+            "TextDecoder.mlmodelc/metadata.json",
+            "TextDecoder.mlmodelc/model.mil",
+            "TextDecoder.mlmodelc/weights/weight.bin",
+            "config.json",
+            "generation_config.json",
+            "tokenizer.json",
+            "tokenizer_config.json",
+        ]
+
+        let fileManager = FileManager.default
+        let totalFiles = Double(files.count)
+        for (index, file) in files.enumerated() {
+            let fileDest = destination.appendingPathComponent(file)
+            if !fileManager.fileExists(atPath: fileDest.path) {
+                var url = URL(string: Self.modelEndpoint)!
+                for part in repo.split(separator: "/") {
+                    url.append(path: String(part))
+                }
+                url.append(path: "resolve")
+                url.append(path: "main")
+                for part in file.split(separator: "/") {
+                    url.append(path: String(part))
+                }
+                var request = URLRequest(url: url)
+                request.timeoutInterval = 300
+                if let token = _hfToken, !token.isEmpty {
+                    request.setValue("Bearer \(token)", forHTTPHeaderField: "Authorization")
+                }
+                let (tempFile, response) = try await URLSession.shared.download(for: request)
+                guard let httpResponse = response as? HTTPURLResponse,
+                      (200..<300).contains(httpResponse.statusCode) else {
+                    throw URLError(.badServerResponse)
+                }
+                try fileManager.createDirectory(at: fileDest.deletingLastPathComponent(), withIntermediateDirectories: true)
+                if fileManager.fileExists(atPath: fileDest.path) {
+                    try fileManager.removeItem(at: fileDest)
+                }
+                try fileManager.moveItem(at: tempFile, to: fileDest)
+            }
+            self.downloadProgress = 0.05 + (Double(index + 1) / totalFiles) * 0.75
+        }
+        return destination
     }
 
     /// Returns the space reservation for the repaired files. The caller keeps it
@@ -915,6 +988,7 @@ final class WhisperKitPlugin: NSObject, SourceProgressTranscriptionEnginePlugin,
         at modelPath: URL,
         variant: String
     ) async throws -> PluginDownloadSpaceReservation? {
+        guard variant != "aoiandroid_whisper-vi-phowhisper-medium" else { return nil }
         let missingFiles = requiredModelFiles(at: modelPath)
             .filter { !FileManager.default.fileExists(atPath: modelPath.appendingPathComponent($0).path) }
 
@@ -1138,6 +1212,18 @@ final class WhisperKitPlugin: NSObject, SourceProgressTranscriptionEnginePlugin,
     static let availableModels: [WhisperModelDef] = {
         let models = [
         WhisperModelDef(
+            id: "aoiandroid_whisper-vi-phowhisper-medium",
+            displayName: "PhoWhisper Medium - Tiếng Việt (VinAI)",
+            sizeDescription: "~557 MB",
+            ramRequirement: "8 GB+"
+        ),
+        WhisperModelDef(
+            id: "openai_whisper-small_216MB",
+            displayName: "Small (216 MB) - Tiếng Việt / Đa ngôn ngữ",
+            sizeDescription: "~216 MB",
+            ramRequirement: "8 GB+"
+        ),
+        WhisperModelDef(
             id: "openai_whisper-tiny",
             displayName: "Tiny",
             sizeDescription: "~77 MB",
@@ -1206,6 +1292,15 @@ struct WhisperModelDef: Identifiable {
         let ram = ProcessInfo.processInfo.physicalMemory
         let gb = ram / (1024 * 1024 * 1024)
 
+        if id == "openai_whisper-tiny" || id == "openai_whisper-base" {
+            return gb < 8
+        }
+        if id == "openai_whisper-large-v3" {
+            return gb > 16
+        }
+        if id == "aoiandroid_whisper-vi-phowhisper-medium" {
+            return gb >= 8
+        }
         switch displayName {
         case "Tiny", "Base":
             return gb < 8
@@ -1214,7 +1309,7 @@ struct WhisperModelDef: Identifiable {
         case "Large v3":
             return gb > 16
         default:
-            return false
+            return gb >= 8 && gb <= 16
         }
     }
 }

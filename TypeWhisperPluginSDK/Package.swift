@@ -222,6 +222,7 @@ let package = Package(
             path: "Plugins/FillerWordsPlugin",
             exclude: ["Tests"],
             resources: [
+                .process("Localizable.xcstrings"),
                 .process("manifest.json"),
             ]
         ),
@@ -231,6 +232,7 @@ let package = Package(
             path: "Plugins/FileJobScriptPlugin",
             exclude: ["Tests"],
             resources: [
+                .process("Localizable.xcstrings"),
                 .process("manifest.json"),
             ]
         ),
@@ -273,6 +275,7 @@ let package = Package(
             path: "Plugins/ContributorPlugin",
             exclude: ["Tests"],
             resources: [
+                .process("Localizable.xcstrings"),
                 .process("manifest.json"),
             ]
         ),
@@ -282,6 +285,7 @@ let package = Package(
             path: "Plugins/SystemTTSPlugin",
             exclude: ["Tests"],
             resources: [
+                .process("Localizable.xcstrings"),
                 .process("manifest.json"),
             ]
         ),
@@ -304,6 +308,7 @@ let package = Package(
             path: "Plugins/FileMemoryPlugin",
             exclude: ["Tests"],
             resources: [
+                .process("Localizable.xcstrings"),
                 .process("manifest.json"),
             ]
         ),
@@ -312,6 +317,7 @@ let package = Package(
             dependencies: ["TypeWhisperPluginSDK"],
             path: "Plugins/MemPalacePlugin",
             resources: [
+                .process("Localizable.xcstrings"),
                 .process("manifest.json"),
             ]
         ),
@@ -392,6 +398,7 @@ let package = Package(
             path: "Plugins/SaluteSpeechPlugin",
             exclude: ["Tests"],
             resources: [
+                .process("Localizable.xcstrings"),
                 .process("manifest.json"),
             ]
         ),

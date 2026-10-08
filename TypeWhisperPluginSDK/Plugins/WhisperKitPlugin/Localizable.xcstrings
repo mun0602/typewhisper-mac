@@ -20,6 +20,12 @@
             "state": "translated",
             "value": "取消"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hủy"
+          }
         }
       }
     },
@@ -41,6 +47,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "仍在优化神经引擎…"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vẫn đang tối ưu cho Neural Engine..."
           }
         }
       }
@@ -64,6 +76,12 @@
             "state": "translated",
             "value": "下载并加载"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tải xuống và nạp"
+          }
         }
       }
     },
@@ -85,6 +103,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "HuggingFace 令牌"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Token Hugging Face"
           }
         }
       }
@@ -108,6 +132,12 @@
             "state": "translated",
             "value": "无效的 HuggingFace 令牌"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Token Hugging Face không hợp lệ"
+          }
         }
       }
     },
@@ -129,6 +159,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "加载"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nạp"
           }
         }
       }
@@ -152,6 +188,12 @@
             "state": "translated",
             "value": "正在加载模型..."
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đang nạp mô hình..."
+          }
         }
       }
     },
@@ -173,6 +215,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "加载中..."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đang tải..."
           }
         }
       }
@@ -196,6 +244,12 @@
             "state": "translated",
             "value": "通过 CoreML 使用 OpenAI Whisper 的本地语音转文字。支持 99 种以上语言、流式传输、翻译为英语。"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nhận diện giọng nói cục bộ bằng OpenAI Whisper qua CoreML. Hỗ trợ hơn 99 ngôn ngữ (bao gồm Tiếng Việt), truyền trực tiếp, dịch sang tiếng Anh."
+          }
         }
       }
     },
@@ -217,6 +271,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "模型"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mô hình"
           }
         }
       }
@@ -240,6 +300,12 @@
             "state": "translated",
             "value": "可选。提高下载速率限制。在 huggingface.co/settings/tokens 免费获取。"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tùy chọn. Tăng giới hạn tốc độ tải xuống. Miễn phí tại huggingface.co/settings/tokens"
+          }
         }
       }
     },
@@ -261,6 +327,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "正在优化神经引擎..."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đang tối ưu hóa cho Neural Engine..."
           }
         }
       }
@@ -284,6 +356,12 @@
             "state": "translated",
             "value": "移除"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gỡ bỏ"
+          }
         }
       }
     },
@@ -305,6 +383,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "推荐"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đề xuất"
           }
         }
       }
@@ -328,6 +412,12 @@
             "state": "translated",
             "value": "保存"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lưu"
+          }
         }
       }
     },
@@ -349,6 +439,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "卸载"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dỡ"
           }
         }
       }
@@ -372,6 +468,12 @@
             "state": "translated",
             "value": "有效的 HuggingFace 令牌"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Token Hugging Face hợp lệ"
+          }
         }
       }
     },
@@ -393,6 +495,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "正在验证令牌..."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đang xác thực token..."
           }
         }
       }
@@ -416,6 +524,12 @@
             "state": "translated",
             "value": "按需加载"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nạp khi cần"
+          }
         }
       }
     },
@@ -437,6 +551,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "“自动卸载模型”已设为“立即”。"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tự động dỡ mô hình được đặt thành Ngay lập tức."
           }
         }
       }

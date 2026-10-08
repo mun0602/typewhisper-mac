@@ -20,6 +20,12 @@
             "state": "translated",
             "value": "加载"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nạp"
+          }
         }
       }
     },
@@ -41,6 +47,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "CTC 模型（约 100 MB）- 首次使用时自动下载，或："
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mô hình CTC (~100 MB) - tự động tải xuống khi dùng lần đầu, hoặc:"
           }
         }
       }
@@ -64,6 +76,12 @@
             "state": "translated",
             "value": "下载并加载"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tải xuống và nạp"
+          }
         }
       }
     },
@@ -85,6 +103,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "立即下载"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tải xuống ngay"
           }
         }
       }
@@ -108,6 +132,12 @@
             "state": "translated",
             "value": "完成"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Xong"
+          }
         }
       }
     },
@@ -129,6 +159,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "正在下载 CTC 模型..."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đang tải xuống mô hình CTC..."
           }
         }
       }
@@ -152,6 +188,12 @@
             "state": "translated",
             "value": "启用词汇增强"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bật Tăng cường từ vựng"
+          }
         }
       }
     },
@@ -173,6 +215,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "使用辅助 CTC 模型提高词典中自定义术语的识别率。"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cải thiện nhận diện thuật ngữ tùy chỉnh từ Từ điển bằng mô hình CTC phụ."
           }
         }
       }
@@ -196,6 +244,12 @@
             "state": "translated",
             "value": "Hugging Face 令牌"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Token Hugging Face"
+          }
         }
       }
     },
@@ -217,6 +271,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "无效的 Hugging Face 令牌"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Token Hugging Face không hợp lệ"
           }
         }
       }
@@ -240,6 +300,12 @@
             "state": "translated",
             "value": "模型版本"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Phiên bản mô hình"
+          }
         }
       }
     },
@@ -261,6 +327,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "NVIDIA Parakeet TDT V2 - 在 Apple Silicon 上极快。仅限英语，最高召回率。无需 API 密钥。"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "NVIDIA Parakeet TDT V2 - cực nhanh trên Apple Silicon. Chỉ tiếng Anh, độ nhận diện cao nhất. Không cần Khóa API."
           }
         }
       }
@@ -284,6 +356,12 @@
             "state": "translated",
             "value": "NVIDIA Parakeet TDT - 在 Apple Silicon 上极快。支持 25 种欧洲语言，无需 API 密钥。"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "NVIDIA Parakeet TDT - cực nhanh trên Apple Silicon. 25 ngôn ngữ châu Âu, không cần Khóa API."
+          }
         }
       }
     },
@@ -305,6 +383,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "可选。提高下载速率限制。在 huggingface.co/settings/tokens 免费获取。"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tùy chọn. Tăng giới hạn tốc độ tải xuống. Miễn phí tại huggingface.co/settings/tokens"
           }
         }
       }
@@ -328,6 +412,12 @@
             "state": "translated",
             "value": "就绪 - 已加载 %lld 个术语"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sẵn sàng - đã nạp %lld thuật ngữ"
+          }
         }
       }
     },
@@ -349,6 +439,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "就绪 - 在词典设置中添加术语"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sẵn sàng - thêm thuật ngữ trong Cài đặt từ điển"
           }
         }
       }
@@ -372,6 +468,12 @@
             "state": "translated",
             "value": "移除"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gỡ bỏ"
+          }
         }
       }
     },
@@ -393,6 +495,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "重试"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Thử lại"
           }
         }
       }
@@ -416,6 +524,12 @@
             "state": "translated",
             "value": "保存"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lưu"
+          }
         }
       }
     },
@@ -437,6 +551,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "卸载"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dỡ"
           }
         }
       }
@@ -460,6 +580,12 @@
             "state": "translated",
             "value": "有效的 Hugging Face 令牌"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Token Hugging Face hợp lệ"
+          }
         }
       }
     },
@@ -481,6 +607,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "正在验证令牌..."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đang xác thực token..."
           }
         }
       }
@@ -504,6 +636,12 @@
             "state": "translated",
             "value": "词汇增强"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tăng cường từ vựng"
+          }
         }
       }
     },
@@ -525,6 +663,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Moondream Parakeet Ultra - 在 Parakeet TDT v3 基础上继续训练，准确率更高。支持 25 种欧洲语言，无需 API 密钥。"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Moondream Parakeet Ultra - Parakeet TDT v3 được huấn luyện thêm để chính xác hơn. 25 ngôn ngữ châu Âu, không cần Khóa API."
           }
         }
       }
@@ -548,6 +692,12 @@
             "state": "translated",
             "value": "按需加载"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nạp khi cần"
+          }
         }
       }
     },
@@ -570,6 +720,12 @@
             "state": "translated",
             "value": "“自动卸载模型”已设为“立即”。"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tự động dỡ mô hình được đặt thành Ngay lập tức."
+          }
         }
       }
     },
@@ -591,6 +747,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "启用词汇增强后，Parakeet 能更准确地识别你的词条（需下载约 100 MB）。"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Parakeet nhận diện thuật ngữ của bạn tốt hơn khi bật Tăng cường từ vựng (tải xuống khoảng 100 MB)."
           }
         }
       }

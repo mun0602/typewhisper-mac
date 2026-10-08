@@ -20,6 +20,12 @@
             "state": "translated",
             "value": "此 Google Cloud 项目未启用 Cloud Speech-to-Text API。请在 Google Cloud 中启用 speech.googleapis.com，等待几分钟后重试。"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chưa bật API Cloud Speech-to-Text cho dự án Google Cloud này. Hãy bật speech.googleapis.com trong Google Cloud, đợi vài phút rồi thử lại."
+          }
         }
       }
     },
@@ -41,6 +47,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "凭据有效，Speech-to-Text 可访问。"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Thông tin xác thực có vẻ hợp lệ và Speech-to-Text truy cập được."
           }
         }
       }
@@ -64,6 +76,12 @@
             "state": "translated",
             "value": "默认语言"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ngôn ngữ mặc định"
+          }
         }
       }
     },
@@ -85,6 +103,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "此项目未启用 Google Cloud 结算功能。请为项目启用结算后重试。"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chưa bật thanh toán Google Cloud cho dự án này. Hãy bật thanh toán cho dự án rồi thử lại."
           }
         }
       }
@@ -108,6 +132,12 @@
             "state": "translated",
             "value": "Google Cloud 对请求进行了速率限制。请稍候重试。"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Google Cloud đã giới hạn tần suất yêu cầu. Vui lòng đợi một lát rồi thử lại."
+          }
         }
       }
     },
@@ -129,6 +159,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Google 拒绝对 Speech-to-Text 的访问。请确保 API 已启用且服务账户具有 Cloud Speech Client 角色。"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Google từ chối truy cập Speech-to-Text. Hãy đảm bảo API đã bật và tài khoản dịch vụ có vai trò Cloud Speech Client."
           }
         }
       }
@@ -152,6 +188,12 @@
             "state": "translated",
             "value": "Google 拒绝了服务账户凭据。"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Google đã từ chối thông tin xác thực của tài khoản dịch vụ."
+          }
         }
       }
     },
@@ -173,6 +215,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Google 拒绝了服务账户凭据。请确认您粘贴了正确项目的完整 JSON 密钥文件。"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Google đã từ chối thông tin xác thực của tài khoản dịch vụ. Hãy kiểm tra bạn đã dán đủ tệp khóa JSON của đúng dự án."
           }
         }
       }
@@ -196,6 +244,12 @@
             "state": "translated",
             "value": "Google Speech-to-Text 不接受简单的 API 密钥。请在此粘贴 Google Cloud 服务账户 JSON 密钥。凭据将存储在 macOS 钥匙串中。"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Google Speech-to-Text không nhận khóa API đơn giản. Hãy dán khóa JSON tài khoản dịch vụ Google Cloud vào đây. Thông tin xác thực được lưu trong Chuỗi khóa macOS."
+          }
         }
       }
     },
@@ -217,6 +271,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "如果 TypeWhisper 已传递口语语言，则使用该值。否则，此 BCP-47 代码将用于 Google 识别请求。"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nếu TypeWhisper đã truyền ngôn ngữ nói, giá trị đó được ưu tiên. Nếu không, mã BCP-47 này được dùng cho các yêu cầu nhận dạng của Google."
           }
         }
       }
@@ -240,6 +300,12 @@
             "state": "translated",
             "value": "模型"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mô hình"
+          }
         }
       }
     },
@@ -261,6 +327,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "未选择 Google 识别模型。"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chưa chọn mô hình nhận dạng của Google."
           }
         }
       }
@@ -284,6 +356,12 @@
             "state": "translated",
             "value": "尚未配置服务账户 JSON。"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chưa cấu hình JSON tài khoản dịch vụ."
+          }
         }
       }
     },
@@ -305,6 +383,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "移除"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gỡ bỏ"
           }
         }
       }
@@ -328,6 +412,12 @@
             "state": "translated",
             "value": "替换凭据"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Thay thế thông tin xác thực"
+          }
         }
       }
     },
@@ -349,6 +439,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "保存凭据"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lưu thông tin xác thực"
           }
         }
       }
@@ -372,6 +468,12 @@
             "state": "translated",
             "value": "服务账户 JSON"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "JSON tài khoản dịch vụ"
+          }
         }
       }
     },
@@ -393,6 +495,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "已存储的凭据有效。请在上面粘贴新的 JSON 密钥以替换。"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Thông tin xác thực đã lưu đang dùng. Dán khóa JSON mới ở trên để thay thế."
           }
         }
       }
@@ -416,6 +524,12 @@
             "state": "translated",
             "value": "测试已存储的凭据"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kiểm tra thông tin xác thực đã lưu"
+          }
         }
       }
     },
@@ -437,6 +551,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "无法解析 JSON。请粘贴完整的 Google 服务账户 JSON 文件。"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Không phân tích được JSON. Hãy dán đủ tệp JSON tài khoản dịch vụ Google."
           }
         }
       }
@@ -460,6 +580,12 @@
             "state": "translated",
             "value": "验证音频因过大被拒绝。"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Âm thanh xác minh bị từ chối vì quá lớn."
+          }
         }
       }
     },
@@ -482,6 +608,12 @@
             "state": "translated",
             "value": "使用 `default` 或 `command_and_search` 获得最广泛的语言覆盖。较新的 `latest_*` 模型可能因语言支持而更受限制。"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dùng `default` hoặc `command_and_search` để phủ ngôn ngữ rộng nhất. Các mô hình `latest_*` mới hơn có thể bị hạn chế hơn tùy ngôn ngữ được hỗ trợ."
+          }
         }
       }
     },
@@ -503,6 +635,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "验证中..."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đang xác thực..."
           }
         }
       }

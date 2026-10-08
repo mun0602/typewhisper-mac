@@ -20,6 +20,12 @@
             "state": "translated",
             "value": "API 密钥"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Khóa API"
+          }
         }
       }
     },
@@ -41,6 +47,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "自动（实时，REST 回退）"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tự động (thời gian thực, dự phòng REST)"
           }
         }
       }
@@ -64,6 +76,12 @@
             "state": "translated",
             "value": "自动模式流式传输部分结果，并在失败时回退到批量 REST。仅 REST 模式可避免实时并发限制，使用一致的批量转录。"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tự động truyền kết quả từng phần và chuyển sang REST theo lô. Chỉ REST tránh giới hạn đồng thời của thời gian thực và dùng phiên âm theo lô nhất quán."
+          }
         }
       }
     },
@@ -85,6 +103,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "API 密钥安全存储在钥匙串中"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Khóa API được lưu trữ an toàn trong Keychain"
           }
         }
       }
@@ -108,6 +132,12 @@
             "state": "translated",
             "value": "无效的 API 密钥"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Khóa API không hợp lệ"
+          }
         }
       }
     },
@@ -129,6 +159,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "模型"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mô hình"
           }
         }
       }
@@ -152,6 +188,12 @@
             "state": "translated",
             "value": "移除"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gỡ bỏ"
+          }
         }
       }
     },
@@ -173,6 +215,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "仅 REST（批量 Scribe v2）"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chỉ REST (Batch Scribe v2)"
           }
         }
       }
@@ -196,6 +244,12 @@
             "state": "translated",
             "value": "保存"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lưu"
+          }
         }
       }
     },
@@ -217,6 +271,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "转录模式"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chế độ phiên âm"
           }
         }
       }
@@ -240,6 +300,12 @@
             "state": "translated",
             "value": "有效的 API 密钥"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Khóa API hợp lệ"
+          }
         }
       }
     },
@@ -261,6 +327,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "验证中..."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đang xác thực..."
           }
         }
       }
@@ -284,6 +356,12 @@
             "state": "translated",
             "value": "音频事件"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sự kiện âm thanh"
+          }
         }
       }
     },
@@ -305,6 +383,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "“音频事件”和“清理转录”可以同时启用。"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Có thể bật cùng lúc \"Sự kiện âm thanh\" và \"Phiên âm sạch\"."
           }
         }
       }
@@ -328,6 +412,12 @@
             "state": "translated",
             "value": "自动"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tự động"
+          }
         }
       }
     },
@@ -349,6 +439,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "选择“自动”或最大说话人数（1–32）。仅适用于 REST 转录。"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chọn Tự động hoặc số người nói tối đa (1–32). Chỉ áp dụng cho phiên âm REST."
           }
         }
       }
@@ -372,6 +468,12 @@
             "state": "translated",
             "value": "清理转录"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Phiên âm sạch"
+          }
         }
       }
     },
@@ -393,6 +495,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "包括[笑声]或[背景音乐]等非语音事件。仅适用于 REST 转录。"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gồm các sự kiện không phải lời nói như [tiếng cười] hoặc [nhạc nền]. Chỉ áp dụng cho phiên âm REST."
           }
         }
       }
@@ -416,6 +524,12 @@
             "state": "translated",
             "value": "使用 ElevenLabs 原生非逐字模式移除填充词、错误开头和其他言语不流畅内容。"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Loại từ đệm, chỗ nói lại và các ngập ngừng khác bằng chế độ không nguyên văn gốc của ElevenLabs."
+          }
         }
       }
     },
@@ -437,6 +551,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "将启用的 TypeWhisper 词典术语作为识别关键词发送给 ElevenLabs。ElevenLabs 会对关键词提示加收 20% 的费用。"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gửi thuật ngữ từ điển TypeWhisper đang bật sang ElevenLabs làm từ khóa nhận dạng. ElevenLabs cộng phụ phí từ khóa 20%."
           }
         }
       }
@@ -460,6 +580,12 @@
             "state": "translated",
             "value": "说话人数"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Số người nói"
+          }
         }
       }
     },
@@ -482,6 +608,12 @@
             "state": "translated",
             "value": "转录选项"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tùy chọn phiên âm"
+          }
         }
       }
     },
@@ -503,6 +635,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "使用 TypeWhisper 词典术语"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dùng thuật ngữ từ điển TypeWhisper"
           }
         }
       }

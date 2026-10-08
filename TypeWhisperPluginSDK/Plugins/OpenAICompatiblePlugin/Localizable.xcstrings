@@ -20,6 +20,12 @@
             "state": "translated",
             "value": "温度模式"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chế độ nhiệt độ"
+          }
         }
       }
     },
@@ -41,6 +47,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "添加配置文件"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ThêmHồ sơ"
           }
         }
       }
@@ -64,6 +76,12 @@
             "state": "translated",
             "value": "自定义"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tùy chỉnh"
+          }
         }
       }
     },
@@ -85,6 +103,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "删除"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Xóa"
           }
         }
       }
@@ -108,6 +132,12 @@
             "state": "translated",
             "value": "配置文件名称"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tên hồ sơ"
+          }
         }
       }
     },
@@ -129,6 +159,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "配置文件名称"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tên hồ sơ"
           }
         }
       }
@@ -152,6 +188,12 @@
             "state": "translated",
             "value": "配置文件"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hồ sơ"
+          }
         }
       }
     },
@@ -173,6 +215,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "选择配置文件"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chọn hồ sơ"
           }
         }
       }
@@ -196,6 +244,12 @@
             "state": "translated",
             "value": "温度"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nhiệt độ (Temperature)"
+          }
         }
       }
     },
@@ -217,6 +271,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "API 密钥"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Khóa API"
           }
         }
       }
@@ -240,6 +300,12 @@
             "state": "translated",
             "value": "API 版本"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Phiên bản API"
+          }
         }
       }
     },
@@ -261,6 +327,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "API 密钥安全存储在钥匙串中"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Khóa API được lưu trữ an toàn trong Keychain"
           }
         }
       }
@@ -284,6 +356,12 @@
             "state": "translated",
             "value": "自动"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tự động"
+          }
         }
       }
     },
@@ -305,6 +383,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "“自动”仅对已知的实时模型 ID（gpt-live-transcribe、gpt-realtime-whisper）使用实时流式传输，其他模型则使用批量上传。选择“实时”可强制任何支持 /v1/realtime WebSocket API 的 OpenAI 兼容服务器使用流式传输，包括自定义部署别名（例如 Azure OpenAI 或 Microsoft Foundry 的 gpt-live-transcribe 部署）。部分提供商（包括 Azure）需要预览版 API 版本才能进行实时转写。选择“批量”以使用所选的批量转写终结点。"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tự động chỉ phát trực tiếp với các ID mô hình thời gian thực đã biết (gpt-live-transcribe, gpt-realtime-whisper); các trường hợp khác thì tải lên theo lô. Chọn Thời gian thực để buộc phát trực tiếp cho mọi máy chủ tương thích OpenAI có hỗ trợ API WebSocket /v1/realtime, kể cả bí danh triển khai tùy chỉnh (vd. triển khai gpt-live-transcribe trên Azure OpenAI hoặc Microsoft Foundry) — một số nhà cung cấp, trong đó có Azure, yêu cầu phiên bản API xem trước cho phiên âm thời gian thực. Chọn Theo lô để dùng Endpoint phiên âm theo lô đã chọn."
           }
         }
       }
@@ -328,6 +412,12 @@
             "state": "translated",
             "value": "某些服务器需要 API 版本。部署范围的批量终结点需要带日期的版本；实时终结点可能需要预览版本。服务器不需要版本时请留空。"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Một số máy chủ yêu cầu phiên bản API. Endpoint theo lô thuộc phạm vi triển khai cần phiên bản có ngày; endpoint thời gian thực có thể cần phiên bản xem trước. Để trống nếu máy chủ không yêu cầu."
+          }
         }
       }
     },
@@ -349,6 +439,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "批量"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hàng loạt"
           }
         }
       }
@@ -372,6 +468,12 @@
             "state": "translated",
             "value": "批量转录终结点"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Endpoint phiên âm theo lô"
+          }
         }
       }
     },
@@ -393,6 +495,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "已连接"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đã kết nối"
           }
         }
       }
@@ -416,6 +524,12 @@
             "state": "translated",
             "value": "连接失败"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kết nối thất bại"
+          }
         }
       }
     },
@@ -437,6 +551,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "例如：http://localhost:11434"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "vd. http://localhost:11434"
           }
         }
       }
@@ -460,6 +580,12 @@
             "state": "translated",
             "value": "LLM 模型"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mô hình LLM"
+          }
         }
       }
     },
@@ -481,6 +607,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "LLM 请求超时"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Thời gian chờ yêu cầu LLM"
           }
         }
       }
@@ -510,6 +642,12 @@
             "state": "translated",
             "value": "思考模式"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chế độ tư duy"
+          }
         }
       }
     },
@@ -531,6 +669,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "模型名称"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tên mô hình"
           }
         }
       }
@@ -554,6 +698,12 @@
             "state": "translated",
             "value": "模型"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mô hình"
+          }
         }
       }
     },
@@ -575,6 +725,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "未找到模型。请手动输入模型名称。"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Không tìm thấy mô hình. Nhập tên mô hình thủ công."
           }
         }
       }
@@ -598,6 +754,12 @@
             "state": "translated",
             "value": "无"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Không"
+          }
         }
       }
     },
@@ -619,6 +781,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "可选，用于本地服务器如 Ollama 或 LM Studio"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tùy chọn với máy chủ cục bộ như Ollama hoặc LM Studio"
           }
         }
       }
@@ -642,6 +810,12 @@
             "state": "translated",
             "value": "可选，例如 preview"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tùy chọn, vd. preview"
+          }
         }
       }
     },
@@ -663,6 +837,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "刷新"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Làm mới"
           }
         }
       }
@@ -686,6 +866,12 @@
             "state": "translated",
             "value": "实时"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Thời gian thực"
+          }
         }
       }
     },
@@ -707,6 +893,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "移除"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gỡ bỏ"
           }
         }
       }
@@ -730,6 +922,12 @@
             "state": "translated",
             "value": "保存"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lưu"
+          }
         }
       }
     },
@@ -751,6 +949,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "秒"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Giây"
           }
         }
       }
@@ -774,6 +978,12 @@
             "state": "translated",
             "value": "等待 LLM 响应的秒数。对于处理大量提示词时较慢的本地服务器（LM Studio、Ollama），请增加此值。值越大，请求失败前等待的时间越长。默认值 30 秒。"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Số giây chờ phản hồi LLM. Tăng với máy chủ cục bộ (LM Studio, Ollama) khi prompt lớn xử lý rất lâu. Giá trị càng cao thì chờ càng lâu trước khi báo lỗi. Mặc định 30."
+          }
         }
       }
     },
@@ -795,6 +1005,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "服务器 URL"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "URL máy chủ"
           }
         }
       }
@@ -818,6 +1034,12 @@
             "state": "translated",
             "value": "测试连接"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kiểm tra kết nối"
+          }
         }
       }
     },
@@ -839,6 +1061,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "测试中..."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đang kiểm tra..."
           }
         }
       }
@@ -862,6 +1090,12 @@
             "state": "translated",
             "value": "转录模型"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mô hình phiên âm"
+          }
         }
       }
     },
@@ -883,6 +1117,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "转写传输方式"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cách truyền phiên âm"
           }
         }
       }
@@ -906,6 +1146,12 @@
             "state": "translated",
             "value": "仅在启用时添加非标准的 Chat Completions thinking 字段。除非提供商明确说明支持，否则请保持关闭。"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chỉ thêm trường thinking phi chuẩn của Chat Completions khi được bật. Hãy để tắt, trừ khi tài liệu nhà cung cấp ghi nhận hỗ trợ."
+          }
         }
       }
     },
@@ -927,6 +1173,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "聊天补全"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chat Completions"
           }
         }
       }
@@ -950,6 +1202,12 @@
             "state": "translated",
             "value": "部署范围"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Phạm vi triển khai"
+          }
         }
       }
     },
@@ -971,6 +1229,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "标准 v1"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chuẩn v1"
           }
         }
       }
@@ -994,6 +1258,12 @@
             "state": "translated",
             "value": "标准 v1 使用 /v1/audio/transcriptions。部署范围使用 /deployments/{model}/audio/transcriptions，并需要带日期的 API 版本。实时转录继续使用 /v1/realtime。"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chuẩn v1 dùng /v1/audio/transcriptions. Phạm vi triển khai dùng /deployments/{model}/audio/transcriptions và cần phiên bản API có ngày. Phiên âm thời gian thực vẫn dùng /v1/realtime."
+          }
         }
       }
     },
@@ -1015,6 +1285,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "高"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cao"
           }
         }
       }
@@ -1038,6 +1314,12 @@
             "state": "translated",
             "value": "LLM API"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "API LLM"
+          }
         }
       }
     },
@@ -1059,6 +1341,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "低"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Thấp"
           }
         }
       }
@@ -1082,6 +1370,12 @@
             "state": "translated",
             "value": "最大"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tối đa"
+          }
         }
       }
     },
@@ -1103,6 +1397,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "中"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Trung bình"
           }
         }
       }
@@ -1126,6 +1426,12 @@
             "state": "translated",
             "value": "提供商默认值"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mặc định của nhà cung cấp"
+          }
         }
       }
     },
@@ -1147,6 +1453,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "“提供商默认值”会省略 reasoning。其他值会向 /v1/responses 发送 reasoning: { effort: ... }。"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mặc định nhà cung cấp sẽ bỏ reasoning. Giá trị khác gửi reasoning: { effort: ... } tới /v1/responses."
           }
         }
       }
@@ -1170,6 +1482,12 @@
             "state": "translated",
             "value": "提供商 Thinking 扩展"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mở rộng tư duy của nhà cung cấp"
+          }
         }
       }
     },
@@ -1191,6 +1509,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "推理强度"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mức suy luận"
           }
         }
       }
@@ -1214,6 +1538,12 @@
             "state": "translated",
             "value": "响应"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Responses"
+          }
         }
       }
     },
@@ -1235,6 +1565,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "配置 Responses 推理强度时，将不发送温度覆盖值。"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bỏ qua ghi đè nhiệt độ khi đã cấu hình mức suy luận của Responses."
           }
         }
       }
@@ -1258,6 +1594,12 @@
             "state": "translated",
             "value": "使用 /v1/chat/completions，以广泛兼容现有提供商。"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dùng /v1/chat/completions để tương thích rộng với các nhà cung cấp hiện có."
+          }
         }
       }
     },
@@ -1279,6 +1621,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "使用 /v1/responses，并采用与 OpenAI 兼容的输入、输出和 reasoning 字段。"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dùng /v1/responses với các trường input, output và reasoning tương thích OpenAI."
           }
         }
       }
@@ -1302,6 +1650,12 @@
             "state": "translated",
             "value": "超高"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cực cao"
+          }
         }
       }
     },
@@ -1323,6 +1677,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "服务器类型"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Loại máy chủ"
           }
         }
       }
@@ -1346,6 +1706,12 @@
             "state": "translated",
             "value": "通用"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tổng quát"
+          }
         }
       }
     },
@@ -1358,6 +1724,12 @@
           }
         },
         "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ollama"
+          }
+        },
+        "vi": {
           "stringUnit": {
             "state": "translated",
             "value": "Ollama"
@@ -1384,6 +1756,12 @@
             "state": "translated",
             "value": "选择 Ollama 可通过服务器原生的 /api/tags 接口发现已安装的模型。通用服务器仅使用 OpenAI 兼容的 /v1/models 接口。"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chọn Ollama để tìm mô hình đã cài qua endpoint gốc /api/tags của máy chủ. Máy chủ tổng quát chỉ dùng endpoint /v1/models tương thích OpenAI."
+          }
         }
       }
     },
@@ -1405,6 +1783,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "服务器 URL 无效。"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "URL máy chủ không hợp lệ."
           }
         }
       }
@@ -1428,6 +1812,12 @@
             "state": "translated",
             "value": "无法连接到 Ollama 服务器。请确认其正在运行且 URL 正确。"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Không thể kết nối máy chủ Ollama. Hãy kiểm tra máy chủ đang chạy và URL đúng."
+          }
         }
       }
     },
@@ -1449,6 +1839,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "服务器拒绝了请求（未授权）。请检查 API 密钥。"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Máy chủ từ chối yêu cầu (không được phép). Hãy kiểm tra khóa API."
           }
         }
       }
@@ -1472,6 +1868,12 @@
             "state": "translated",
             "value": "服务器返回了未知错误。"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Máy chủ trả về lỗi không mong đợi."
+          }
         }
       }
     },
@@ -1494,6 +1896,12 @@
             "state": "translated",
             "value": "服务器没有报告任何已安装的模型。请先运行 `ollama pull <model>` 拉取模型。"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Máy chủ báo chưa có mô hình nào được cài. Hãy tải mô hình trước bằng `ollama pull <model>`."
+          }
         }
       }
     },
@@ -1515,6 +1923,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "服务器返回的不是有效的 Ollama /api/tags 响应。"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Phản hồi máy chủ không phải dữ liệu /api/tags hợp lệ của Ollama."
           }
         }
       }

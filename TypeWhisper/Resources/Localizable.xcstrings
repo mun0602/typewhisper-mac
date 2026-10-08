@@ -631,17 +631,17 @@
       }
     },
     "Clear balance" : {
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Guthaben löschen"
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Guthaben löschen"
           }
         },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "清除余额设置"
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "清除余额设置"
           }
         },
         "ja" : {
@@ -659,17 +659,17 @@
       }
     },
     "Last recognition" : {
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Letzte Spracherkennung"
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Letzte Spracherkennung"
           }
         },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "最近识别时间"
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "最近识别时间"
           }
         },
         "ja" : {
@@ -687,17 +687,17 @@
       }
     },
     "Balance updated" : {
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Guthaben aktualisiert"
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Guthaben aktualisiert"
           }
         },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "余额更新时间"
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "余额更新时间"
           }
         },
         "ja" : {
@@ -715,17 +715,17 @@
       }
     },
     "Spent since balance update" : {
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Verbrauch seit Guthabenaktualisierung"
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verbrauch seit Guthabenaktualisierung"
           }
         },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "余额更新后已用时长"
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "余额更新后已用时长"
           }
         },
         "ja" : {
@@ -743,17 +743,17 @@
       }
     },
     "Estimated remaining" : {
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Geschätztes Restguthaben"
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geschätztes Restguthaben"
           }
         },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "预计剩余时长"
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "预计剩余时长"
           }
         },
         "ja" : {
@@ -771,17 +771,17 @@
       }
     },
     "Authorization Key is stored securely in the Keychain. If validation fails with a certificate error, install the SaluteSpeech certificate trusted by macOS." : {
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Der Autorisierungsschlüssel wird sicher im Schlüsselbund gespeichert. Falls die Prüfung wegen eines Zertifikatfehlers scheitert, installiere das von macOS als vertrauenswürdig eingestufte SaluteSpeech-Zertifikat."
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Der Autorisierungsschlüssel wird sicher im Schlüsselbund gespeichert. Falls die Prüfung wegen eines Zertifikatfehlers scheitert, installiere das von macOS als vertrauenswürdig eingestufte SaluteSpeech-Zertifikat."
           }
         },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "授权密钥安全地存储在钥匙串中。如果验证因证书错误而失败，请安装受 macOS 信任的 SaluteSpeech 证书。"
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "授权密钥安全地存储在钥匙串中。如果验证因证书错误而失败，请安装受 macOS 信任的 SaluteSpeech 证书。"
           }
         },
         "ja" : {
@@ -799,17 +799,17 @@
       }
     },
     "Local estimate. Update it from SaluteSpeech Studio." : {
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Lokale Schätzung. Aktualisiere sie anhand von SaluteSpeech Studio."
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lokale Schätzung. Aktualisiere sie anhand von SaluteSpeech Studio."
           }
         },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "此为本地估算值。请根据 SaluteSpeech Studio 中的数据更新。"
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "此为本地估算值。请根据 SaluteSpeech Studio 中的数据更新。"
           }
         },
         "ja" : {
@@ -827,17 +827,17 @@
       }
     },
     "Reset tracked usage" : {
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Erfassten Verbrauch zurücksetzen"
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Erfassten Verbrauch zurücksetzen"
           }
         },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "重置已记录的用量"
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "重置已记录的用量"
           }
         },
         "ja" : {
@@ -855,17 +855,17 @@
       }
     },
     "Save balance" : {
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Guthaben speichern"
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Guthaben speichern"
           }
         },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "保存余额"
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "保存余额"
           }
         },
         "ja" : {
@@ -883,17 +883,17 @@
       }
     },
     "Valid until" : {
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Gültig bis"
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gültig bis"
           }
         },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "有效期至"
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "有效期至"
           }
         },
         "ja" : {
@@ -911,17 +911,17 @@
       }
     },
     "Minutes" : {
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Minuten"
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Minuten"
           }
         },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "分钟"
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "分钟"
           }
         },
         "ja" : {
@@ -939,17 +939,17 @@
       }
     },
     "Studio remaining" : {
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Studio-Restguthaben"
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Studio-Restguthaben"
           }
         },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Studio 剩余时长"
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Studio 剩余时长"
           }
         },
         "ja" : {
@@ -967,17 +967,17 @@
       }
     },
     "Tracked spent" : {
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Erfasster Verbrauch"
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Erfasster Verbrauch"
           }
         },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "累计已用时长"
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "累计已用时长"
           }
         },
         "ja" : {
@@ -995,17 +995,17 @@
       }
     },
     "Recognition Usage" : {
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Spracherkennungsnutzung"
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spracherkennungsnutzung"
           }
         },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "语音识别用量"
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "语音识别用量"
           }
         },
         "ja" : {
@@ -1023,17 +1023,17 @@
       }
     },
     "Corporate" : {
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Unternehmen"
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unternehmen"
           }
         },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "企业"
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "企业"
           }
         },
         "ja" : {
@@ -1051,17 +1051,17 @@
       }
     },
     "Personal" : {
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Persönlich"
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Persönlich"
           }
         },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "个人"
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "个人"
           }
         },
         "ja" : {
@@ -1079,17 +1079,17 @@
       }
     },
     "OAuth Scope" : {
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "OAuth-Bereich"
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OAuth-Bereich"
           }
         },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "OAuth 权限范围"
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OAuth 权限范围"
           }
         },
         "ja" : {
@@ -1107,17 +1107,17 @@
       }
     },
     "Authorization Key" : {
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Autorisierungsschlüssel"
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Autorisierungsschlüssel"
           }
         },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "授权密钥"
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "授权密钥"
           }
         },
         "ja" : {
@@ -1135,17 +1135,17 @@
       }
     },
     "Reset Defaults" : {
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Standardwerte wiederherstellen"
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Standardwerte wiederherstellen"
           }
         },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "恢复默认设置"
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "恢复默认设置"
           }
         },
         "ja" : {
@@ -1163,17 +1163,17 @@
       }
     },
     "One word per line. Commas and semicolons are also accepted." : {
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ein Wort pro Zeile. Kommas und Semikolons werden ebenfalls akzeptiert."
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ein Wort pro Zeile. Kommas und Semikolons werden ebenfalls akzeptiert."
           }
         },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "每行一个词，也可使用逗号或分号分隔。"
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "每行一个词，也可使用逗号或分号分隔。"
           }
         },
         "ja" : {
@@ -1191,17 +1191,17 @@
       }
     },
     "Filler words" : {
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Füllwörter"
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Füllwörter"
           }
         },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "填充词"
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "填充词"
           }
         },
         "ja" : {
@@ -1219,17 +1219,17 @@
       }
     },
     "Connected" : {
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Verbunden"
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verbunden"
           }
         },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "已连接"
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已连接"
           }
         },
         "ja" : {
@@ -1247,17 +1247,17 @@
       }
     },
     "No memories match your search." : {
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Keine Erinnerungen passen zu deiner Suche."
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keine Erinnerungen passen zu deiner Suche."
           }
         },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "没有找到匹配的记忆。"
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "没有找到匹配的记忆。"
           }
         },
         "ja" : {
@@ -1275,17 +1275,17 @@
       }
     },
     "Memories will appear here after transcriptions are processed." : {
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Nach der Verarbeitung von Transkriptionen erscheinen hier Erinnerungen."
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nach der Verarbeitung von Transkriptionen erscheinen hier Erinnerungen."
           }
         },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "处理转录内容后，记忆会显示在这里。"
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "处理转录内容后，记忆会显示在这里。"
           }
         },
         "ja" : {
@@ -1303,17 +1303,17 @@
       }
     },
     "No Memories" : {
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Keine Erinnerungen"
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keine Erinnerungen"
           }
         },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "暂无记忆"
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "暂无记忆"
           }
         },
         "ja" : {
@@ -1331,17 +1331,17 @@
       }
     },
     "Search memories..." : {
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Erinnerungen durchsuchen …"
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Erinnerungen durchsuchen …"
           }
         },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "搜索记忆…"
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "搜索记忆…"
           }
         },
         "ja" : {
@@ -1359,17 +1359,17 @@
       }
     },
     "%lld memories stored" : {
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%lld gespeicherte Erinnerungen"
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld gespeicherte Erinnerungen"
           }
         },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "已存储 %lld 条记忆"
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已存储 %lld 条记忆"
           }
         },
         "ja" : {
@@ -1387,17 +1387,17 @@
       }
     },
     "Usage Statistics" : {
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Nutzungsstatistik"
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nutzungsstatistik"
           }
         },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "使用统计"
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "使用统计"
           }
         },
         "ja" : {
@@ -1414,24 +1414,24 @@
         }
       }
     },
-    "Not enough disk space to download %@. It needs %@ of free space, but only %@ is available on “%@”.": {
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Nicht genug Speicherplatz, um %1$@ herunterzuladen. Benötigt werden %2$@ freier Speicher, auf „%4$@“ sind aber nur %3$@ verfügbar."
+    "Not enough disk space to download %@. It needs %@ of free space, but only %@ is available on “%@”." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nicht genug Speicherplatz, um %1$@ herunterzuladen. Benötigt werden %2$@ freier Speicher, auf „%4$@“ sind aber nur %3$@ verfügbar."
           }
         },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%1$@ をダウンロードするための空き容量が足りません。%2$@ の空き容量が必要ですが、「%4$@」で使用できるのは %3$@ だけです。"
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ をダウンロードするための空き容量が足りません。%2$@ の空き容量が必要ですが、「%4$@」で使用できるのは %3$@ だけです。"
           }
         },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "磁盘空间不足，无法下载 %1$@。需要 %2$@ 可用空间，但“%4$@”上只有 %3$@ 可用。"
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "磁盘空间不足，无法下载 %1$@。需要 %2$@ 可用空间，但“%4$@”上只有 %3$@ 可用。"
           }
         },
         "vi" : {
@@ -1442,24 +1442,24 @@
         }
       }
     },
-    "Not enough disk space to download %@. It needs %@ of free space, but only %@ is available.": {
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Nicht genug Speicherplatz, um %1$@ herunterzuladen. Benötigt werden %2$@ freier Speicher, verfügbar sind aber nur %3$@."
+    "Not enough disk space to download %@. It needs %@ of free space, but only %@ is available." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nicht genug Speicherplatz, um %1$@ herunterzuladen. Benötigt werden %2$@ freier Speicher, verfügbar sind aber nur %3$@."
           }
         },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%1$@ をダウンロードするための空き容量が足りません。%2$@ の空き容量が必要ですが、使用できるのは %3$@ だけです。"
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ をダウンロードするための空き容量が足りません。%2$@ の空き容量が必要ですが、使用できるのは %3$@ だけです。"
           }
         },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "磁盘空间不足，无法下载 %1$@。需要 %2$@ 可用空间，但只有 %3$@ 可用。"
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "磁盘空间不足，无法下载 %1$@。需要 %2$@ 可用空间，但只有 %3$@ 可用。"
           }
         },
         "vi" : {
@@ -1470,24 +1470,24 @@
         }
       }
     },
-    "Other model downloads in progress still need %@.": {
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Andere laufende Modell-Downloads benötigen noch %@."
+    "Other model downloads in progress still need %@." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Andere laufende Modell-Downloads benötigen noch %@."
           }
         },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "実行中の他のモデルのダウンロードに、まだ %@ が必要です。"
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "実行中の他のモデルのダウンロードに、まだ %@ が必要です。"
           }
         },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "其他正在进行的模型下载仍需要 %@。"
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "其他正在进行的模型下载仍需要 %@。"
           }
         },
         "vi" : {
@@ -1498,24 +1498,24 @@
         }
       }
     },
-    "Free up space and try again.": {
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Gib Speicherplatz frei und versuche es erneut."
+    "Free up space and try again." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gib Speicherplatz frei und versuche es erneut."
           }
         },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "空き容量を増やしてから、もう一度お試しください。"
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "空き容量を増やしてから、もう一度お試しください。"
           }
         },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "请释放空间后重试。"
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "请释放空间后重试。"
           }
         },
         "vi" : {
@@ -1526,18 +1526,18 @@
         }
       }
     },
-    "Selected entry content": {
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Inhalt des ausgewählten Eintrags"
+    "Selected entry content" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inhalt des ausgewählten Eintrags"
           }
         },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "所选条目内容"
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "所选条目内容"
           }
         },
         "ja" : {
@@ -1554,10 +1554,20 @@
         }
       }
     },
-    "First row is a header": {
-      "localizations": {
-        "de": { "stringUnit": { "state": "translated", "value": "Erste Zeile ist eine Kopfzeile" } },
-        "zh-Hans": { "stringUnit": { "state": "translated", "value": "首行为标题行" } },
+    "First row is a header" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Erste Zeile ist eine Kopfzeile"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "首行为标题行"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1572,18 +1582,18 @@
         }
       }
     },
-    "Source files found on this Mac: %@.": {
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Quelldateien auf diesem Mac gefunden: %@."
+    "Source files found on this Mac: %@." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quelldateien auf diesem Mac gefunden: %@."
           }
         },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "在此 Mac 上找到来源文件：%@。"
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在此 Mac 上找到来源文件：%@。"
           }
         },
         "ja" : {
@@ -1600,18 +1610,18 @@
         }
       }
     },
-    "Review Words...": {
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Wörter prüfen …"
+    "Review Words..." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wörter prüfen …"
           }
         },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "预览词语…"
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "预览词语…"
           }
         },
         "ja" : {
@@ -1628,18 +1638,18 @@
         }
       }
     },
-    "Review Snippets...": {
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Snippets prüfen …"
+    "Review Snippets..." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Snippets prüfen …"
           }
         },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "预览文本片段…"
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "预览文本片段…"
           }
         },
         "ja" : {
@@ -1656,18 +1666,18 @@
         }
       }
     },
-    "Import from Wispr Flow or Handy...": {
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Aus Wispr Flow oder Handy importieren …"
+    "Import from Wispr Flow or Handy..." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aus Wispr Flow oder Handy importieren …"
           }
         },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "从 Wispr Flow 或 Handy 导入…"
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "从 Wispr Flow 或 Handy 导入…"
           }
         },
         "ja" : {
@@ -1684,18 +1694,18 @@
         }
       }
     },
-    "This file does not have a supported import format.": {
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Diese Datei hat kein unterstütztes Importformat."
+    "This file does not have a supported import format." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diese Datei hat kein unterstütztes Importformat."
           }
         },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "此文件的导入格式不受支持。"
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "此文件的导入格式不受支持。"
           }
         },
         "ja" : {
@@ -1712,18 +1722,18 @@
         }
       }
     },
-    "The source could not be read safely. Quitting the source app and trying again may help. Nothing was imported.": {
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Die Quelle konnte nicht sicher gelesen werden. Beende gegebenenfalls die Quell-App und versuche es erneut. Es wurde nichts importiert."
+    "The source could not be read safely. Quitting the source app and trying again may help. Nothing was imported." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die Quelle konnte nicht sicher gelesen werden. Beende gegebenenfalls die Quell-App und versuche es erneut. Es wurde nichts importiert."
           }
         },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "无法安全读取来源。退出来源应用后重试可能有帮助。未导入任何内容。"
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "无法安全读取来源。退出来源应用后重试可能有帮助。未导入任何内容。"
           }
         },
         "ja" : {
@@ -1740,18 +1750,18 @@
         }
       }
     },
-    "The source exceeds the import limits. Nothing was imported.": {
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Die Quelle überschreitet die Importgrenzen. Es wurde nichts importiert."
+    "The source exceeds the import limits. Nothing was imported." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die Quelle überschreitet die Importgrenzen. Es wurde nichts importiert."
           }
         },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "来源超出导入限制。未导入任何内容。"
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "来源超出导入限制。未导入任何内容。"
           }
         },
         "ja" : {
@@ -1768,18 +1778,18 @@
         }
       }
     },
-    "The import could not be saved. Nothing was imported.": {
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Der Import konnte nicht gespeichert werden. Es wurde nichts importiert."
+    "The import could not be saved. Nothing was imported." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Der Import konnte nicht gespeichert werden. Es wurde nichts importiert."
           }
         },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "无法保存导入内容。未导入任何内容。"
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "无法保存导入内容。未导入任何内容。"
           }
         },
         "ja" : {
@@ -1796,18 +1806,18 @@
         }
       }
     },
-    "No source file was found. Use Choose File to locate it.": {
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Keine Quelldatei gefunden. Suche sie über „Datei auswählen“."
+    "No source file was found. Use Choose File to locate it." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keine Quelldatei gefunden. Suche sie über „Datei auswählen“."
           }
         },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "未找到来源文件。请使用“选择文件”定位文件。"
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "未找到来源文件。请使用“选择文件”定位文件。"
           }
         },
         "ja" : {
@@ -1824,18 +1834,18 @@
         }
       }
     },
-    "Your list changed while you were reviewing. Nothing was imported. Please review the updated list.": {
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Die Liste wurde während der Prüfung geändert. Es wurde nichts importiert. Bitte prüfe die aktualisierte Liste."
+    "Your list changed while you were reviewing. Nothing was imported. Please review the updated list." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die Liste wurde während der Prüfung geändert. Es wurde nichts importiert. Bitte prüfe die aktualisierte Liste."
           }
         },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "列表在预览期间发生了变化。未导入任何内容。请检查更新后的列表。"
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "列表在预览期间发生了变化。未导入任何内容。请检查更新后的列表。"
           }
         },
         "ja" : {
@@ -1852,18 +1862,18 @@
         }
       }
     },
-    "Import Words from Another App": {
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Wörter aus anderer App importieren"
+    "Import Words from Another App" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wörter aus anderer App importieren"
           }
         },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "从其他应用导入词语"
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "从其他应用导入词语"
           }
         },
         "ja" : {
@@ -1880,18 +1890,18 @@
         }
       }
     },
-    "Import Snippets from Another App": {
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Snippets aus anderer App importieren"
+    "Import Snippets from Another App" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Snippets aus anderer App importieren"
           }
         },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "从其他应用导入文本片段"
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "从其他应用导入文本片段"
           }
         },
         "ja" : {
@@ -1908,18 +1918,18 @@
         }
       }
     },
-    "Review the entries before importing. Existing entries will not be overwritten.": {
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Prüfe die Einträge vor dem Import. Vorhandene Einträge werden nicht überschrieben."
+    "Review the entries before importing. Existing entries will not be overwritten." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prüfe die Einträge vor dem Import. Vorhandene Einträge werden nicht überschrieben."
           }
         },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "请在导入前检查条目。现有条目不会被覆盖。"
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "请在导入前检查条目。现有条目不会被覆盖。"
           }
         },
         "ja" : {
@@ -1936,18 +1946,18 @@
         }
       }
     },
-    "Source": {
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Quelle"
+    "Source" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quelle"
           }
         },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "来源"
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "来源"
           }
         },
         "ja" : {
@@ -1964,18 +1974,18 @@
         }
       }
     },
-    "Read from App": {
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Aus App lesen"
+    "Read from App" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aus App lesen"
           }
         },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "从应用读取"
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "从应用读取"
           }
         },
         "ja" : {
@@ -1992,18 +2002,18 @@
         }
       }
     },
-    "Choose File...": {
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Datei auswählen …"
+    "Choose File..." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Datei auswählen …"
           }
         },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "选择文件…"
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "选择文件…"
           }
         },
         "ja" : {
@@ -2020,18 +2030,18 @@
         }
       }
     },
-    "Reading source...": {
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Quelle wird gelesen …"
+    "Reading source..." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quelle wird gelesen …"
           }
         },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "正在读取来源…"
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在读取来源…"
           }
         },
         "ja" : {
@@ -2048,18 +2058,18 @@
         }
       }
     },
-    "Term / Trigger": {
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Begriff / Auslöser"
+    "Term / Trigger" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Begriff / Auslöser"
           }
         },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "词语 / 触发词"
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "词语 / 触发词"
           }
         },
         "ja" : {
@@ -2076,18 +2086,18 @@
         }
       }
     },
-    "Status": {
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Status"
+    "Status" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Status"
           }
         },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "状态"
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "状态"
           }
         },
         "ja" : {
@@ -2104,18 +2114,18 @@
         }
       }
     },
-    "Import Selected": {
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Auswahl importieren"
+    "Import Selected" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Auswahl importieren"
           }
         },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "导入所选内容"
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "导入所选内容"
           }
         },
         "ja" : {
@@ -2132,18 +2142,18 @@
         }
       }
     },
-    "No compatible entries found. Nothing was changed.": {
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Keine kompatiblen Einträge gefunden. Es wurde nichts geändert."
+    "No compatible entries found. Nothing was changed." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keine kompatiblen Einträge gefunden. Es wurde nichts geändert."
           }
         },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "未找到兼容条目。未进行任何更改。"
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "未找到兼容条目。未进行任何更改。"
           }
         },
         "ja" : {
@@ -2160,18 +2170,18 @@
         }
       }
     },
-    "Snippets containing TypeWhisper dynamic placeholders are excluded to preserve literal text.": {
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Snippets mit dynamischen TypeWhisper-Platzhaltern werden ausgelassen, damit sich der Text nicht ungewollt verändert."
+    "Snippets containing TypeWhisper dynamic placeholders are excluded to preserve literal text." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Snippets mit dynamischen TypeWhisper-Platzhaltern werden ausgelassen, damit sich der Text nicht ungewollt verändert."
           }
         },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "含有 TypeWhisper 动态占位符的文本片段将被排除，以保留原始文本含义。"
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "含有 TypeWhisper 动态占位符的文本片段将被排除，以保留原始文本含义。"
           }
         },
         "ja" : {
@@ -2188,18 +2198,18 @@
         }
       }
     },
-    "New": {
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Neu"
+    "New" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Neu"
           }
         },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "新增"
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "新增"
           }
         },
         "ja" : {
@@ -2216,18 +2226,18 @@
         }
       }
     },
-    "Duplicate": {
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Duplikat"
+    "Duplicate" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Duplikat"
           }
         },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "重复"
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "重复"
           }
         },
         "ja" : {
@@ -2244,18 +2254,18 @@
         }
       }
     },
-    "Conflict": {
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Konflikt"
+    "Conflict" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Konflikt"
           }
         },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "冲突"
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "冲突"
           }
         },
         "ja" : {
@@ -2272,18 +2282,18 @@
         }
       }
     },
-    "Import from Another App...": {
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Aus anderer App importieren …"
+    "Import from Another App..." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aus anderer App importieren …"
           }
         },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "从其他应用导入…"
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "从其他应用导入…"
           }
         },
         "ja" : {
@@ -2300,18 +2310,18 @@
         }
       }
     },
-    "%lld selected, %lld duplicates, %lld conflicts.": {
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ausgewählt: %lld · Duplikate: %lld · Konflikte: %lld"
+    "%lld selected, %lld duplicates, %lld conflicts." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ausgewählt: %lld · Duplikate: %lld · Konflikte: %lld"
           }
         },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "已选择 %lld 项，%lld 项重复，%lld 项冲突。"
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已选择 %lld 项，%lld 项重复，%lld 项冲突。"
           }
         },
         "ja" : {
@@ -2328,18 +2338,18 @@
         }
       }
     },
-    "%lld entries excluded (deleted, another entry type, empty or incompatible).": {
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ausgelassene Einträge: %lld (gelöscht, anderer Eintragstyp, leer oder inkompatibel)."
+    "%lld entries excluded (deleted, another entry type, empty or incompatible)." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ausgelassene Einträge: %lld (gelöscht, anderer Eintragstyp, leer oder inkompatibel)."
           }
         },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "已排除 %lld 个条目（已删除、其他类型、空白或不兼容）。"
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已排除 %lld 个条目（已删除、其他类型、空白或不兼容）。"
           }
         },
         "ja" : {
@@ -4369,9 +4379,45 @@
           }
         },
         "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%d prompt"
+          "variations" : {
+            "plural" : {
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%d 提示词"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%d 提示词"
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%d 提示词"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%d 提示词"
+                }
+              },
+              "two" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%d 提示词"
+                }
+              },
+              "zero" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%d 提示词"
+                }
+              }
+            }
           }
         }
       }
@@ -4620,9 +4666,21 @@
           }
         },
         "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%lld ngày"
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld ngày"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld ngày"
+                }
+              }
+            }
           }
         }
       }
@@ -4742,9 +4800,21 @@
           }
         },
         "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%lld lần đọc chính tả"
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld lần đọc chính tả"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld lần đọc chính tả"
+                }
+              }
+            }
           }
         }
       }
@@ -4830,9 +4900,21 @@
           }
         },
         "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%lld mục"
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld mục"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld mục"
+                }
+              }
+            }
           }
         }
       }
@@ -5128,9 +5210,21 @@
           }
         },
         "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%lld từ"
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld từ"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld từ"
+                }
+              }
+            }
           }
         }
       }
@@ -5352,7 +5446,7 @@
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "© 2024-2026 TypeWhisper Contributors"
+            "value" : "© 2024-2026 Cộng tác viên TypeWhisper"
           }
         }
       }
@@ -7886,7 +7980,7 @@
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "API Server"
+            "value" : "Máy chủ API"
           }
         }
       }
@@ -11511,9 +11605,9 @@
     "Clear Usage Statistics" : {
       "localizations" : {
         "de" : {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Nutzungsstatistik löschen"
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nutzungsstatistik löschen"
           }
         },
         "zh-Hans" : {
@@ -14927,7 +15021,7 @@
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "DevOps & Cloud"
+            "value" : "DevOps & Đám mây"
           }
         }
       }
@@ -15964,7 +16058,7 @@
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "e.g."
+            "value" : "vd."
           }
         }
       }
@@ -16767,7 +16861,7 @@
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Engine"
+            "value" : "Công cụ"
           }
         }
       }
@@ -21767,7 +21861,7 @@
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Installing..."
+            "value" : "Đang cài đặt..."
           }
         }
       }
@@ -23853,7 +23947,7 @@
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Magic"
+            "value" : "Ma thuật"
           }
         }
       }
@@ -24939,7 +25033,7 @@
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Mittel"
+            "value" : "Trung bình"
           }
         }
       }
@@ -25624,7 +25718,7 @@
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Native Works"
+            "value" : "Gốc hoạt động"
           }
         }
       }
@@ -28761,9 +28855,9 @@
     "Open Setup Wizard" : {
       "localizations" : {
         "de" : {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Einrichtungsassistent öffnen"
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Einrichtungsassistent öffnen"
           }
         },
         "ja" : {
@@ -30972,7 +31066,7 @@
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Hạng mục hành động"
+            "value" : "Mục hành động"
           }
         }
       }
@@ -31077,7 +31171,7 @@
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Định dạng dạng danh sách"
+            "value" : "Định dạng dưới dạng danh sách"
           }
         }
       }
@@ -38853,9 +38947,9 @@
     "Set a spoken language to configure punctuation behavior." : {
       "localizations" : {
         "de" : {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Wähle eine gesprochene Sprache, um die Satzzeichenerkennung zu konfigurieren."
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wähle eine gesprochene Sprache, um die Satzzeichenerkennung zu konfigurieren."
           }
         },
         "ja" : {
@@ -39458,7 +39552,7 @@
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Hiển thị trong Finder"
+            "value" : "Hiện trong Finder"
           }
         }
       }
@@ -40173,9 +40267,9 @@
     "Spoken Punctuation" : {
       "localizations" : {
         "de" : {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Gesprochene Satzzeichen"
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gesprochene Satzzeichen"
           }
         },
         "ja" : {
@@ -41427,9 +41521,21 @@
           }
         },
         "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Đã đồng bộ %lld thay đổi."
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Đã đồng bộ %lld thay đổi."
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Đã đồng bộ %lld thay đổi."
+                }
+              }
+            }
           }
         }
       }
@@ -44922,9 +45028,9 @@
     "Transcribe short / quiet clips more aggressively" : {
       "localizations" : {
         "de" : {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Kurze oder leise Aufnahmen stärker berücksichtigen"
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kurze oder leise Aufnahmen stärker berücksichtigen"
           }
         },
         "ja" : {
@@ -45026,7 +45132,7 @@
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Đang chép lời…"
+            "value" : "Đang chép lời..."
           }
         }
       }
@@ -49088,7 +49194,7 @@
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Website"
+            "value" : "Trang web"
           }
         }
       }
@@ -52987,7 +53093,7 @@
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Chỉ nhắc nhở"
+            "value" : "Chỉ lời nhắc"
           }
         }
       }
@@ -53293,7 +53399,7 @@
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Giấy phép thương mại đang hoạt động"
+            "value" : "Giấy phép Commercial đang hoạt động"
           }
         }
       }
@@ -54245,7 +54351,7 @@
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Chỉ nhắc nhở"
+            "value" : "Chỉ lời nhắc"
           }
         }
       }
@@ -54279,7 +54385,7 @@
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Tự động ghi âm"
+            "value" : "Ghi âm tự động"
           }
         }
       }
@@ -55129,7 +55235,7 @@
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Thao tác này sẽ xóa tài khoản và liên kết quyền lợi. Các mục cục bộ và tệp đám mây riêng tư sẽ không bị xóa."
+            "value" : "Thao tác này sẽ xóa liên kết tài khoản và quyền lợi. Các mục cục bộ và tệp đám mây riêng tư sẽ không bị xóa."
           }
         }
       }
@@ -55231,7 +55337,7 @@
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Học từ các bản sửa lỗi"
+            "value" : "Học hỏi từ các chỉnh sửa"
           }
         }
       }
@@ -56625,7 +56731,7 @@
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Vùng chứa iCloud riêng tư của TypeWhisper"
+            "value" : "Bộ lưu trữ iCloud riêng tư của TypeWhisper"
           }
         }
       }
@@ -56693,7 +56799,7 @@
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Đã tắt đồng bộ"
+            "value" : "Đồng bộ đang tắt"
           }
         }
       }
@@ -56863,7 +56969,7 @@
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Đang chờ xử lý"
+            "value" : "Đang chờ"
           }
         }
       }
@@ -57169,7 +57275,7 @@
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Các thao tác đám mây sẽ bị xóa, nhưng các mục từ điển và đoạn văn mẫu cục bộ vẫn được giữ lại trên máy Mac này."
+            "value" : "Các thao tác trên đám mây sẽ bị xóa, nhưng các mục từ điển cục bộ và đoạn văn mẫu vẫn được giữ lại trên máy Mac này."
           }
         }
       }
@@ -57446,111 +57552,3030 @@
         }
       }
     },
-    "%lld Entries Selected" : {"localizations":{"de":{"variations":{"plural":{"one":{"stringUnit":{"state":"translated","value":"%lld Eintrag ausgewählt"}},"other":{"stringUnit":{"state":"translated","value":"%lld Einträge ausgewählt"}}}}},"en":{"variations":{"plural":{"one":{"stringUnit":{"state":"translated","value":"%lld Entry Selected"}},"other":{"stringUnit":{"state":"translated","value":"%lld Entries Selected"}}}}},"ja":{"stringUnit":{"state":"translated","value":"%lld件を選択"}},"zh-Hans":{"stringUnit":{"state":"translated","value":"已选择 %lld 个条目"}},"vi":{"stringUnit":{"state":"translated","value":"Đã chọn %lld mục"}}}},
-    "All History" : {"localizations":{"de":{"stringUnit":{"state":"translated","value":"Gesamter Verlauf"}},"ja":{"stringUnit":{"state":"translated","value":"すべての履歴"}},"zh-Hans":{"stringUnit":{"state":"translated","value":"所有历史记录"}},"vi":{"stringUnit":{"state":"translated","value":"Tất cả Lịch sử"}}}},
-    "App Name" : {"localizations":{"de":{"stringUnit":{"state":"translated","value":"App-Name"}},"ja":{"stringUnit":{"state":"translated","value":"アプリ名"}},"zh-Hans":{"stringUnit":{"state":"translated","value":"应用名称"}},"vi":{"stringUnit":{"state":"translated","value":"Tên ứng dụng"}}}},
-    "Apple Watch" : {"localizations":{"de":{"stringUnit":{"state":"translated","value":"Apple Watch"}},"ja":{"stringUnit":{"state":"translated","value":"Apple Watch"}},"zh-Hans":{"stringUnit":{"state":"translated","value":"Apple Watch"}},"vi":{"stringUnit":{"state":"translated","value":"Apple Watch"}}}},
-    "Audio available" : {"localizations":{"de":{"stringUnit":{"state":"translated","value":"Audio verfügbar"}},"ja":{"stringUnit":{"state":"translated","value":"音声あり"}},"zh-Hans":{"stringUnit":{"state":"translated","value":"有音频"}},"vi":{"stringUnit":{"state":"translated","value":"Có âm thanh"}}}},
-    "Audio download failed" : {"localizations":{"de":{"stringUnit":{"state":"translated","value":"Audio-Download fehlgeschlagen"}},"ja":{"stringUnit":{"state":"translated","value":"音声のダウンロードに失敗しました"}},"zh-Hans":{"stringUnit":{"state":"translated","value":"音频下载失败"}},"vi":{"stringUnit":{"state":"translated","value":"Tải âm thanh thất bại"}}}},
-    "Audio is available in iCloud." : {"localizations":{"de":{"stringUnit":{"state":"translated","value":"Audio ist in iCloud verfügbar."}},"ja":{"stringUnit":{"state":"translated","value":"音声はiCloudで利用できます。"}},"zh-Hans":{"stringUnit":{"state":"translated","value":"音频可从 iCloud 获取。"}},"vi":{"stringUnit":{"state":"translated","value":"Âm thanh có sẵn trên iCloud."}}}},
-    "Changes" : {"localizations":{"de":{"stringUnit":{"state":"translated","value":"Änderungen"}},"ja":{"stringUnit":{"state":"translated","value":"変更"}},"zh-Hans":{"stringUnit":{"state":"translated","value":"更改"}},"vi":{"stringUnit":{"state":"translated","value":"Thay đổi"}}}},
-    "Changes Unavailable" : {"localizations":{"de":{"stringUnit":{"state":"translated","value":"Änderungen nicht verfügbar"}},"ja":{"stringUnit":{"state":"translated","value":"変更を表示できません"}},"zh-Hans":{"stringUnit":{"state":"translated","value":"无法显示更改"}},"vi":{"stringUnit":{"state":"translated","value":"Thay đổi không khả dụng"}}}},
-    "Choose an entry to read its text, audio, and details." : {"localizations":{"de":{"stringUnit":{"state":"translated","value":"Wähle einen Eintrag aus, um Text, Audio und Details anzuzeigen."}},"ja":{"stringUnit":{"state":"translated","value":"テキスト、音声、詳細を表示する項目を選択してください。"}},"zh-Hans":{"stringUnit":{"state":"translated","value":"选择一个条目以查看文本、音频和详细信息。"}},"vi":{"stringUnit":{"state":"translated","value":"Chọn một mục để xem văn bản, âm thanh và chi tiết."}}}},
-    "Copy, export, complete, reopen, or delete the selected entries." : {"localizations":{"de":{"stringUnit":{"state":"translated","value":"Ausgewählte Einträge kopieren, exportieren, abschließen, erneut öffnen oder löschen."}},"ja":{"stringUnit":{"state":"translated","value":"選択した項目をコピー、書き出し、完了、再開、削除できます。"}},"zh-Hans":{"stringUnit":{"state":"translated","value":"可以复制、导出、完成、重新打开或删除所选条目。"}},"vi":{"stringUnit":{"state":"translated","value":"Sao chép, xuất, hoàn tất, mở lại hoặc xóa các mục đã chọn."}}}},
-    "Corrections added to the dictionary" : {"localizations":{"de":{"stringUnit":{"state":"translated","value":"Korrekturen zum Wörterbuch hinzugefügt"}},"ja":{"stringUnit":{"state":"translated","value":"修正を辞書に追加しました"}},"zh-Hans":{"stringUnit":{"state":"translated","value":"已将更正添加到词典"}},"vi":{"stringUnit":{"state":"translated","value":"Đã thêm các mục sửa lỗi vào từ điển"}}}},
-    "Delete %lld Entries?" : {"localizations":{"de":{"variations":{"plural":{"one":{"stringUnit":{"state":"translated","value":"%lld Eintrag löschen?"}},"other":{"stringUnit":{"state":"translated","value":"%lld Einträge löschen?"}}}}},"en":{"variations":{"plural":{"one":{"stringUnit":{"state":"translated","value":"Delete %lld Entry?"}},"other":{"stringUnit":{"state":"translated","value":"Delete %lld Entries?"}}}}},"ja":{"stringUnit":{"state":"translated","value":"%lld件の項目を削除しますか？"}},"zh-Hans":{"stringUnit":{"state":"translated","value":"删除 %lld 个条目？"}},"vi":{"stringUnit":{"state":"translated","value":"Xóa %lld mục?"}}}},
-    "Delete All History?" : {"localizations":{"de":{"stringUnit":{"state":"translated","value":"Gesamten Verlauf löschen?"}},"ja":{"stringUnit":{"state":"translated","value":"すべての履歴を削除しますか？"}},"zh-Hans":{"stringUnit":{"state":"translated","value":"删除所有历史记录？"}},"vi":{"stringUnit":{"state":"translated","value":"Xóa tất cả lịch sử?"}}}},
-    "Delete Entry?" : {"localizations":{"de":{"stringUnit":{"state":"translated","value":"Eintrag löschen?"}},"ja":{"stringUnit":{"state":"translated","value":"項目を削除しますか？"}},"zh-Hans":{"stringUnit":{"state":"translated","value":"删除条目？"}},"vi":{"stringUnit":{"state":"translated","value":"Xóamục？"}}}},
-    "Delete History" : {"localizations":{"de":{"stringUnit":{"state":"translated","value":"Verlauf löschen"}},"ja":{"stringUnit":{"state":"translated","value":"履歴を削除"}},"zh-Hans":{"stringUnit":{"state":"translated","value":"删除历史记录"}},"vi":{"stringUnit":{"state":"translated","value":"XóaLịch sử"}}}},
-    "Download Audio" : {"localizations":{"de":{"stringUnit":{"state":"translated","value":"Audio laden"}},"ja":{"stringUnit":{"state":"translated","value":"音声をダウンロード"}},"zh-Hans":{"stringUnit":{"state":"translated","value":"下载音频"}},"vi":{"stringUnit":{"state":"translated","value":"Tải về Âm thanh"}}}},
-    "Downloading and verifying audio…" : {"localizations":{"de":{"stringUnit":{"state":"translated","value":"Audio wird geladen und überprüft …"}},"ja":{"stringUnit":{"state":"translated","value":"音声をダウンロードして検証中…"}},"zh-Hans":{"stringUnit":{"state":"translated","value":"正在下载并验证音频…"}},"vi":{"stringUnit":{"state":"translated","value":"Đang tải xuống và xác minh âm thanh…"}}}},
-    "Duration" : {"localizations":{"de":{"stringUnit":{"state":"translated","value":"Dauer"}},"ja":{"stringUnit":{"state":"translated","value":"長さ"}},"zh-Hans":{"stringUnit":{"state":"translated","value":"时长"}},"vi":{"stringUnit":{"state":"translated","value":"Thời lượng"}}}},
-    "Empty transcription" : {"localizations":{"de":{"stringUnit":{"state":"translated","value":"Leere Transkription"}},"ja":{"stringUnit":{"state":"translated","value":"空の文字起こし"}},"zh-Hans":{"stringUnit":{"state":"translated","value":"空转录"}},"vi":{"stringUnit":{"state":"translated","value":"Bản chép lời trống"}}}},
-    "Enable History Sync" : {"localizations":{"de":{"stringUnit":{"state":"translated","value":"Verlaufssync aktivieren"}},"ja":{"stringUnit":{"state":"translated","value":"履歴同期を有効にする"}},"zh-Hans":{"stringUnit":{"state":"translated","value":"启用历史记录同步"}},"vi":{"stringUnit":{"state":"translated","value":"Bật đồng bộ lịch sử"}}}},
-    "Enable Premium Sync first, then choose whether this Mac participates in History and Inbox sync." : {"localizations":{"de":{"stringUnit":{"state":"translated","value":"Aktiviere zuerst Premium Sync und lege dann fest, ob dieser Mac Verlauf und Posteingang synchronisiert."}},"ja":{"stringUnit":{"state":"translated","value":"まずPremium同期を有効にしてから、このMacで履歴と受信箱を同期するか選択してください。"}},"zh-Hans":{"stringUnit":{"state":"translated","value":"请先启用 Premium 同步，然后选择此 Mac 是否参与历史记录和收件箱同步。"}},"vi":{"stringUnit":{"state":"translated","value":"Bật Đồng bộ Premium trước, sau đó chọn xem máy Mac này có tham gia đồng bộ Lịch sử và Hộp thư đến hay không."}}}},
-    "Enable Sync" : {"localizations":{"de":{"stringUnit":{"state":"translated","value":"Sync aktivieren"}},"ja":{"stringUnit":{"state":"translated","value":"同期を有効にする"}},"zh-Hans":{"stringUnit":{"state":"translated","value":"启用同步"}},"vi":{"stringUnit":{"state":"translated","value":"Bật đồng bộ"}}}},
-    "Existing transcription text and metadata will be added to your private sync folder. Audio is synchronized only for new entries created after you enable this feature." : {"localizations":{"de":{"stringUnit":{"state":"translated","value":"Vorhandene Transkriptionstexte und Metadaten werden deinem privaten Sync-Ordner hinzugefügt. Audio wird nur für neue Einträge synchronisiert, die nach der Aktivierung erstellt werden."}},"ja":{"stringUnit":{"state":"translated","value":"既存の文字起こしテキストとメタデータがプライベート同期フォルダに追加されます。音声は、この機能を有効にした後に作成された新しい項目だけ同期されます。"}},"zh-Hans":{"stringUnit":{"state":"translated","value":"现有转录文本和元数据将添加到你的私人同步文件夹。仅同步启用此功能后创建的新条目的音频。"}},"vi":{"stringUnit":{"state":"translated","value":"Văn bản bản chép lời và siêu dữ liệu hiện có sẽ được thêm vào thư mục đồng bộ riêng tư của bạn. Âm thanh chỉ được đồng bộ hóa cho các mục mới được tạo sau khi bạn bật tính năng này."}}}},
-    "Export as…" : {"localizations":{"de":{"stringUnit":{"state":"translated","value":"Exportieren als …"}},"ja":{"stringUnit":{"state":"translated","value":"書き出す…"}},"zh-Hans":{"stringUnit":{"state":"translated","value":"导出为…"}},"vi":{"stringUnit":{"state":"translated","value":"Xuất as…"}}}},
-    "Filter" : {"localizations":{"de":{"stringUnit":{"state":"translated","value":"Filter"}},"ja":{"stringUnit":{"state":"translated","value":"フィルタ"}},"zh-Hans":{"stringUnit":{"state":"translated","value":"筛选"}},"vi":{"stringUnit":{"state":"translated","value":"Bộ lọc"}}}},
-    "Filter History" : {"localizations":{"de":{"stringUnit":{"state":"translated","value":"Verlauf filtern"}},"ja":{"stringUnit":{"state":"translated","value":"履歴を絞り込む"}},"zh-Hans":{"stringUnit":{"state":"translated","value":"筛选历史记录"}},"vi":{"stringUnit":{"state":"translated","value":"LọcLịch sử"}}}},
-    "Final" : {"localizations":{"de":{"stringUnit":{"state":"translated","value":"Final"}},"ja":{"stringUnit":{"state":"translated","value":"最終版"}},"zh-Hans":{"stringUnit":{"state":"translated","value":"最终版本"}},"vi":{"stringUnit":{"state":"translated","value":"Bản cuối"}}}},
-    "History & Sync" : {"localizations":{"de":{"stringUnit":{"state":"translated","value":"Verlauf & Sync"}},"ja":{"stringUnit":{"state":"translated","value":"履歴と同期"}},"zh-Hans":{"stringUnit":{"state":"translated","value":"历史记录与同步"}},"vi":{"stringUnit":{"state":"translated","value":"Lịch sử & Đồng bộ"}}}},
-    "History Workspace" : {"localizations":{"de":{"stringUnit":{"state":"translated","value":"Verlaufsarbeitsbereich"}},"ja":{"stringUnit":{"state":"translated","value":"履歴ワークスペース"}},"zh-Hans":{"stringUnit":{"state":"translated","value":"历史记录工作区"}},"vi":{"stringUnit":{"state":"translated","value":"Lịch sử Workspace"}}}},
-    "History sync is optional on each device. Audio stays inside your selected private sync storage and downloads only when requested." : {"localizations":{"de":{"stringUnit":{"state":"translated","value":"Der Verlaufssync ist auf jedem Gerät optional. Audio bleibt im ausgewählten privaten Sync-Speicher und wird nur bei Bedarf geladen."}},"ja":{"stringUnit":{"state":"translated","value":"履歴同期はデバイスごとに任意です。音声は選択したプライベート同期ストレージ内に保存され、必要なときだけダウンロードされます。"}},"zh-Hans":{"stringUnit":{"state":"translated","value":"每台设备都可单独选择是否同步历史记录。音频保留在所选的私人同步存储中，仅在需要时下载。"}},"vi":{"stringUnit":{"state":"translated","value":"Đồng bộ lịch sử là tùy chọn trên từng thiết bị. Âm thanh được lưu trong bộ nhớ đồng bộ riêng tư đã chọn của bạn và chỉ tải xuống khi có yêu cầu."}}}},
-    "Imported Files" : {"localizations":{"de":{"stringUnit":{"state":"translated","value":"Importierte Dateien"}},"ja":{"stringUnit":{"state":"translated","value":"読み込んだファイル"}},"zh-Hans":{"stringUnit":{"state":"translated","value":"导入的文件"}},"vi":{"stringUnit":{"state":"translated","value":"Tệp đã nhập"}}}},
-    "Importing…" : {"localizations":{"de":{"stringUnit":{"state":"translated","value":"Wird importiert …"}},"ja":{"stringUnit":{"state":"translated","value":"読み込み中…"}},"zh-Hans":{"stringUnit":{"state":"translated","value":"正在导入…"}},"vi":{"stringUnit":{"state":"translated","value":"Đang nhập…"}}}},
-    "Inbox" : {"localizations":{"de":{"stringUnit":{"state":"translated","value":"Posteingang"}},"ja":{"stringUnit":{"state":"translated","value":"受信箱"}},"zh-Hans":{"stringUnit":{"state":"translated","value":"收件箱"}},"vi":{"stringUnit":{"state":"translated","value":"Hộp thư đến"}}}},
-    "Inbox is Empty" : {"localizations":{"de":{"stringUnit":{"state":"translated","value":"Posteingang ist leer"}},"ja":{"stringUnit":{"state":"translated","value":"受信箱は空です"}},"zh-Hans":{"stringUnit":{"state":"translated","value":"收件箱为空"}},"vi":{"stringUnit":{"state":"translated","value":"Hộp thư đến trống"}}}},
-    "iOS Keyboard" : {"localizations":{"de":{"stringUnit":{"state":"translated","value":"iOS-Tastatur"}},"ja":{"stringUnit":{"state":"translated","value":"iOSキーボード"}},"zh-Hans":{"stringUnit":{"state":"translated","value":"iOS 键盘"}},"vi":{"stringUnit":{"state":"translated","value":"Bàn phím iOS"}}}},
-    "Library" : {"localizations":{"de":{"stringUnit":{"state":"translated","value":"Mediathek"}},"ja":{"stringUnit":{"state":"translated","value":"ライブラリ"}},"zh-Hans":{"stringUnit":{"state":"translated","value":"资料库"}},"vi":{"stringUnit":{"state":"translated","value":"Thư viện"}}}},
-    "Local History" : {"localizations":{"de":{"stringUnit":{"state":"translated","value":"Lokaler Verlauf"}},"ja":{"stringUnit":{"state":"translated","value":"ローカル履歴"}},"zh-Hans":{"stringUnit":{"state":"translated","value":"本地历史记录"}},"vi":{"stringUnit":{"state":"translated","value":"Lịch sử cục bộ"}}}},
-    "Mark Complete" : {"localizations":{"de":{"stringUnit":{"state":"translated","value":"Als erledigt markieren"}},"ja":{"stringUnit":{"state":"translated","value":"完了にする"}},"zh-Hans":{"stringUnit":{"state":"translated","value":"标记为已完成"}},"vi":{"stringUnit":{"state":"translated","value":"Đánh dấu hoàn thành"}}}},
-    "New captures that need attention will appear here." : {"localizations":{"de":{"stringUnit":{"state":"translated","value":"Neue Aufnahmen, die deine Aufmerksamkeit benötigen, erscheinen hier."}},"ja":{"stringUnit":{"state":"translated","value":"確認が必要な新しいキャプチャがここに表示されます。"}},"zh-Hans":{"stringUnit":{"state":"translated","value":"需要处理的新捕获内容会显示在这里。"}},"vi":{"stringUnit":{"state":"translated","value":"Các bản ghi mới cần chú ý sẽ xuất hiện ở đây."}}}},
-    "Newest First" : {"localizations":{"de":{"stringUnit":{"state":"translated","value":"Neueste zuerst"}},"ja":{"stringUnit":{"state":"translated","value":"新しい順"}},"zh-Hans":{"stringUnit":{"state":"translated","value":"最新优先"}},"vi":{"stringUnit":{"state":"translated","value":"Mới nhất trước"}}}},
-    "No History Yet" : {"localizations":{"de":{"stringUnit":{"state":"translated","value":"Noch kein Verlauf"}},"ja":{"stringUnit":{"state":"translated","value":"履歴はまだありません"}},"zh-Hans":{"stringUnit":{"state":"translated","value":"尚无历史记录"}},"vi":{"stringUnit":{"state":"translated","value":"Không Lịch sử Yet"}}}},
-    "No Results" : {"localizations":{"de":{"stringUnit":{"state":"translated","value":"Keine Ergebnisse"}},"ja":{"stringUnit":{"state":"translated","value":"結果なし"}},"zh-Hans":{"stringUnit":{"state":"translated","value":"无结果"}},"vi":{"stringUnit":{"state":"translated","value":"Không có kết quả"}}}},
-    "No history entries match the current search and filters." : {"localizations":{"de":{"stringUnit":{"state":"translated","value":"Keine Verlaufseinträge entsprechen der aktuellen Suche und den Filtern."}},"ja":{"stringUnit":{"state":"translated","value":"現在の検索条件とフィルタに一致する履歴項目はありません。"}},"zh-Hans":{"stringUnit":{"state":"translated","value":"没有历史记录符合当前搜索和筛选条件。"}},"vi":{"stringUnit":{"state":"translated","value":"Không có mục lịch sử nào khớp với tìm kiếm và bộ lọc hiện tại."}}}},
-    "Oldest First" : {"localizations":{"de":{"stringUnit":{"state":"translated","value":"Älteste zuerst"}},"ja":{"stringUnit":{"state":"translated","value":"古い順"}},"zh-Hans":{"stringUnit":{"state":"translated","value":"最早优先"}},"vi":{"stringUnit":{"state":"translated","value":"Cũ nhất trước"}}}},
-    "Open History" : {"localizations":{"de":{"stringUnit":{"state":"translated","value":"Verlauf öffnen"}},"ja":{"stringUnit":{"state":"translated","value":"履歴を開く"}},"zh-Hans":{"stringUnit":{"state":"translated","value":"打开历史记录"}},"vi":{"stringUnit":{"state":"translated","value":"Mở lịch sử"}}}},
-    "Open in Inbox" : {"localizations":{"de":{"stringUnit":{"state":"translated","value":"Im Posteingang öffnen"}},"ja":{"stringUnit":{"state":"translated","value":"受信箱で開く"}},"zh-Hans":{"stringUnit":{"state":"translated","value":"在收件箱中打开"}},"vi":{"stringUnit":{"state":"translated","value":"Mở trong hộp thư đến"}}}},
-    "Origin" : {"localizations":{"de":{"stringUnit":{"state":"translated","value":"Ursprung"}},"ja":{"stringUnit":{"state":"translated","value":"作成元"}},"zh-Hans":{"stringUnit":{"state":"translated","value":"来源"}},"vi":{"stringUnit":{"state":"translated","value":"Nguồn"}}}},
-    "Original" : {"localizations":{"de":{"stringUnit":{"state":"translated","value":"Original"}},"ja":{"stringUnit":{"state":"translated","value":"オリジナル"}},"zh-Hans":{"stringUnit":{"state":"translated","value":"原始版本"}},"vi":{"stringUnit":{"state":"translated","value":"Gốc"}}}},
-    "Other" : {"localizations":{"de":{"stringUnit":{"state":"translated","value":"Andere"}},"ja":{"stringUnit":{"state":"translated","value":"その他"}},"zh-Hans":{"stringUnit":{"state":"translated","value":"其他"}},"vi":{"stringUnit":{"state":"translated","value":"Khác"}}}},
-    "Processing" : {"localizations":{"de":{"stringUnit":{"state":"translated","value":"Verarbeitung"}},"ja":{"stringUnit":{"state":"translated","value":"処理中"}},"zh-Hans":{"stringUnit":{"state":"translated","value":"处理中"}},"vi":{"stringUnit":{"state":"translated","value":"Đang xử lý"}}}},
-    "Processing Failed" : {"localizations":{"de":{"stringUnit":{"state":"translated","value":"Verarbeitung fehlgeschlagen"}},"ja":{"stringUnit":{"state":"translated","value":"処理に失敗しました"}},"zh-Hans":{"stringUnit":{"state":"translated","value":"处理失败"}},"vi":{"stringUnit":{"state":"translated","value":"Xử lý thất bại"}}}},
-    "Processing failed" : {"localizations":{"de":{"stringUnit":{"state":"translated","value":"Verarbeitung fehlgeschlagen"}},"ja":{"stringUnit":{"state":"translated","value":"処理に失敗しました"}},"zh-Hans":{"stringUnit":{"state":"translated","value":"处理失败"}},"vi":{"stringUnit":{"state":"translated","value":"Xử lý thất bại"}}}},
-    "Processing on %@" : {"localizations":{"de":{"stringUnit":{"state":"translated","value":"Verarbeitung auf %@"}},"ja":{"stringUnit":{"state":"translated","value":"%@で処理中"}},"zh-Hans":{"stringUnit":{"state":"translated","value":"正在 %@ 上处理"}},"vi":{"stringUnit":{"state":"translated","value":"Đang xử lý trên %@"}}}},
-    "Processing on %@…" : {"localizations":{"de":{"stringUnit":{"state":"translated","value":"Verarbeitung auf %@ …"}},"ja":{"stringUnit":{"state":"translated","value":"%@で処理中…"}},"zh-Hans":{"stringUnit":{"state":"translated","value":"正在 %@ 上处理…"}},"vi":{"stringUnit":{"state":"translated","value":"Đang xử lý trên %@…"}}}},
-    "Reopen" : {"localizations":{"de":{"stringUnit":{"state":"translated","value":"Erneut öffnen"}},"ja":{"stringUnit":{"state":"translated","value":"再開"}},"zh-Hans":{"stringUnit":{"state":"translated","value":"重新打开"}},"vi":{"stringUnit":{"state":"translated","value":"Mở lại"}}}},
-    "Restore & Delete" : {"localizations":{"de":{"stringUnit":{"state":"translated","value":"Wiederherstellen & Löschen"}},"ja":{"stringUnit":{"state":"translated","value":"復元と削除"}},"zh-Hans":{"stringUnit":{"state":"translated","value":"恢复与删除"}},"vi":{"stringUnit":{"state":"translated","value":"Khôi phục & Xóa"}}}},
-    "Restore Automatically Removed History" : {"localizations":{"de":{"stringUnit":{"state":"translated","value":"Automatisch entfernten Verlauf wiederherstellen"}},"ja":{"stringUnit":{"state":"translated","value":"自動削除された履歴を復元"}},"zh-Hans":{"stringUnit":{"state":"translated","value":"恢复自动移除的历史记录"}},"vi":{"stringUnit":{"state":"translated","value":"Khôi phục lịch sử đã tự động xóa"}}}},
-    "Restoring re-imports synchronized entries removed only by local retention. Deleting history while sync is enabled removes it from all synchronized devices." : {"localizations":{"de":{"stringUnit":{"state":"translated","value":"Beim Wiederherstellen werden synchronisierte Einträge erneut importiert, die nur durch die lokale Aufbewahrung entfernt wurden. Wenn Sync aktiv ist, wird gelöschter Verlauf von allen synchronisierten Geräten entfernt."}},"ja":{"stringUnit":{"state":"translated","value":"復元すると、ローカルの保存期間によってのみ削除された同期済み項目が再度読み込まれます。同期中に履歴を削除すると、すべての同期デバイスから削除されます。"}},"zh-Hans":{"stringUnit":{"state":"translated","value":"恢复会重新导入仅因本地保留策略而移除的已同步条目。启用同步时删除历史记录，会将其从所有已同步设备中移除。"}},"vi":{"stringUnit":{"state":"translated","value":"Khôi phục sẽ nhập lại các mục đã đồng bộ chỉ bị xóa do thời gian lưu giữ cục bộ. Xóa lịch sử khi đang bật đồng bộ sẽ xóa lịch sử khỏi tất cả các thiết bị đã đồng bộ."}}}},
-    "Search History" : {"localizations":{"de":{"stringUnit":{"state":"translated","value":"Verlauf durchsuchen"}},"ja":{"stringUnit":{"state":"translated","value":"履歴を検索"}},"zh-Hans":{"stringUnit":{"state":"translated","value":"搜索历史记录"}},"vi":{"stringUnit":{"state":"translated","value":"Tìm kiếmLịch sử"}}}},
-    "Search, review, edit, export, and complete Inbox entries in a dedicated window." : {"localizations":{"de":{"stringUnit":{"state":"translated","value":"Posteingangseinträge in einem eigenen Fenster suchen, prüfen, bearbeiten, exportieren und abschließen."}},"ja":{"stringUnit":{"state":"translated","value":"専用ウインドウで受信箱の項目を検索、確認、編集、書き出し、完了できます。"}},"zh-Hans":{"stringUnit":{"state":"translated","value":"在专用窗口中搜索、检查、编辑、导出和完成收件箱条目。"}},"vi":{"stringUnit":{"state":"translated","value":"Tìm kiếm, xem lại, chỉnh sửa, xuất và hoàn thành các mục trong Hộp thư đến trong một cửa sổ riêng."}}}},
-    "Select an Entry" : {"localizations":{"de":{"stringUnit":{"state":"translated","value":"Eintrag auswählen"}},"ja":{"stringUnit":{"state":"translated","value":"項目を選択"}},"zh-Hans":{"stringUnit":{"state":"translated","value":"选择一个条目"}},"vi":{"stringUnit":{"state":"translated","value":"Chọn một mục"}}}},
-    "Shortcuts" : {"localizations":{"de":{"stringUnit":{"state":"translated","value":"Kurzbefehle"}},"ja":{"stringUnit":{"state":"translated","value":"ショートカット"}},"zh-Hans":{"stringUnit":{"state":"translated","value":"快捷指令"}},"vi":{"stringUnit":{"state":"translated","value":"Phím tắt"}}}},
-    "Sort" : {"localizations":{"de":{"stringUnit":{"state":"translated","value":"Sortieren"}},"ja":{"stringUnit":{"state":"translated","value":"並べ替え"}},"zh-Hans":{"stringUnit":{"state":"translated","value":"排序"}},"vi":{"stringUnit":{"state":"translated","value":"Sắp xếp"}}}},
-    "Sort History" : {"localizations":{"de":{"stringUnit":{"state":"translated","value":"Verlauf sortieren"}},"ja":{"stringUnit":{"state":"translated","value":"履歴を並べ替え"}},"zh-Hans":{"stringUnit":{"state":"translated","value":"历史记录排序"}},"vi":{"stringUnit":{"state":"translated","value":"Sắp xếp lịch sử"}}}},
-    "Sources" : {"localizations":{"de":{"stringUnit":{"state":"translated","value":"Quellen"}},"ja":{"stringUnit":{"state":"translated","value":"ソース"}},"zh-Hans":{"stringUnit":{"state":"translated","value":"来源"}},"vi":{"stringUnit":{"state":"translated","value":"Nguồn"}}}},
-    "Sync Audio for New Entries" : {"localizations":{"de":{"stringUnit":{"state":"translated","value":"Audio für neue Einträge synchronisieren"}},"ja":{"stringUnit":{"state":"translated","value":"新しい項目の音声を同期"}},"zh-Hans":{"stringUnit":{"state":"translated","value":"同步新条目的音频"}},"vi":{"stringUnit":{"state":"translated","value":"Đồng bộ âm thanh cho các mục mới"}}}},
-    "Sync History & Inbox" : {"localizations":{"de":{"stringUnit":{"state":"translated","value":"Verlauf & Posteingang synchronisieren"}},"ja":{"stringUnit":{"state":"translated","value":"履歴と受信箱を同期"}},"zh-Hans":{"stringUnit":{"state":"translated","value":"同步历史记录和收件箱"}},"vi":{"stringUnit":{"state":"translated","value":"Đồng bộ lịch sử & hộp thư đến"}}}},
-    "Sync History & Inbox?" : {"localizations":{"de":{"stringUnit":{"state":"translated","value":"Verlauf & Posteingang synchronisieren?"}},"ja":{"stringUnit":{"state":"translated","value":"履歴と受信箱を同期しますか？"}},"zh-Hans":{"stringUnit":{"state":"translated","value":"同步历史记录和收件箱？"}},"vi":{"stringUnit":{"state":"translated","value":"Đồng bộ Lịch sử & Hộp thư đến?"}}}},
-    "Synchronized" : {"localizations":{"de":{"stringUnit":{"state":"translated","value":"Synchronisiert"}},"ja":{"stringUnit":{"state":"translated","value":"同期済み"}},"zh-Hans":{"stringUnit":{"state":"translated","value":"已同步"}},"vi":{"stringUnit":{"state":"translated","value":"Đã đồng bộ"}}}},
-    "Text Version" : {"localizations":{"de":{"stringUnit":{"state":"translated","value":"Textversion"}},"ja":{"stringUnit":{"state":"translated","value":"テキスト版"}},"zh-Hans":{"stringUnit":{"state":"translated","value":"文本版本"}},"vi":{"stringUnit":{"state":"translated","value":"Phiên bản văn bản"}}}},
-    "The origin device could not finish this transcription." : {"localizations":{"de":{"stringUnit":{"state":"translated","value":"Das Ursprungsgerät konnte diese Transkription nicht abschließen."}},"ja":{"stringUnit":{"state":"translated","value":"作成元のデバイスでこの文字起こしを完了できませんでした。"}},"zh-Hans":{"stringUnit":{"state":"translated","value":"来源设备无法完成此转录。"}},"vi":{"stringUnit":{"state":"translated","value":"Thiết bị nguồn không thể hoàn tất bản chép lời này."}}}},
-    "The result will update here automatically." : {"localizations":{"de":{"stringUnit":{"state":"translated","value":"Das Ergebnis wird hier automatisch aktualisiert."}},"ja":{"stringUnit":{"state":"translated","value":"結果はここで自動的に更新されます。"}},"zh-Hans":{"stringUnit":{"state":"translated","value":"结果会在此处自动更新。"}},"vi":{"stringUnit":{"state":"translated","value":"Kết quả sẽ tự động cập nhật tại đây."}}}},
-    "The synchronized audio could not be verified." : {"localizations":{"de":{"stringUnit":{"state":"translated","value":"Das synchronisierte Audio konnte nicht überprüft werden."}},"ja":{"stringUnit":{"state":"translated","value":"同期した音声を検証できませんでした。"}},"zh-Hans":{"stringUnit":{"state":"translated","value":"无法验证已同步的音频。"}},"vi":{"stringUnit":{"state":"translated","value":"Không thể xác minh âm thanh đã đồng bộ."}}}},
-    "The synchronized audio is not available yet." : {"localizations":{"de":{"stringUnit":{"state":"translated","value":"Das synchronisierte Audio ist noch nicht verfügbar."}},"ja":{"stringUnit":{"state":"translated","value":"同期した音声はまだ利用できません。"}},"zh-Hans":{"stringUnit":{"state":"translated","value":"已同步的音频尚不可用。"}},"vi":{"stringUnit":{"state":"translated","value":"Âm thanh đã đồng bộ hiện chưa khả dụng."}}}},
-    "The synchronized audio reference is invalid." : {"localizations":{"de":{"stringUnit":{"state":"translated","value":"Der Verweis auf das synchronisierte Audio ist ungültig."}},"ja":{"stringUnit":{"state":"translated","value":"同期した音声の参照が無効です。"}},"zh-Hans":{"stringUnit":{"state":"translated","value":"已同步音频的引用无效。"}},"vi":{"stringUnit":{"state":"translated","value":"Tham chiếu âm thanh đã đồng bộ không hợp lệ."}}}},
-    "This Mac" : {"localizations":{"de":{"stringUnit":{"state":"translated","value":"Dieser Mac"}},"ja":{"stringUnit":{"state":"translated","value":"このMac"}},"zh-Hans":{"stringUnit":{"state":"translated","value":"此 Mac"}},"vi":{"stringUnit":{"state":"translated","value":"Mac này"}}}},
-    "This Month" : {"localizations":{"de":{"stringUnit":{"state":"translated","value":"Dieser Monat"}},"ja":{"stringUnit":{"state":"translated","value":"今月"}},"zh-Hans":{"stringUnit":{"state":"translated","value":"本月"}},"vi":{"stringUnit":{"state":"translated","value":"Tháng này"}}}},
-    "This deletes all history from every synchronized device. This cannot be undone." : {"localizations":{"de":{"stringUnit":{"state":"translated","value":"Dadurch wird der gesamte Verlauf von allen synchronisierten Geräten gelöscht. Dies kann nicht rückgängig gemacht werden."}},"ja":{"stringUnit":{"state":"translated","value":"すべての同期デバイスから履歴がすべて削除されます。この操作は取り消せません。"}},"zh-Hans":{"stringUnit":{"state":"translated","value":"这会从所有已同步设备中删除全部历史记录，且无法撤销。"}},"vi":{"stringUnit":{"state":"translated","value":"Thao tác này sẽ xóa toàn bộ lịch sử khỏi mọi thiết bị được đồng bộ. Không thể hoàn tác thao tác này."}}}},
-    "This deletes all history stored on this Mac. This cannot be undone." : {"localizations":{"de":{"stringUnit":{"state":"translated","value":"Dadurch wird der gesamte auf diesem Mac gespeicherte Verlauf gelöscht. Dies kann nicht rückgängig gemacht werden."}},"ja":{"stringUnit":{"state":"translated","value":"このMacに保存された履歴がすべて削除されます。この操作は取り消せません。"}},"zh-Hans":{"stringUnit":{"state":"translated","value":"这会删除此 Mac 上存储的全部历史记录，且无法撤销。"}},"vi":{"stringUnit":{"state":"translated","value":"Thao tác này sẽ xóa toàn bộ lịch sử được lưu trên máy Mac này. Không thể hoàn tác."}}}},
-    "This entry is too long to compare word by word. Use Final or Original to read the full text." : {"localizations":{"de":{"stringUnit":{"state":"translated","value":"Dieser Eintrag ist zu lang für einen wortweisen Vergleich. Verwende „Final“ oder „Original“, um den vollständigen Text zu lesen."}},"ja":{"stringUnit":{"state":"translated","value":"この項目は長すぎるため、単語単位で比較できません。全文を読むには「最終版」または「オリジナル」を使用してください。"}},"zh-Hans":{"stringUnit":{"state":"translated","value":"此条目过长，无法逐词比较。请使用“最终版本”或“原始版本”阅读全文。"}},"vi":{"stringUnit":{"state":"translated","value":"Mục này quá dài để so sánh từng từ. Dùng Bản cuối hoặc Bản gốc để đọc toàn bộ văn bản."}}}},
-    "This removes the selected history from every synchronized device. This cannot be undone." : {"localizations":{"de":{"stringUnit":{"state":"translated","value":"Dadurch wird der ausgewählte Verlauf von allen synchronisierten Geräten entfernt. Dies kann nicht rückgängig gemacht werden."}},"ja":{"stringUnit":{"state":"translated","value":"選択した履歴がすべての同期デバイスから削除されます。この操作は取り消せません。"}},"zh-Hans":{"stringUnit":{"state":"translated","value":"这会从所有已同步设备中移除所选历史记录，且无法撤销。"}},"vi":{"stringUnit":{"state":"translated","value":"Thao tác này sẽ xóa lịch sử đã chọn khỏi mọi thiết bị được đồng bộ. Hành động này không thể hoàn tác."}}}},
-    "This removes the selected history from this Mac. This cannot be undone." : {"localizations":{"de":{"stringUnit":{"state":"translated","value":"Dadurch wird der ausgewählte Verlauf von diesem Mac entfernt. Dies kann nicht rückgängig gemacht werden."}},"ja":{"stringUnit":{"state":"translated","value":"選択した履歴がこのMacから削除されます。この操作は取り消せません。"}},"zh-Hans":{"stringUnit":{"state":"translated","value":"这会从此 Mac 中移除所选历史记录，且无法撤销。"}},"vi":{"stringUnit":{"state":"translated","value":"Thao tác này sẽ xóa lịch sử đã chọn khỏi máy Mac này. Không thể hoàn tác."}}}},
-    "With Audio" : {"localizations":{"de":{"stringUnit":{"state":"translated","value":"Mit Audio"}},"ja":{"stringUnit":{"state":"translated","value":"音声あり"}},"zh-Hans":{"stringUnit":{"state":"translated","value":"含音频"}},"vi":{"stringUnit":{"state":"translated","value":"Kèm âm thanh"}}}},
-    "Your saved text and Inbox state will be added to your private sync folder and become available on your other enabled TypeWhisper devices." : {"localizations":{"de":{"stringUnit":{"state":"translated","value":"Gespeicherter Text und der Posteingangsstatus werden deinem privaten Sync-Ordner hinzugefügt und auf deinen anderen aktivierten TypeWhisper-Geräten verfügbar."}},"ja":{"stringUnit":{"state":"translated","value":"保存済みのテキストと受信箱の状態がプライベート同期フォルダに追加され、有効化した他のTypeWhisperデバイスでも利用できるようになります。"}},"zh-Hans":{"stringUnit":{"state":"translated","value":"已保存的文本和收件箱状态将添加到你的私人同步文件夹，并可在其他已启用的 TypeWhisper 设备上使用。"}},"vi":{"stringUnit":{"state":"translated","value":"Văn bản đã lưu và trạng thái Hộp thư đến của bạn sẽ được thêm vào thư mục đồng bộ riêng tư và khả dụng trên các thiết bị TypeWhisper đã bật khác của bạn."}}}},
-    "Your saved transcriptions will appear here." : {"localizations":{"de":{"stringUnit":{"state":"translated","value":"Deine gespeicherten Transkriptionen erscheinen hier."}},"ja":{"stringUnit":{"state":"translated","value":"保存した文字起こしがここに表示されます。"}},"zh-Hans":{"stringUnit":{"state":"translated","value":"你保存的转录会显示在这里。"}},"vi":{"stringUnit":{"state":"translated","value":"Các bản chép lời đã lưu của bạn sẽ xuất hiện tại đây."}}}},
-    "iPhone & iPad" : {"localizations":{"de":{"stringUnit":{"state":"translated","value":"iPhone & iPad"}},"ja":{"stringUnit":{"state":"translated","value":"iPhoneとiPad"}},"zh-Hans":{"stringUnit":{"state":"translated","value":"iPhone 和 iPad"}},"vi":{"stringUnit":{"state":"translated","value":"iPhone & iPad"}}}},
-    "Choose an entry to read and edit its text or inspect its details." : {"localizations":{"de":{"stringUnit":{"state":"translated","value":"Wähle einen Eintrag aus, um seinen Text zu lesen und zu bearbeiten oder seine Details anzusehen."}},"ja":{"stringUnit":{"state":"translated","value":"項目を選択してテキストを読んだり編集したり、詳細を確認したりできます。"}},"zh-Hans":{"stringUnit":{"state":"translated","value":"选择一个条目以阅读和编辑文本，或查看其详细信息。"}},"vi":{"stringUnit":{"state":"translated","value":"Chọn một mục để đọc và chỉnh sửa văn bản hoặc xem chi tiết."}}}},
-    "Device" : {"localizations":{"de":{"stringUnit":{"state":"translated","value":"Gerät"}},"ja":{"stringUnit":{"state":"translated","value":"デバイス"}},"zh-Hans":{"stringUnit":{"state":"translated","value":"设备"}},"vi":{"stringUnit":{"state":"translated","value":"Thiết bị"}}}},
-    "Failed" : {"localizations":{"de":{"stringUnit":{"state":"translated","value":"Fehlgeschlagen"}},"ja":{"stringUnit":{"state":"translated","value":"失敗"}},"zh-Hans":{"stringUnit":{"state":"translated","value":"失败"}},"vi":{"stringUnit":{"state":"translated","value":"Thất bại"}}}},
-    "Failed imports and transcriptions will appear here." : {"localizations":{"de":{"stringUnit":{"state":"translated","value":"Fehlgeschlagene Importe und Transkriptionen erscheinen hier."}},"ja":{"stringUnit":{"state":"translated","value":"失敗した読み込みと文字起こしがここに表示されます。"}},"zh-Hans":{"stringUnit":{"state":"translated","value":"失败的导入和转录会显示在这里。"}},"vi":{"stringUnit":{"state":"translated","value":"Các lần nhập và bản chép lời không thành công sẽ xuất hiện tại đây."}}}},
-    "History sync is optional on each device. Audio sync applies to new entries and downloads automatically on enabled devices." : {"localizations":{"de":{"stringUnit":{"state":"translated","value":"Der Verlaufssync ist auf jedem Gerät optional. Audiosync gilt für neue Einträge und lädt Audio auf aktivierten Geräten automatisch herunter."}},"ja":{"stringUnit":{"state":"translated","value":"履歴同期はデバイスごとに任意です。音声同期は新しい項目に適用され、有効なデバイスに自動的にダウンロードされます。"}},"zh-Hans":{"stringUnit":{"state":"translated","value":"每台设备都可单独选择是否同步历史记录。音频同步适用于新条目，并会自动下载到已启用的设备。"}},"vi":{"stringUnit":{"state":"translated","value":"Đồng bộ lịch sử là tùy chọn trên từng thiết bị. Đồng bộ âm thanh áp dụng cho các mục mới và tự động tải xuống trên các thiết bị đã bật."}}}},
-    "iPad App" : {"localizations":{"de":{"stringUnit":{"state":"translated","value":"iPad-App"}},"ja":{"stringUnit":{"state":"translated","value":"iPadアプリ"}},"zh-Hans":{"stringUnit":{"state":"translated","value":"iPad App"}},"vi":{"stringUnit":{"state":"translated","value":"Ứng dụng iPad"}}}},
-    "iPhone App" : {"localizations":{"de":{"stringUnit":{"state":"translated","value":"iPhone-App"}},"ja":{"stringUnit":{"state":"translated","value":"iPhoneアプリ"}},"zh-Hans":{"stringUnit":{"state":"translated","value":"iPhone App"}},"vi":{"stringUnit":{"state":"translated","value":"Ứng dụng iPhone"}}}},
-    "Mac Dictation" : {"localizations":{"de":{"stringUnit":{"state":"translated","value":"Mac-Diktat"}},"ja":{"stringUnit":{"state":"translated","value":"Macの音声入力"}},"zh-Hans":{"stringUnit":{"state":"translated","value":"Mac 听写"}},"vi":{"stringUnit":{"state":"translated","value":"Mac Đọc chính tả"}}}},
-    "Windows Dictation" : {"localizations":{"de":{"stringUnit":{"state":"translated","value":"Windows-Diktat"}},"ja":{"stringUnit":{"state":"translated","value":"Windowsの音声入力"}},"zh-Hans":{"stringUnit":{"state":"translated","value":"Windows 听写"}},"vi":{"stringUnit":{"state":"translated","value":"Windows Đọc chính tả"}}}},
-    "Windows" : {"localizations":{"de":{"stringUnit":{"state":"translated","value":"Windows"}},"ja":{"stringUnit":{"state":"translated","value":"Windows"}},"zh-Hans":{"stringUnit":{"state":"translated","value":"Windows"}},"vi":{"stringUnit":{"state":"translated","value":"Windows"}}}},
-    "Recorder" : {"localizations":{"de":{"stringUnit":{"state":"translated","value":"Recorder"}},"ja":{"stringUnit":{"state":"translated","value":"レコーダー"}},"zh-Hans":{"stringUnit":{"state":"translated","value":"录音"}},"vi":{"stringUnit":{"state":"translated","value":"Trình ghi âm"}}}},
-    "More History Options" : {"localizations":{"de":{"stringUnit":{"state":"translated","value":"Weitere Verlaufsoptionen"}},"ja":{"stringUnit":{"state":"translated","value":"その他の履歴オプション"}},"zh-Hans":{"stringUnit":{"state":"translated","value":"更多历史记录选项"}},"vi":{"stringUnit":{"state":"translated","value":"Tùy chọn lịch sử khác"}}}},
-    "No Failed Entries" : {"localizations":{"de":{"stringUnit":{"state":"translated","value":"Keine fehlgeschlagenen Einträge"}},"ja":{"stringUnit":{"state":"translated","value":"失敗した項目はありません"}},"zh-Hans":{"stringUnit":{"state":"translated","value":"没有失败的条目"}},"vi":{"stringUnit":{"state":"translated","value":"Không có mục nào bị lỗi"}}}},
-    "Save Changes?" : {"localizations":{"de":{"stringUnit":{"state":"translated","value":"Änderungen speichern?"}},"ja":{"stringUnit":{"state":"translated","value":"変更を保存しますか？"}},"zh-Hans":{"stringUnit":{"state":"translated","value":"保存更改？"}},"vi":{"stringUnit":{"state":"translated","value":"Lưu Changes?"}}}},
-    "Save or discard your changes before leaving this entry." : {"localizations":{"de":{"stringUnit":{"state":"translated","value":"Speichere oder verwirf deine Änderungen, bevor du diesen Eintrag verlässt."}},"ja":{"stringUnit":{"state":"translated","value":"この項目を離れる前に変更を保存または破棄してください。"}},"zh-Hans":{"stringUnit":{"state":"translated","value":"离开此条目前，请保存或放弃更改。"}},"vi":{"stringUnit":{"state":"translated","value":"Lưu hoặc hủy các thay đổi của bạn trước khi rời khỏi mục này."}}}},
-    "Smart Mailboxes" : {"localizations":{"de":{"stringUnit":{"state":"translated","value":"Intelligente Postfächer"}},"ja":{"stringUnit":{"state":"translated","value":"スマートメールボックス"}},"zh-Hans":{"stringUnit":{"state":"translated","value":"智能邮箱"}},"vi":{"stringUnit":{"state":"translated","value":"Hộp thư thông minh"}}}},
-    "Enable the integration to open this page." : {"localizations":{"de":{"stringUnit":{"state":"translated","value":"Aktiviere die Integration, um diese Seite zu öffnen."}},"ja":{"stringUnit":{"state":"translated","value":"このページを開くには、プラグインを有効にしてください。"}},"zh-Hans":{"stringUnit":{"state":"translated","value":"启用集成后即可打开此页面。"}},"vi":{"stringUnit":{"state":"translated","value":"Bật tích hợp để mở trang này."}}}},
-    "Integration Unavailable" : {"localizations":{"de":{"stringUnit":{"state":"translated","value":"Integration nicht verfügbar"}},"ja":{"stringUnit":{"state":"translated","value":"プラグインを利用できません"}},"zh-Hans":{"stringUnit":{"state":"translated","value":"集成不可用"}},"vi":{"stringUnit":{"state":"translated","value":"Tích hợp không khả dụng"}}}},
+    "%lld Entries Selected" : {
+      "localizations" : {
+        "de" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld Eintrag ausgewählt"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld Einträge ausgewählt"
+                }
+              }
+            }
+          }
+        },
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld Entry Selected"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld Entries Selected"
+                }
+              }
+            }
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld件を選択"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已选择 %lld 个条目"
+          }
+        },
+        "vi" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Đã chọn %lld mục"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Đã chọn %lld mục"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "All History" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gesamter Verlauf"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "すべての履歴"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "所有历史记录"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tất cả Lịch sử"
+          }
+        }
+      }
+    },
+    "App Name" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "App-Name"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アプリ名"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "应用名称"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tên ứng dụng"
+          }
+        }
+      }
+    },
+    "Apple Watch" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apple Watch"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apple Watch"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apple Watch"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apple Watch"
+          }
+        }
+      }
+    },
+    "Audio available" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Audio verfügbar"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "音声あり"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "有音频"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Có âm thanh"
+          }
+        }
+      }
+    },
+    "Audio download failed" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Audio-Download fehlgeschlagen"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "音声のダウンロードに失敗しました"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "音频下载失败"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tải âm thanh thất bại"
+          }
+        }
+      }
+    },
+    "Audio is available in iCloud." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Audio ist in iCloud verfügbar."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "音声はiCloudで利用できます。"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "音频可从 iCloud 获取。"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Âm thanh có sẵn trên iCloud."
+          }
+        }
+      }
+    },
+    "Changes" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Änderungen"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "変更"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "更改"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thay đổi"
+          }
+        }
+      }
+    },
+    "Changes Unavailable" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Änderungen nicht verfügbar"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "変更を表示できません"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "无法显示更改"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thay đổi không khả dụng"
+          }
+        }
+      }
+    },
+    "Choose an entry to read its text, audio, and details." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wähle einen Eintrag aus, um Text, Audio und Details anzuzeigen."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "テキスト、音声、詳細を表示する項目を選択してください。"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "选择一个条目以查看文本、音频和详细信息。"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chọn một mục để xem văn bản, âm thanh và chi tiết."
+          }
+        }
+      }
+    },
+    "Copy, export, complete, reopen, or delete the selected entries." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ausgewählte Einträge kopieren, exportieren, abschließen, erneut öffnen oder löschen."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "選択した項目をコピー、書き出し、完了、再開、削除できます。"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "可以复制、导出、完成、重新打开或删除所选条目。"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sao chép, xuất, hoàn tất, mở lại hoặc xóa các mục đã chọn."
+          }
+        }
+      }
+    },
+    "Corrections added to the dictionary" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Korrekturen zum Wörterbuch hinzugefügt"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "修正を辞書に追加しました"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已将更正添加到词典"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đã thêm các mục sửa lỗi vào từ điển"
+          }
+        }
+      }
+    },
+    "Delete %lld Entries?" : {
+      "localizations" : {
+        "de" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld Eintrag löschen?"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld Einträge löschen?"
+                }
+              }
+            }
+          }
+        },
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Delete %lld Entry?"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Delete %lld Entries?"
+                }
+              }
+            }
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld件の項目を削除しますか？"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "删除 %lld 个条目？"
+          }
+        },
+        "vi" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Xóa %lld mục?"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Xóa %lld mục?"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "Delete All History?" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gesamten Verlauf löschen?"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "すべての履歴を削除しますか？"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "删除所有历史记录？"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Xóa tất cả lịch sử?"
+          }
+        }
+      }
+    },
+    "Delete Entry?" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eintrag löschen?"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "項目を削除しますか？"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "删除条目？"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Xóamục？"
+          }
+        }
+      }
+    },
+    "Delete History" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verlauf löschen"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "履歴を削除"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "删除历史记录"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "XóaLịch sử"
+          }
+        }
+      }
+    },
+    "Download Audio" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Audio laden"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "音声をダウンロード"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "下载音频"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tải về Âm thanh"
+          }
+        }
+      }
+    },
+    "Downloading and verifying audio…" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Audio wird geladen und überprüft …"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "音声をダウンロードして検証中…"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在下载并验证音频…"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đang tải xuống và xác minh âm thanh…"
+          }
+        }
+      }
+    },
+    "Duration" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dauer"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "長さ"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "时长"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thời lượng"
+          }
+        }
+      }
+    },
+    "Empty transcription" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Leere Transkription"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "空の文字起こし"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "空转录"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bản chép lời trống"
+          }
+        }
+      }
+    },
+    "Enable History Sync" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verlaufssync aktivieren"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "履歴同期を有効にする"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "启用历史记录同步"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bật đồng bộ lịch sử"
+          }
+        }
+      }
+    },
+    "Enable Premium Sync first, then choose whether this Mac participates in History and Inbox sync." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aktiviere zuerst Premium Sync und lege dann fest, ob dieser Mac Verlauf und Posteingang synchronisiert."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "まずPremium同期を有効にしてから、このMacで履歴と受信箱を同期するか選択してください。"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "请先启用 Premium 同步，然后选择此 Mac 是否参与历史记录和收件箱同步。"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bật Đồng bộ Premium trước, sau đó chọn xem máy Mac này có tham gia đồng bộ Lịch sử và Hộp thư đến hay không."
+          }
+        }
+      }
+    },
+    "Enable Sync" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sync aktivieren"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "同期を有効にする"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "启用同步"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bật đồng bộ"
+          }
+        }
+      }
+    },
+    "Existing transcription text and metadata will be added to your private sync folder. Audio is synchronized only for new entries created after you enable this feature." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vorhandene Transkriptionstexte und Metadaten werden deinem privaten Sync-Ordner hinzugefügt. Audio wird nur für neue Einträge synchronisiert, die nach der Aktivierung erstellt werden."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "既存の文字起こしテキストとメタデータがプライベート同期フォルダに追加されます。音声は、この機能を有効にした後に作成された新しい項目だけ同期されます。"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "现有转录文本和元数据将添加到你的私人同步文件夹。仅同步启用此功能后创建的新条目的音频。"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Văn bản bản chép lời và siêu dữ liệu hiện có sẽ được thêm vào thư mục đồng bộ riêng tư của bạn. Âm thanh chỉ được đồng bộ hóa cho các mục mới được tạo sau khi bạn bật tính năng này."
+          }
+        }
+      }
+    },
+    "Export as…" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Exportieren als …"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "書き出す…"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "导出为…"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Xuất as…"
+          }
+        }
+      }
+    },
+    "Filter" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Filter"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "フィルタ"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "筛选"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bộ lọc"
+          }
+        }
+      }
+    },
+    "Filter History" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verlauf filtern"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "履歴を絞り込む"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "筛选历史记录"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "LọcLịch sử"
+          }
+        }
+      }
+    },
+    "Final" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Final"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "最終版"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "最终版本"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bản cuối"
+          }
+        }
+      }
+    },
+    "History & Sync" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verlauf & Sync"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "履歴と同期"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "历史记录与同步"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lịch sử & Đồng bộ"
+          }
+        }
+      }
+    },
+    "History Workspace" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verlaufsarbeitsbereich"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "履歴ワークスペース"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "历史记录工作区"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lịch sử Workspace"
+          }
+        }
+      }
+    },
+    "History sync is optional on each device. Audio stays inside your selected private sync storage and downloads only when requested." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Der Verlaufssync ist auf jedem Gerät optional. Audio bleibt im ausgewählten privaten Sync-Speicher und wird nur bei Bedarf geladen."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "履歴同期はデバイスごとに任意です。音声は選択したプライベート同期ストレージ内に保存され、必要なときだけダウンロードされます。"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "每台设备都可单独选择是否同步历史记录。音频保留在所选的私人同步存储中，仅在需要时下载。"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đồng bộ lịch sử là tùy chọn trên từng thiết bị. Âm thanh được lưu trong bộ nhớ đồng bộ riêng tư đã chọn của bạn và chỉ tải xuống khi có yêu cầu."
+          }
+        }
+      }
+    },
+    "Imported Files" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Importierte Dateien"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "読み込んだファイル"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "导入的文件"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tệp đã nhập"
+          }
+        }
+      }
+    },
+    "Importing…" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wird importiert …"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "読み込み中…"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在导入…"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đang nhập…"
+          }
+        }
+      }
+    },
+    "Inbox" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Posteingang"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "受信箱"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "收件箱"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hộp thư đến"
+          }
+        }
+      }
+    },
+    "Inbox is Empty" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Posteingang ist leer"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "受信箱は空です"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "收件箱为空"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hộp thư đến trống"
+          }
+        }
+      }
+    },
+    "iOS Keyboard" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "iOS-Tastatur"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "iOSキーボード"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "iOS 键盘"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bàn phím iOS"
+          }
+        }
+      }
+    },
+    "Library" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mediathek"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ライブラリ"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "资料库"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thư viện"
+          }
+        }
+      }
+    },
+    "Local History" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lokaler Verlauf"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ローカル履歴"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "本地历史记录"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lịch sử cục bộ"
+          }
+        }
+      }
+    },
+    "Mark Complete" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Als erledigt markieren"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "完了にする"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "标记为已完成"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đánh dấu hoàn thành"
+          }
+        }
+      }
+    },
+    "New captures that need attention will appear here." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Neue Aufnahmen, die deine Aufmerksamkeit benötigen, erscheinen hier."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "確認が必要な新しいキャプチャがここに表示されます。"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "需要处理的新捕获内容会显示在这里。"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Các bản ghi mới cần chú ý sẽ xuất hiện ở đây."
+          }
+        }
+      }
+    },
+    "Newest First" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Neueste zuerst"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "新しい順"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "最新优先"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mới nhất trước"
+          }
+        }
+      }
+    },
+    "No History Yet" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Noch kein Verlauf"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "履歴はまだありません"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "尚无历史记录"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Không Lịch sử Yet"
+          }
+        }
+      }
+    },
+    "No Results" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keine Ergebnisse"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "結果なし"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "无结果"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Không có kết quả"
+          }
+        }
+      }
+    },
+    "No history entries match the current search and filters." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keine Verlaufseinträge entsprechen der aktuellen Suche und den Filtern."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "現在の検索条件とフィルタに一致する履歴項目はありません。"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "没有历史记录符合当前搜索和筛选条件。"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Không có mục lịch sử nào khớp với tìm kiếm và bộ lọc hiện tại."
+          }
+        }
+      }
+    },
+    "Oldest First" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Älteste zuerst"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "古い順"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "最早优先"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cũ nhất trước"
+          }
+        }
+      }
+    },
+    "Open History" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verlauf öffnen"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "履歴を開く"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "打开历史记录"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mở lịch sử"
+          }
+        }
+      }
+    },
+    "Open in Inbox" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Im Posteingang öffnen"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "受信箱で開く"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在收件箱中打开"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mở trong hộp thư đến"
+          }
+        }
+      }
+    },
+    "Origin" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ursprung"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "作成元"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "来源"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nguồn"
+          }
+        }
+      }
+    },
+    "Original" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Original"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "オリジナル"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "原始版本"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gốc"
+          }
+        }
+      }
+    },
+    "Other" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Andere"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "その他"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "其他"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Khác"
+          }
+        }
+      }
+    },
+    "Processing" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verarbeitung"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "処理中"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "处理中"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đang xử lý"
+          }
+        }
+      }
+    },
+    "Processing Failed" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verarbeitung fehlgeschlagen"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "処理に失敗しました"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "处理失败"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Xử lý thất bại"
+          }
+        }
+      }
+    },
+    "Processing failed" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verarbeitung fehlgeschlagen"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "処理に失敗しました"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "处理失败"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Xử lý thất bại"
+          }
+        }
+      }
+    },
+    "Processing on %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verarbeitung auf %@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@で処理中"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在 %@ 上处理"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đang xử lý trên %@"
+          }
+        }
+      }
+    },
+    "Processing on %@…" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verarbeitung auf %@ …"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@で処理中…"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在 %@ 上处理…"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đang xử lý trên %@…"
+          }
+        }
+      }
+    },
+    "Reopen" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Erneut öffnen"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "再開"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "重新打开"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mở lại"
+          }
+        }
+      }
+    },
+    "Restore & Delete" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wiederherstellen & Löschen"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "復元と削除"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "恢复与删除"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Khôi phục & Xóa"
+          }
+        }
+      }
+    },
+    "Restore Automatically Removed History" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Automatisch entfernten Verlauf wiederherstellen"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "自動削除された履歴を復元"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "恢复自动移除的历史记录"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Khôi phục lịch sử đã tự động xóa"
+          }
+        }
+      }
+    },
+    "Restoring re-imports synchronized entries removed only by local retention. Deleting history while sync is enabled removes it from all synchronized devices." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beim Wiederherstellen werden synchronisierte Einträge erneut importiert, die nur durch die lokale Aufbewahrung entfernt wurden. Wenn Sync aktiv ist, wird gelöschter Verlauf von allen synchronisierten Geräten entfernt."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "復元すると、ローカルの保存期間によってのみ削除された同期済み項目が再度読み込まれます。同期中に履歴を削除すると、すべての同期デバイスから削除されます。"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "恢复会重新导入仅因本地保留策略而移除的已同步条目。启用同步时删除历史记录，会将其从所有已同步设备中移除。"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Khôi phục sẽ nhập lại các mục đã đồng bộ chỉ bị xóa do thời gian lưu giữ cục bộ. Xóa lịch sử khi đang bật đồng bộ sẽ xóa lịch sử khỏi tất cả các thiết bị đã đồng bộ."
+          }
+        }
+      }
+    },
+    "Search History" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verlauf durchsuchen"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "履歴を検索"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "搜索历史记录"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tìm kiếmLịch sử"
+          }
+        }
+      }
+    },
+    "Search, review, edit, export, and complete Inbox entries in a dedicated window." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Posteingangseinträge in einem eigenen Fenster suchen, prüfen, bearbeiten, exportieren und abschließen."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "専用ウインドウで受信箱の項目を検索、確認、編集、書き出し、完了できます。"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在专用窗口中搜索、检查、编辑、导出和完成收件箱条目。"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tìm kiếm, xem lại, chỉnh sửa, xuất và hoàn thành các mục trong Hộp thư đến trong một cửa sổ riêng."
+          }
+        }
+      }
+    },
+    "Select an Entry" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eintrag auswählen"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "項目を選択"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "选择一个条目"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chọn một mục"
+          }
+        }
+      }
+    },
+    "Shortcuts" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kurzbefehle"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ショートカット"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "快捷指令"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Phím tắt"
+          }
+        }
+      }
+    },
+    "Sort" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sortieren"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "並べ替え"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "排序"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sắp xếp"
+          }
+        }
+      }
+    },
+    "Sort History" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verlauf sortieren"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "履歴を並べ替え"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "历史记录排序"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sắp xếp lịch sử"
+          }
+        }
+      }
+    },
+    "Sources" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quellen"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ソース"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "来源"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nguồn"
+          }
+        }
+      }
+    },
+    "Sync Audio for New Entries" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Audio für neue Einträge synchronisieren"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "新しい項目の音声を同期"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "同步新条目的音频"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đồng bộ âm thanh cho các mục mới"
+          }
+        }
+      }
+    },
+    "Sync History & Inbox" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verlauf & Posteingang synchronisieren"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "履歴と受信箱を同期"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "同步历史记录和收件箱"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đồng bộ lịch sử & hộp thư đến"
+          }
+        }
+      }
+    },
+    "Sync History & Inbox?" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verlauf & Posteingang synchronisieren?"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "履歴と受信箱を同期しますか？"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "同步历史记录和收件箱？"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đồng bộ Lịch sử & Hộp thư đến?"
+          }
+        }
+      }
+    },
+    "Synchronized" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Synchronisiert"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "同期済み"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已同步"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đã đồng bộ"
+          }
+        }
+      }
+    },
+    "Text Version" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Textversion"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "テキスト版"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "文本版本"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Phiên bản văn bản"
+          }
+        }
+      }
+    },
+    "The origin device could not finish this transcription." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Das Ursprungsgerät konnte diese Transkription nicht abschließen."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "作成元のデバイスでこの文字起こしを完了できませんでした。"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "来源设备无法完成此转录。"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thiết bị nguồn không thể hoàn tất bản chép lời này."
+          }
+        }
+      }
+    },
+    "The result will update here automatically." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Das Ergebnis wird hier automatisch aktualisiert."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "結果はここで自動的に更新されます。"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "结果会在此处自动更新。"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kết quả sẽ tự động cập nhật tại đây."
+          }
+        }
+      }
+    },
+    "The synchronized audio could not be verified." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Das synchronisierte Audio konnte nicht überprüft werden."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "同期した音声を検証できませんでした。"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "无法验证已同步的音频。"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Không thể xác minh âm thanh đã đồng bộ."
+          }
+        }
+      }
+    },
+    "The synchronized audio is not available yet." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Das synchronisierte Audio ist noch nicht verfügbar."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "同期した音声はまだ利用できません。"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已同步的音频尚不可用。"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Âm thanh đã đồng bộ hiện chưa khả dụng."
+          }
+        }
+      }
+    },
+    "The synchronized audio reference is invalid." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Der Verweis auf das synchronisierte Audio ist ungültig."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "同期した音声の参照が無効です。"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已同步音频的引用无效。"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tham chiếu âm thanh đã đồng bộ không hợp lệ."
+          }
+        }
+      }
+    },
+    "This Mac" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dieser Mac"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "このMac"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "此 Mac"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mac này"
+          }
+        }
+      }
+    },
+    "This Month" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dieser Monat"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "今月"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "本月"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tháng này"
+          }
+        }
+      }
+    },
+    "This deletes all history from every synchronized device. This cannot be undone." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dadurch wird der gesamte Verlauf von allen synchronisierten Geräten gelöscht. Dies kann nicht rückgängig gemacht werden."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "すべての同期デバイスから履歴がすべて削除されます。この操作は取り消せません。"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "这会从所有已同步设备中删除全部历史记录，且无法撤销。"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thao tác này sẽ xóa toàn bộ lịch sử khỏi mọi thiết bị được đồng bộ. Không thể hoàn tác thao tác này."
+          }
+        }
+      }
+    },
+    "This deletes all history stored on this Mac. This cannot be undone." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dadurch wird der gesamte auf diesem Mac gespeicherte Verlauf gelöscht. Dies kann nicht rückgängig gemacht werden."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "このMacに保存された履歴がすべて削除されます。この操作は取り消せません。"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "这会删除此 Mac 上存储的全部历史记录，且无法撤销。"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thao tác này sẽ xóa toàn bộ lịch sử được lưu trên máy Mac này. Không thể hoàn tác."
+          }
+        }
+      }
+    },
+    "This entry is too long to compare word by word. Use Final or Original to read the full text." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dieser Eintrag ist zu lang für einen wortweisen Vergleich. Verwende „Final“ oder „Original“, um den vollständigen Text zu lesen."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "この項目は長すぎるため、単語単位で比較できません。全文を読むには「最終版」または「オリジナル」を使用してください。"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "此条目过长，无法逐词比较。请使用“最终版本”或“原始版本”阅读全文。"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mục này quá dài để so sánh từng từ. Dùng Bản cuối hoặc Bản gốc để đọc toàn bộ văn bản."
+          }
+        }
+      }
+    },
+    "This removes the selected history from every synchronized device. This cannot be undone." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dadurch wird der ausgewählte Verlauf von allen synchronisierten Geräten entfernt. Dies kann nicht rückgängig gemacht werden."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "選択した履歴がすべての同期デバイスから削除されます。この操作は取り消せません。"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "这会从所有已同步设备中移除所选历史记录，且无法撤销。"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thao tác này sẽ xóa lịch sử đã chọn khỏi mọi thiết bị được đồng bộ. Hành động này không thể hoàn tác."
+          }
+        }
+      }
+    },
+    "This removes the selected history from this Mac. This cannot be undone." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dadurch wird der ausgewählte Verlauf von diesem Mac entfernt. Dies kann nicht rückgängig gemacht werden."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "選択した履歴がこのMacから削除されます。この操作は取り消せません。"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "这会从此 Mac 中移除所选历史记录，且无法撤销。"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thao tác này sẽ xóa lịch sử đã chọn khỏi máy Mac này. Không thể hoàn tác."
+          }
+        }
+      }
+    },
+    "With Audio" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mit Audio"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "音声あり"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "含音频"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kèm âm thanh"
+          }
+        }
+      }
+    },
+    "Your saved text and Inbox state will be added to your private sync folder and become available on your other enabled TypeWhisper devices." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gespeicherter Text und der Posteingangsstatus werden deinem privaten Sync-Ordner hinzugefügt und auf deinen anderen aktivierten TypeWhisper-Geräten verfügbar."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "保存済みのテキストと受信箱の状態がプライベート同期フォルダに追加され、有効化した他のTypeWhisperデバイスでも利用できるようになります。"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已保存的文本和收件箱状态将添加到你的私人同步文件夹，并可在其他已启用的 TypeWhisper 设备上使用。"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Văn bản đã lưu và trạng thái Hộp thư đến của bạn sẽ được thêm vào thư mục đồng bộ riêng tư và khả dụng trên các thiết bị TypeWhisper đã bật khác của bạn."
+          }
+        }
+      }
+    },
+    "Your saved transcriptions will appear here." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deine gespeicherten Transkriptionen erscheinen hier."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "保存した文字起こしがここに表示されます。"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "你保存的转录会显示在这里。"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Các bản chép lời đã lưu của bạn sẽ xuất hiện tại đây."
+          }
+        }
+      }
+    },
+    "iPhone & iPad" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "iPhone & iPad"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "iPhoneとiPad"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "iPhone 和 iPad"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "iPhone & iPad"
+          }
+        }
+      }
+    },
+    "Choose an entry to read and edit its text or inspect its details." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wähle einen Eintrag aus, um seinen Text zu lesen und zu bearbeiten oder seine Details anzusehen."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "項目を選択してテキストを読んだり編集したり、詳細を確認したりできます。"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "选择一个条目以阅读和编辑文本，或查看其详细信息。"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chọn một mục để đọc và chỉnh sửa văn bản hoặc xem chi tiết."
+          }
+        }
+      }
+    },
+    "Device" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gerät"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "デバイス"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "设备"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thiết bị"
+          }
+        }
+      }
+    },
+    "Failed" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fehlgeschlagen"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "失敗"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "失败"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thất bại"
+          }
+        }
+      }
+    },
+    "Failed imports and transcriptions will appear here." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fehlgeschlagene Importe und Transkriptionen erscheinen hier."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "失敗した読み込みと文字起こしがここに表示されます。"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "失败的导入和转录会显示在这里。"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Các lần nhập và bản chép lời không thành công sẽ xuất hiện tại đây."
+          }
+        }
+      }
+    },
+    "History sync is optional on each device. Audio sync applies to new entries and downloads automatically on enabled devices." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Der Verlaufssync ist auf jedem Gerät optional. Audiosync gilt für neue Einträge und lädt Audio auf aktivierten Geräten automatisch herunter."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "履歴同期はデバイスごとに任意です。音声同期は新しい項目に適用され、有効なデバイスに自動的にダウンロードされます。"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "每台设备都可单独选择是否同步历史记录。音频同步适用于新条目，并会自动下载到已启用的设备。"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đồng bộ lịch sử là tùy chọn trên từng thiết bị. Đồng bộ âm thanh áp dụng cho các mục mới và tự động tải xuống trên các thiết bị đã bật."
+          }
+        }
+      }
+    },
+    "iPad App" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "iPad-App"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "iPadアプリ"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "iPad App"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ứng dụng iPad"
+          }
+        }
+      }
+    },
+    "iPhone App" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "iPhone-App"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "iPhoneアプリ"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "iPhone App"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ứng dụng iPhone"
+          }
+        }
+      }
+    },
+    "Mac Dictation" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mac-Diktat"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Macの音声入力"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mac 听写"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mac Đọc chính tả"
+          }
+        }
+      }
+    },
+    "Windows Dictation" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Windows-Diktat"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Windowsの音声入力"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Windows 听写"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Windows Đọc chính tả"
+          }
+        }
+      }
+    },
+    "Windows" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Windows"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Windows"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Windows"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Windows"
+          }
+        }
+      }
+    },
+    "Recorder" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Recorder"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "レコーダー"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "录音"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trình ghi âm"
+          }
+        }
+      }
+    },
+    "More History Options" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Weitere Verlaufsoptionen"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "その他の履歴オプション"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "更多历史记录选项"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tùy chọn lịch sử khác"
+          }
+        }
+      }
+    },
+    "No Failed Entries" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keine fehlgeschlagenen Einträge"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "失敗した項目はありません"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "没有失败的条目"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Không có mục nào bị lỗi"
+          }
+        }
+      }
+    },
+    "Save Changes?" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Änderungen speichern?"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "変更を保存しますか？"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "保存更改？"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lưu Changes?"
+          }
+        }
+      }
+    },
+    "Save or discard your changes before leaving this entry." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Speichere oder verwirf deine Änderungen, bevor du diesen Eintrag verlässt."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "この項目を離れる前に変更を保存または破棄してください。"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "离开此条目前，请保存或放弃更改。"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lưu hoặc hủy các thay đổi của bạn trước khi rời khỏi mục này."
+          }
+        }
+      }
+    },
+    "Smart Mailboxes" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Intelligente Postfächer"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "スマートメールボックス"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "智能邮箱"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hộp thư thông minh"
+          }
+        }
+      }
+    },
+    "Enable the integration to open this page." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aktiviere die Integration, um diese Seite zu öffnen."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "このページを開くには、プラグインを有効にしてください。"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "启用集成后即可打开此页面。"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bật tích hợp để mở trang này."
+          }
+        }
+      }
+    },
+    "Integration Unavailable" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Integration nicht verfügbar"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "プラグインを利用できません"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "集成不可用"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tích hợp không khả dụng"
+          }
+        }
+      }
+    },
     "calendarMeeting.settings.howItWorks" : {
       "localizations" : {
         "de" : {

@@ -20,6 +20,12 @@
             "state": "translated",
             "value": "平衡"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cân bằng"
+          }
         }
       }
     },
@@ -41,6 +47,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "删除缓存的模型"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Xóa mô hình trong bộ đệm"
           }
         }
       }
@@ -64,6 +76,12 @@
             "state": "translated",
             "value": "下载并加载"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tải xuống và nạp"
+          }
         }
       }
     },
@@ -85,6 +103,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "快速"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nhanh"
           }
         }
       }
@@ -108,6 +132,12 @@
             "state": "translated",
             "value": "高"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cao"
+          }
         }
       }
     },
@@ -129,6 +159,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Hugging Face 令牌"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Token Hugging Face"
           }
         }
       }
@@ -152,6 +188,12 @@
             "state": "translated",
             "value": "我已阅读并接受 Supertonic 3 模型许可条款"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tôi đã đọc và chấp nhận điều khoản giấy phép mô hình Supertonic 3"
+          }
         }
       }
     },
@@ -173,6 +215,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "无效的 Hugging Face 令牌"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Token Hugging Face không hợp lệ"
           }
         }
       }
@@ -196,6 +244,12 @@
             "state": "translated",
             "value": "由 Supertonic 3 ONNX 模型驱动的本地语音合成。模型资源仅在您接受模型许可后下载。"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chuyển văn bản thành giọng nói cục bộ bằng mô hình ONNX Supertonic 3. Tài nguyên mô hình chỉ được tải xuống sau khi bạn chấp nhận giấy phép mô hình."
+          }
         }
       }
     },
@@ -217,6 +271,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "模型"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mô hình"
           }
         }
       }
@@ -240,6 +300,12 @@
             "state": "translated",
             "value": "模型许可"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Giấy phép mô hình"
+          }
         }
       }
     },
@@ -261,6 +327,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "打开 Supertonic 3 OpenRAIL-M 许可"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mở giấy phép OpenRAIL-M của Supertonic 3"
           }
         }
       }
@@ -284,6 +356,12 @@
             "state": "translated",
             "value": "可选。可以提高模型下载的速率限制。"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tùy chọn. Có thể tăng hạn mức tải xuống mô hình."
+          }
         }
       }
     },
@@ -305,6 +383,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "质量"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chất lượng"
           }
         }
       }
@@ -328,6 +412,12 @@
             "state": "translated",
             "value": "就绪"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sẵn sàng"
+          }
         }
       }
     },
@@ -349,6 +439,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "移除"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gỡ bỏ"
           }
         }
       }
@@ -372,6 +468,12 @@
             "state": "translated",
             "value": "保存"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lưu"
+          }
         }
       }
     },
@@ -393,6 +495,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "速度"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tốc độ"
           }
         }
       }
@@ -416,6 +524,12 @@
             "state": "translated",
             "value": "Supertonic（实验性）"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Supertonic (Thử nghiệm)"
+          }
         }
       }
     },
@@ -437,6 +551,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Supertonic 3 模型资源采用 OpenRAIL-M 许可，包含使用限制。下载模型前请查看完整许可。"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tài nguyên mô hình Supertonic 3 được cấp phép theo OpenRAIL-M và có hạn chế sử dụng. Xem lại toàn bộ giấy phép trước khi tải xuống mô hình."
           }
         }
       }
@@ -460,6 +580,12 @@
             "state": "translated",
             "value": "有效的 Hugging Face 令牌"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Token Hugging Face hợp lệ"
+          }
         }
       }
     },
@@ -481,6 +607,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "声音"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Giọng nói"
           }
         }
       }

@@ -122,7 +122,9 @@ final class ContributorPlugin: NSObject, TypeWhisperPlugin, PluginSettingsWindow
                     self.showActivity(contributorText(
                         "\(selected.count) changes were sent for review.",
                         de: "\(selected.count) Änderungen wurden zur Prüfung gesendet.",
-                        ja: "\(selected.count)件の変更をレビュー用に送信しました。"
+                        ja: "\(selected.count)件の変更をレビュー用に送信しました。",
+                        zh: "已发送 \(selected.count) 项更改供审核。",
+                        vi: "Đã gửi \(selected.count) thay đổi để duyệt."
                     ))
                 }
             } catch {
@@ -325,8 +327,24 @@ extension Array {
     }
 }
 
-func contributorText(_ english: String, de german: String, ja japanese: String) -> String {
+func contributorText(
+    _ english: String,
+    de german: String,
+    ja japanese: String,
+    zh chinese: String? = nil,
+    vi vietnamese: String? = nil
+) -> String {
     let language = Locale.preferredLanguages.first?.lowercased() ?? "en"
+    if language.hasPrefix("vi") {
+        if let vietnamese { return vietnamese }
+        let localized = Bundle(for: ContributorPlugin.self).localizedString(forKey: english, value: nil, table: nil)
+        if localized != english { return localized }
+    }
+    if language.hasPrefix("zh") {
+        if let chinese { return chinese }
+        let localized = Bundle(for: ContributorPlugin.self).localizedString(forKey: english, value: nil, table: nil)
+        if localized != english { return localized }
+    }
     if language.hasPrefix("de") { return german }
     if language.hasPrefix("ja") { return japanese }
     return english

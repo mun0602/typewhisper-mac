@@ -28,6 +28,12 @@
             "state" : "translated",
             "value" : "使用 TypeWhisper 转录"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chép lời bằng TypeWhisper"
+          }
         }
       }
     },
@@ -57,6 +63,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "使用 TypeWhisper 转录"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chép lời bằng TypeWhisper"
           }
         }
       }

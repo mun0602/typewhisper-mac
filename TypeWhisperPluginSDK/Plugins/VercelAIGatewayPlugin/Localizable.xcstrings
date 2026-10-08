@@ -20,6 +20,12 @@
             "state": "translated",
             "value": "API 密钥"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Khóa API"
+          }
         }
       }
     },
@@ -41,6 +47,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "API 密钥安全存储在钥匙串中"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Khóa API được lưu trữ an toàn trong Keychain"
           }
         }
       }
@@ -64,6 +76,12 @@
             "state": "translated",
             "value": "余额：$%@"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Số dư: $%@"
+          }
         }
       }
     },
@@ -85,6 +103,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "自定义"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tùy chỉnh"
           }
         }
       }
@@ -108,6 +132,12 @@
             "state": "translated",
             "value": "免费"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Miễn phí"
+          }
         }
       }
     },
@@ -129,6 +159,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "获取 API 密钥"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lấy khóa API"
           }
         }
       }
@@ -152,6 +188,12 @@
             "state": "translated",
             "value": "API 密钥无效"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Khóa API không hợp lệ"
+          }
         }
       }
     },
@@ -173,6 +215,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "LLM 模型"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mô hình LLM"
           }
         }
       }
@@ -196,6 +244,12 @@
             "state": "translated",
             "value": "价格不可用"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bảng giá không khả dụng"
+          }
         }
       }
     },
@@ -217,6 +271,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "提供商默认"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mặc định của nhà cung cấp"
           }
         }
       }
@@ -240,6 +300,12 @@
             "state": "translated",
             "value": "刷新"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Làm mới"
+          }
         }
       }
     },
@@ -261,6 +327,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "移除"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gỡ bỏ"
           }
         }
       }
@@ -284,6 +356,12 @@
             "state": "translated",
             "value": "保存"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lưu"
+          }
         }
       }
     },
@@ -305,6 +383,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "搜索模型..."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tìm kiếmMô hình…"
           }
         }
       }
@@ -328,6 +412,12 @@
             "state": "translated",
             "value": "Vercel AI Gateway 的语音转文字功能处于测试阶段。您的团队可能尚未启用转录模型。"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chuyển giọng nói thành văn bản trên Vercel AI Gateway đang beta. Mô hình chép lời có thể chưa được bật cho nhóm của bạn."
+          }
         }
       }
     },
@@ -349,6 +439,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "温度"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nhiệt độ (Temperature)"
           }
         }
       }
@@ -372,6 +468,12 @@
             "state": "translated",
             "value": "温度模式"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chế độ nhiệt độ"
+          }
         }
       }
     },
@@ -393,6 +495,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "转录模型"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mô hình phiên âm"
           }
         }
       }
@@ -416,6 +524,12 @@
             "state": "translated",
             "value": "正在使用默认模型。点击刷新以获取所有可用模型。"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đang dùng mô hình mặc định. Nhấn Làm mới để lấy mọi mô hình khả dụng."
+          }
         }
       }
     },
@@ -438,6 +552,12 @@
             "state": "translated",
             "value": "API 密钥有效"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Khóa API hợp lệ"
+          }
         }
       }
     },
@@ -459,6 +579,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "正在验证..."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đang xác thực..."
           }
         }
       }
