@@ -143,6 +143,55 @@ final class AppleSpeechModelSelectionTests: XCTestCase {
         XCTAssertEqual(modelId, "speechanalyzer-fr_FR")
     }
 
+    func testMatchingModelIdReturnsExactMatch() {
+        XCTAssertEqual(
+            AppleSpeechModelSelection.matchingModelId(
+                "speechanalyzer-vi_VN",
+                in: ["speechanalyzer-vi_VN", "speechanalyzer-en_US"]
+            ),
+            "speechanalyzer-vi_VN"
+        )
+    }
+
+    func testMatchingModelIdFindsUnderscoreVariantForDashId() {
+        XCTAssertEqual(
+            AppleSpeechModelSelection.matchingModelId(
+                "speechanalyzer-vi-VN",
+                in: ["speechanalyzer-vi_VN", "speechanalyzer-en_US"]
+            ),
+            "speechanalyzer-vi_VN"
+        )
+    }
+
+    func testMatchingModelIdFindsDashVariantForUnderscoreId() {
+        XCTAssertEqual(
+            AppleSpeechModelSelection.matchingModelId(
+                "speechanalyzer-vi_VN",
+                in: ["speechanalyzer-vi-VN", "speechanalyzer-en_US"]
+            ),
+            "speechanalyzer-vi-VN"
+        )
+    }
+
+    func testMatchingModelIdReturnsNilWhenNothingMatches() {
+        XCTAssertNil(
+            AppleSpeechModelSelection.matchingModelId(
+                "speechanalyzer-de-DE",
+                in: ["speechanalyzer-vi_VN", "speechanalyzer-en_US"]
+            )
+        )
+    }
+
+    func testMatchingModelIdPrefersExactMatchOverVariant() {
+        XCTAssertEqual(
+            AppleSpeechModelSelection.matchingModelId(
+                "speechanalyzer-vi-VN",
+                in: ["speechanalyzer-vi_VN", "speechanalyzer-vi-VN"]
+            ),
+            "speechanalyzer-vi-VN"
+        )
+    }
+
     func testCanDisableFallbackForExactLanguagePreparation() {
         let modelId = AppleSpeechModelSelection.preferredModelId(
             fromModelIds: [

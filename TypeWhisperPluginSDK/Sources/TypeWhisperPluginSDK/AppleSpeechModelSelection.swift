@@ -75,6 +75,16 @@ public enum AppleSpeechModelSelection {
         return fallbackToFirst ? modelIds.first : nil
     }
 
+    public static func matchingModelId(_ modelId: String, in modelIds: [String]) -> String? {
+        if modelIds.contains(modelId) {
+            return modelId
+        }
+        let normalized = modelId.replacingOccurrences(of: "-", with: "_")
+        return modelIds.first(where: {
+            $0.replacingOccurrences(of: "-", with: "_") == normalized
+        })
+    }
+
     public static func modelLanguageCode(for modelId: String) -> String? {
         guard modelId.hasPrefix(modelIdPrefix) else { return nil }
         let localeIdentifier = String(modelId.dropFirst(modelIdPrefix.count))

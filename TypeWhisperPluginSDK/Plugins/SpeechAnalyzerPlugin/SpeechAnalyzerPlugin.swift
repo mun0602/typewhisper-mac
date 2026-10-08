@@ -17,6 +17,7 @@ final class SpeechAnalyzerPlugin: NSObject, LiveTranscriptionCapablePlugin, Tran
 
     fileprivate var host: HostServices?
     fileprivate var currentLocale: Locale?
+    fileprivate var loadedModuleKind: AppleSpeechModuleKind?
     fileprivate var loadedModelId: String?
     fileprivate var modelState: SpeechModelState = .notLoaded
     fileprivate var downloadProgress: Double = 0
@@ -54,6 +55,7 @@ final class SpeechAnalyzerPlugin: NSObject, LiveTranscriptionCapablePlugin, Tran
             releaseTask = Task { await AssetInventory.release(reservedLocale: locale) }
         }
         currentLocale = nil
+        loadedModuleKind = nil
         loadedModelId = nil
         modelState = .notLoaded
         host = nil
@@ -65,7 +67,7 @@ final class SpeechAnalyzerPlugin: NSObject, LiveTranscriptionCapablePlugin, Tran
     var providerDisplayName: String { "Apple Speech" }
 
     var isConfigured: Bool {
-        currentLocale != nil && loadedModelId != nil
+        currentLocale != nil && loadedModuleKind != nil && loadedModelId != nil
     }
 
     var transcriptionModels: [PluginModelInfo] {
@@ -137,28 +139,29 @@ final class SpeechAnalyzerPlugin: NSObject, LiveTranscriptionCapablePlugin, Tran
         translate: Bool,
         prompt: String?
     ) async throws -> PluginTranscriptionResult {
-        guard let locale = currentLocale else {
+        guard let locale = currentLocale, let moduleKind = loadedModuleKind else {
             throw PluginTranscriptionError.notConfigured
         }
         if translate {
             throw PluginTranscriptionError.apiError("Apple Speech does not support translation")
         }
 
-        let transcriber = SpeechTranscriber(locale: locale, preset: .transcription)
-        let analyzer = SpeechAnalyzer(modules: [transcriber])
-        try await analyzer.setContext(Self.analysisContext(from: prompt))
+        let module = Self.makeModule(locale: locale, kind: moduleKind, streaming: false)
+        let analyzer = SpeechAnalyzer(modules: [module])
+        try await Self.setContext(on: analyzer, module: module, prompt: prompt)
 
-        let buffer = await Self.prepareBuffer(audio.samples, for: [transcriber])
+        let buffer = await Self.prepareBuffer(audio.samples, for: [module])
 
         let (stream, continuation) = AsyncStream<AnalyzerInput>.makeStream()
         continuation.yield(AnalyzerInput(buffer: buffer))
         continuation.finish()
 
+        let results = Self.resultTextStream(of: module)
         let resultTask = Task<String, Error> {
             var fullText = ""
-            for try await result in transcriber.results {
-                if result.isFinal {
-                    fullText += String(result.text.characters)
+            for try await (text, isFinal) in results {
+                if isFinal {
+                    fullText += text
                 }
             }
             return fullText
@@ -182,33 +185,28 @@ final class SpeechAnalyzerPlugin: NSObject, LiveTranscriptionCapablePlugin, Tran
         prompt: String?,
         onProgress: @Sendable @escaping (String) -> Bool
     ) async throws -> PluginTranscriptionResult {
-        guard let locale = currentLocale else {
+        guard let locale = currentLocale, let moduleKind = loadedModuleKind else {
             throw PluginTranscriptionError.notConfigured
         }
         if translate {
             throw PluginTranscriptionError.apiError("Apple Speech does not support translation")
         }
 
-        let transcriber = SpeechTranscriber(
-            locale: locale,
-            transcriptionOptions: [],
-            reportingOptions: [.volatileResults],
-            attributeOptions: []
-        )
-        let analyzer = SpeechAnalyzer(modules: [transcriber])
-        try await analyzer.setContext(Self.analysisContext(from: prompt))
+        let module = Self.makeModule(locale: locale, kind: moduleKind, streaming: true)
+        let analyzer = SpeechAnalyzer(modules: [module])
+        try await Self.setContext(on: analyzer, module: module, prompt: prompt)
 
-        let buffer = await Self.prepareBuffer(audio.samples, for: [transcriber])
+        let buffer = await Self.prepareBuffer(audio.samples, for: [module])
 
         let (stream, continuation) = AsyncStream<AnalyzerInput>.makeStream()
         continuation.yield(AnalyzerInput(buffer: buffer))
         continuation.finish()
 
+        let results = Self.resultTextStream(of: module)
         let resultTask = Task<String, Error> {
             var fullText = ""
-            for try await result in transcriber.results {
-                let text = String(result.text.characters)
-                if result.isFinal {
+            for try await (text, isFinal) in results {
+                if isFinal {
                     fullText += text
                 } else {
                     let combined = fullText + text
@@ -227,6 +225,57 @@ final class SpeechAnalyzerPlugin: NSObject, LiveTranscriptionCapablePlugin, Tran
             text: text.trimmingCharacters(in: .whitespacesAndNewlines),
             detectedLanguage: locale.language.languageCode?.identifier
         )
+    }
+
+    static func makeModule(locale: Locale, kind: AppleSpeechModuleKind, streaming: Bool) -> any SpeechModule {
+        switch kind {
+        case .transcriber:
+            if streaming {
+                return SpeechTranscriber(
+                    locale: locale,
+                    transcriptionOptions: [],
+                    reportingOptions: [.volatileResults],
+                    attributeOptions: []
+                )
+            }
+            return SpeechTranscriber(locale: locale, preset: .transcription)
+        case .dictation:
+            return DictationTranscriber(locale: locale, preset: .longDictation)
+        }
+    }
+
+    /// Normalizes SpeechTranscriber.Result and DictationTranscriber.Result into
+    /// (text, isFinal) tuples so the call sites don't care which module produced them.
+    static func resultTextStream(
+        of module: any SpeechModule
+    ) -> AsyncThrowingStream<(text: String, isFinal: Bool), Error> {
+        AsyncThrowingStream { continuation in
+            let task = Task {
+                do {
+                    if let transcriber = module as? SpeechTranscriber {
+                        for try await result in transcriber.results {
+                            continuation.yield((String(result.text.characters), result.isFinal))
+                        }
+                    } else if let dictation = module as? DictationTranscriber {
+                        for try await result in dictation.results {
+                            continuation.yield((String(result.text.characters), result.isFinal))
+                        }
+                    }
+                    continuation.finish()
+                } catch {
+                    continuation.finish(throwing: error)
+                }
+            }
+            continuation.onTermination = { _ in task.cancel() }
+        }
+    }
+
+    /// DictationTranscriber does not support contextual strings; context is only
+    /// applied to SpeechTranscriber-backed modules.
+    static func setContext(on analyzer: SpeechAnalyzer, module: any SpeechModule, prompt: String?) async throws {
+        if module is SpeechTranscriber {
+            try await analyzer.setContext(analysisContext(from: prompt))
+        }
     }
 
     static func analysisContext(from prompt: String?) -> AnalysisContext {
@@ -255,7 +304,15 @@ final class SpeechAnalyzerPlugin: NSObject, LiveTranscriptionCapablePlugin, Tran
             throw PluginTranscriptionError.apiError("Apple Speech does not support translation")
         }
 
-        let session = SpeechAnalyzerLiveSession(locale: locale, prompt: prompt, onProgress: onProgress)
+        guard let moduleKind = loadedModuleKind else {
+            throw PluginTranscriptionError.notConfigured
+        }
+        let session = SpeechAnalyzerLiveSession(
+            locale: locale,
+            moduleKind: moduleKind,
+            prompt: prompt,
+            onProgress: onProgress
+        )
         try await session.start()
         return session
     }
@@ -263,13 +320,38 @@ final class SpeechAnalyzerPlugin: NSObject, LiveTranscriptionCapablePlugin, Tran
     // MARK: - Model Management
 
     fileprivate func populateModels() async {
-        let locales = await SpeechTranscriber.supportedLocales
-        cachedModels = locales.compactMap { locale in
-            let localeId = locale.identifier
-            guard !localeId.isEmpty else { return nil }
-            let name = Locale.current.localizedString(forIdentifier: localeId) ?? localeId
-            return SpeechModelDef(id: "speechanalyzer-\(localeId)", displayName: name, locale: locale)
-        }.sorted { $0.displayName.localizedCaseInsensitiveCompare($1.displayName) == .orderedAscending }
+        // SpeechTranscriber covers transcription locales; DictationTranscriber adds
+        // the system dictation locales (e.g. vi-VN) that transcription lacks.
+        var defsByLocale: [String: SpeechModelDef] = [:]
+
+        func addLocales(_ locales: [Locale], kind: AppleSpeechModuleKind, overwrite: Bool) {
+            for locale in locales {
+                let localeId = locale.identifier
+                guard !localeId.isEmpty else { continue }
+                if !overwrite, defsByLocale[localeId] != nil { continue }
+                let name = Locale.current.localizedString(forIdentifier: localeId) ?? localeId
+                defsByLocale[localeId] = SpeechModelDef(
+                    id: "speechanalyzer-\(localeId)",
+                    displayName: name,
+                    locale: locale,
+                    moduleKind: kind
+                )
+            }
+        }
+
+        addLocales(await DictationTranscriber.supportedLocales, kind: .dictation, overwrite: false)
+        addLocales(await SpeechTranscriber.supportedLocales, kind: .transcriber, overwrite: true)
+
+        cachedModels = defsByLocale.values.sorted {
+            $0.displayName.localizedCaseInsensitiveCompare($1.displayName) == .orderedAscending
+        }
+    }
+
+    private func cachedModel(matching modelId: String) -> SpeechModelDef? {
+        guard let matchedId = AppleSpeechModelSelection.matchingModelId(modelId, in: cachedModels.map(\.id)) else {
+            return nil
+        }
+        return cachedModels.first(where: { $0.id == matchedId })
     }
 
     fileprivate func loadModel(_ modelDef: SpeechModelDef, passively: Bool = false) async {
@@ -293,10 +375,10 @@ final class SpeechAnalyzerPlugin: NSObject, LiveTranscriptionCapablePlugin, Tran
 
             downloadProgress = 0.2
 
-            let transcriber = SpeechTranscriber(locale: modelDef.locale, preset: .transcription)
+            let module = Self.makeModule(locale: modelDef.locale, kind: modelDef.moduleKind, streaming: false)
 
             // Download assets if needed
-            if let downloader = try await AssetInventory.assetInstallationRequest(supporting: [transcriber]) {
+            if let downloader = try await AssetInventory.assetInstallationRequest(supporting: [module]) {
                 guard allowDownloads else {
                     modelState = .notLoaded
                     return
@@ -321,6 +403,7 @@ final class SpeechAnalyzerPlugin: NSObject, LiveTranscriptionCapablePlugin, Tran
                 return
             }
             currentLocale = modelDef.locale
+            loadedModuleKind = modelDef.moduleKind
             loadedModelId = modelDef.id
             downloadProgress = 1.0
             modelState = .ready
@@ -346,7 +429,7 @@ final class SpeechAnalyzerPlugin: NSObject, LiveTranscriptionCapablePlugin, Tran
             if cachedModels.isEmpty {
                 await populateModels()
             }
-            guard let modelDef = cachedModels.first(where: { $0.id == modelId }) else {
+            guard let modelDef = cachedModel(matching: modelId) else {
                 modelState = .error("Unknown Apple Speech model '\(modelId)'.")
                 host?.notifyCapabilitiesChanged()
                 return
@@ -365,6 +448,7 @@ final class SpeechAnalyzerPlugin: NSObject, LiveTranscriptionCapablePlugin, Tran
             releaseTask = Task { await AssetInventory.release(reservedLocale: locale) }
         }
         currentLocale = nil
+        loadedModuleKind = nil
         loadedModelId = nil
         modelState = .notLoaded
         downloadProgress = 0
@@ -385,7 +469,7 @@ final class SpeechAnalyzerPlugin: NSObject, LiveTranscriptionCapablePlugin, Tran
         }
 
         guard let savedId = host?.userDefault(forKey: "loadedModel") as? String,
-              let modelDef = cachedModels.first(where: { $0.id == savedId }) else {
+              let modelDef = cachedModel(matching: savedId) else {
             return
         }
         if !allowDownloads {
@@ -418,7 +502,7 @@ final class SpeechAnalyzerPlugin: NSObject, LiveTranscriptionCapablePlugin, Tran
 
         if normalizedLanguage == nil,
            let savedId = host?.userDefault(forKey: "loadedModel") as? String,
-           let modelDef = cachedModels.first(where: { $0.id == savedId }) {
+           let modelDef = cachedModel(matching: savedId) {
             await loadModel(modelDef)
             return
         }
@@ -454,9 +538,9 @@ final class SpeechAnalyzerPlugin: NSObject, LiveTranscriptionCapablePlugin, Tran
     }
 
     private func hasInstalledAssets(for modelDef: SpeechModelDef) async -> Bool {
-        let transcriber = SpeechTranscriber(locale: modelDef.locale, preset: .transcription)
+        let module = Self.makeModule(locale: modelDef.locale, kind: modelDef.moduleKind, streaming: false)
         do {
-            return try await AssetInventory.assetInstallationRequest(supporting: [transcriber]) == nil
+            return try await AssetInventory.assetInstallationRequest(supporting: [module]) == nil
         } catch {
             return false
         }
@@ -476,7 +560,7 @@ final class SpeechAnalyzerPlugin: NSObject, LiveTranscriptionCapablePlugin, Tran
 
     fileprivate static func prepareBuffer(
         _ samples: [Float],
-        for modules: [SpeechTranscriber]
+        for modules: [any SpeechModule]
     ) async -> AVAudioPCMBuffer {
         let sourceBuffer = createBuffer(from: samples)
 
@@ -553,34 +637,34 @@ private actor SpeechAnalyzerLiveSession: LiveTranscriptionSession {
     private let locale: Locale
     private let prompt: String?
     private let onProgress: @Sendable (String) -> Bool
-    private let transcriber: SpeechTranscriber
+    private let module: any SpeechModule
     private let analyzer: SpeechAnalyzer
     private let stream: AsyncStream<AnalyzerInput>
     private let continuation: AsyncStream<AnalyzerInput>.Continuation
     private let resultTask: Task<String, Error>
     private var didFinish = false
 
-    init(locale: Locale, prompt: String?, onProgress: @escaping @Sendable (String) -> Bool) {
+    init(
+        locale: Locale,
+        moduleKind: AppleSpeechModuleKind,
+        prompt: String?,
+        onProgress: @escaping @Sendable (String) -> Bool
+    ) {
         self.locale = locale
         self.prompt = prompt
         self.onProgress = onProgress
-        let transcriber = SpeechTranscriber(
-            locale: locale,
-            transcriptionOptions: [],
-            reportingOptions: [.volatileResults],
-            attributeOptions: []
-        )
-        self.transcriber = transcriber
-        self.analyzer = SpeechAnalyzer(modules: [transcriber])
+        let module = SpeechAnalyzerPlugin.makeModule(locale: locale, kind: moduleKind, streaming: true)
+        self.module = module
+        self.analyzer = SpeechAnalyzer(modules: [module])
         let streamParts = AsyncStream<AnalyzerInput>.makeStream()
         self.stream = streamParts.stream
         self.continuation = streamParts.continuation
         let progressHandler = onProgress
+        let results = SpeechAnalyzerPlugin.resultTextStream(of: module)
         self.resultTask = Task<String, Error> {
             var fullText = ""
-            for try await result in transcriber.results {
-                let text = String(result.text.characters)
-                if result.isFinal {
+            for try await (text, isFinal) in results {
+                if isFinal {
                     fullText += text
                 } else {
                     let combined = fullText + text
@@ -592,13 +676,13 @@ private actor SpeechAnalyzerLiveSession: LiveTranscriptionSession {
     }
 
     func start() async throws {
-        try await analyzer.setContext(SpeechAnalyzerPlugin.analysisContext(from: prompt))
+        try await SpeechAnalyzerPlugin.setContext(on: analyzer, module: module, prompt: prompt)
         try await analyzer.start(inputSequence: stream)
     }
 
     func appendAudio(samples: [Float]) async throws {
         guard !didFinish, !samples.isEmpty else { return }
-        let buffer = await SpeechAnalyzerPlugin.prepareBuffer(samples, for: [transcriber])
+        let buffer = await SpeechAnalyzerPlugin.prepareBuffer(samples, for: [module])
         continuation.yield(AnalyzerInput(buffer: buffer))
     }
 
@@ -635,6 +719,15 @@ struct SpeechModelDef: Identifiable {
     let id: String
     let displayName: String
     let locale: Locale
+    let moduleKind: AppleSpeechModuleKind
+}
+
+/// Which SpeechAnalyzer module backs a locale: `SpeechTranscriber` covers the
+/// transcription locales, `DictationTranscriber` adds system dictation locales
+/// such as vi-VN.
+enum AppleSpeechModuleKind {
+    case transcriber
+    case dictation
 }
 
 @available(macOS 26, *)
